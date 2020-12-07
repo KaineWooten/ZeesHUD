@@ -29,10 +29,10 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"WaitingForPlayersLabel"
-		"xpos"				"0"
+		"xpos"				"25"
 		"ypos"				"20"
 		"zpos"				"5"
-		"wide"				"100"
+		"wide"				"50"
 		"tall"				"24"
 		"visible"			"0"
 		"enabled"			"1"
@@ -41,11 +41,11 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
-		"font"				"SMB2_8"
+		"font"				"NOKIA_8"
 
 		if_match
 		{
-			"xpos"			"30"
+			"xpos"			"25"
 		}
 	}
 	"WaitingForPlayersBG"
@@ -59,7 +59,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"OvertimeLabel"
-		"xpos"				"0"
+		"xpos"				"30"
 		"ypos"				"32"
 		"zpos"				"5"
 		"wide"				"100"
@@ -71,7 +71,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
-		"font"				"SMB2_8"
+		"font"				"NOKIA_8"
 
 		if_match
 		{
@@ -131,7 +131,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
-		"font"				"SMB2_8"
+		"font"				"NOKIA_8"
 
 		if_match
 		{

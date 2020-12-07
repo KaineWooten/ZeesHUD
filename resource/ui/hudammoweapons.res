@@ -40,7 +40,6 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInClip"
 		"font"			"CIKANDEI_56"
-		"font_minmode"	"Cerbetica32"
 		"fgcolor"		"ZeesAmmo"
 		"xpos"			"100"
 		"ypos"			"115"
