@@ -1,3 +1,4 @@
 # ignore sound caches
 *.sound.cache
 *.lnk
+*.cache
