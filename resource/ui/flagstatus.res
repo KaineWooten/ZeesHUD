@@ -22,7 +22,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"Briefcase"
-		"xpos"			"68"
+		"xpos"			"69"
 		"ypos"			"34"
 		"zpos"			"2"
 		"wide"			"0"
@@ -35,8 +35,8 @@
 		"if_mvm"
 		{
 			"ypos"		"14"
-			"wide"		"24"
-			"tall"		"24"
+			"wide"		"26"
+			"tall"		"26"
 		}
 
 		"if_specialdelivery"

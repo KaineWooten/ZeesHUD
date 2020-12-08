@@ -30,6 +30,7 @@
 		"wide"			"140"
 		"tall"			"140"
 		"visible"		"1"
+		"visible_minmode"		"0"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/build_bg_big"
 		"scaleImage"	"0"
@@ -49,7 +50,8 @@
 		"enabled"		"1"
 		"scaleImage"	"1"
 		"icon"			"obj_status_tele_entrance"
-		"iconColor"		"ZeesBlack"
+				"iconColor"		"ZeesBlack"
+		"iconColor_minmode"	"ZeesWhite"
 	}
 
 	"NotBuiltPanel"
@@ -79,7 +81,8 @@
 			"textAlignment"	"Left"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"FGColor"		"ZeesBlack"
+			"fgcolor"		"ZeesBlack"
+			"fgcolor_minmode"		"ZeesWhite"
 		}
 	}
 
@@ -106,7 +109,8 @@
 			"enabled"		"1"
 			"scaleImage"	"1"
 			"icon"			"obj_status_upgrade_1"
-			"iconColor"		"ZeesBlack"
+					"iconColor"		"ZeesBlack"
+		"iconColor_minmode"	"ZeesWhite"
 		}
 
 		"Icon_Upgrade_2"
@@ -122,7 +126,8 @@
 			"enabled"		"1"
 			"scaleImage"	"1"
 			"icon"			"obj_status_upgrade_2"
-			"iconColor"		"ZeesBlack"
+					"iconColor"		"ZeesBlack"
+		"iconColor_minmode"	"ZeesWhite"
 		}
 
 		"Icon_Upgrade_3"
@@ -138,7 +143,8 @@
 			"enabled"		"1"
 			"scaleImage"	"1"
 			"icon"			"obj_status_upgrade_3"
-			"iconColor"		"ZeesBlack"
+					"iconColor"		"ZeesBlack"
+		"iconColor_minmode"	"ZeesWhite"
 		}
 
 		"AlertTray"
@@ -167,7 +173,8 @@
 			"enabled"		"1"
 			"scaleImage"	"1"
 			"icon"			"obj_status_icon_wrench"
-			"iconColor"		"ZeesBlack"
+					"iconColor"		"ZeesBlack"
+		"iconColor_minmode"	"ZeesWhite"
 		}
 
 		"SapperIcon"
@@ -183,7 +190,8 @@
 			"enabled"		"1"
 			"scaleImage"	"1"
 			"icon"			"obj_status_icon_sapper"
-			"iconColor"		"ZeesBlack"
+					"iconColor"		"ZeesBlack"
+		"iconColor_minmode"	"ZeesWhite"
 		}
 
 		"Health"
@@ -231,7 +239,8 @@
 				"textAlignment"	"Left"
 				"dulltext"		"0"
 				"brighttext"	"0"
-				"FGColor"		"ZeesBlack"
+				"fgcolor"		"ZeesBlack"
+			"fgcolor_minmode"		"ZeesWhite"
 			}
 
 			"BuildingProgress"
@@ -351,7 +360,8 @@
 				"enabled"		"1"
 				"scaleImage"	"1"
 				"icon"			"ico_metal"
-				"iconColor"		"ZeesBlack"
+						"iconColor"		"ZeesBlack"
+		"iconColor_minmode"	"ZeesWhite"
 			}
 
 			"Upgrade"

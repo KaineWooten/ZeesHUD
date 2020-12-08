@@ -3153,7 +3153,7 @@ Scheme
 		}
 		"11"
 		{
-			"font"	"resource/fonts/Futura PT Bold.ttf"
+			"font"	"resource/fonts/Futura PT Bold.otf"
 			"name"	"Futura PT Bold"
 		}
 		"12"

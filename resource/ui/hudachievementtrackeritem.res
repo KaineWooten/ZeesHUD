@@ -25,7 +25,7 @@
 		"tall"			"16"
 		"zpos"			"4"
 		"textinsetx"	"5"
-		"font"			"Cerbetica16"
+		"font"			"FUTURA_BOLD_12"
 		"textAlignment"	"north-west"
 	}
 
@@ -51,11 +51,12 @@
 		"fieldName"		"AchievementDesc"
 		"labeltext"		""
 		"xpos"			"5"
-		"ypos"			"14"
+		"ypos"			"10"
 		"wide"			"190"
 		"tall"			"18"
 		"zpos"			"4"
 		"textinsetx"	"5"
+		"font"			"FUTURA_BOLD_8"
 		"fgcolor_override"	"TanLight"
 		"font"				"AchievementTracker_Desc"
 		"wrap"				"1"

@@ -1,6 +1,8 @@
 "Resource/HudLayout.res"
 {
 
+
+
 	HudPlayerStatus
 	{
 		"fieldName"			"HudPlayerStatus"
@@ -18,7 +20,9 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"xpos"				"r350"
+		"xpos_minmode"		"c0"
 		"ypos"				"r250"
+		"ypos_minmode"		"r275"
 		"wide"				"350"
 		"tall"				"250"
 	}
@@ -93,8 +97,6 @@
 		"enabled"			"1"
 		"xpos"				"c-100"
 		"ypos"				"c25"
-		"xpos_minmode"		"c-75"
-		"ypos_minmode"		"c46"
 		"zpos"				"1"
 		"wide"				"200"
 		"tall"				"500"
@@ -110,11 +112,8 @@
 		"enabled"			"1"
 		"xpos"				"r80"
 		"ypos"				"r21"
-		"xpos_minmode"		"r52"
-		"ypos_minmode"		"r40"
 		"zpos"				"1"
 		"wide"				"60"
-		"wide_minmode"		"50"
 		"tall"				"8"
 		"MeterFG"			"White"
 		"MeterBG"			"Gray"
@@ -175,7 +174,6 @@
 		"xpos"					"r225"
 		"ypos"					"c182"
 		"zpos"					"0"
-		"ypos_minmode"			"c83"
 		"wide"					"100"
 		"tall"  				"70"
 		"visible" 				"1"
@@ -462,7 +460,6 @@
 		"visible" 			"1"
 		"enabled" 			"1"
 		"wide"				"640"
-		"wide_minmode"		"f0"
 		"tall"				"480"
 	}
 
@@ -515,8 +512,6 @@
 		"tall"	 			"480"
 		"xpos"				"c-210"
 		"ypos"				"c125"
-		"xpos_minmode"		"c-145"
-		"ypos_minmode"		"c70"
 		"zpos" 				"2"
 		"TextFont"			"Default"
 		"ItemFont"			"Default"
@@ -532,10 +527,6 @@
 		"ypos"				"302"
 		"wide"				"150"
 		"tall"				"60"
-		"xpos_minmode"		"c170"
-		"ypos_minmode"		"273"
-		"wide_minmode"		"120"
-		"tall_minmode"		"40"
 		"BgAlpha"			"0"
 		"GrowTime"			"0.25"
 		"ItemHiddenTime"	"0.2"
@@ -888,7 +879,6 @@
 		"enabled" 			"1"
 		"xpos"				"c-200"
 		"ypos"				"c-75"
-		"ypos_minmode"		"c105"
 		"zpos"				"1"
 		"wide"				"400"
 		"tall"				"150"
@@ -902,7 +892,6 @@
 		"enabled" 			"1"
 		"xpos"				"c-200"
 		"ypos"				"c-75"
-		"ypos_minmode"		"c105"
 		"zpos"				"1"
 		"wide"				"400"
 		"tall"				"150"
@@ -916,7 +905,6 @@
 		"enabled" 			"1"
 		"xpos"				"c-105"
 		"ypos"				"c-75"
-		"ypos_minmode"		"c105"
 		"zpos"				"1"
 		"wide"				"200"
 		"tall"				"150"
@@ -930,7 +918,6 @@
 		"enabled" 			"1"
 		"xpos"				"c90"
 		"ypos"				"c-72"
-		"xpos_minmode"		"c120"
 		"zpos"				"1"
 		"wide"				"100"
 		"tall"				"190"

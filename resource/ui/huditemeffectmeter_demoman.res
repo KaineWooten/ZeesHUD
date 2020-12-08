@@ -7,6 +7,7 @@
 		"enabled"				"1"
 		"xpos"					"r230"
 		"ypos"					"r155"
+		"ypos_minmode"			"r140"
 		"wide"					"60"
 		"tall"					"60"
 		"MeterFG"				"White"
@@ -47,7 +48,6 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"ItemFontAttribLarge"
-		"font_minmode"			"Default"
 	}
 
 	"ItemEffectMeter"
@@ -75,7 +75,6 @@
 		"fieldName"				"ItemEffectMeterCount"
 		"xpos"					"14"
 		"ypos"					"16"
-		"ypos_minmode"			"8"
 		"zpos"					"2"
 		"wide"					"40"
 		"tall"					"30"

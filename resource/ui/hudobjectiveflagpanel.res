@@ -280,7 +280,8 @@
 
 		if_mvm
 		{
-			"ypos"		"r95"
+			"xpos" 		"c-120"
+			"ypos"		"r65"
 		}
 
 		"if_hybrid"

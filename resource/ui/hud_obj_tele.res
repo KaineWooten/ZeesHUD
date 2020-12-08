@@ -1,5 +1,7 @@
 "Resource/UI/hud_obj_tele.res"
 {
+
+	//what does this shit even do?
 	"BuildingStatusItem"
 	{
 		"ControlName"	"Frame"
@@ -37,7 +39,8 @@
 		"enabled"		"1"
 		"scaleImage"	"1"
 		"icon"			"obj_status_tele_entrance"
-		"iconColor"		"ZeesBlack"
+				"iconColor"		"ZeesBlack"
+		"iconColor_minmode"	"ZeesWhite"
 	}
 
 	"NotBuiltPanel"
@@ -93,7 +96,8 @@
 			"enabled"		"1"
 			"scaleImage"	"1"
 			"icon"			"obj_status_upgrade_1"
-			"iconColor"		"ZeesBlack"
+					"iconColor"		"ZeesBlack"
+		"iconColor_minmode"	"ZeesWhite"
 		}
 
 		"Icon_Upgrade_2"
@@ -109,7 +113,8 @@
 			"enabled"		"1"
 			"scaleImage"	"1"
 			"icon"			"obj_status_upgrade_2"
-			"iconColor"		"ZeesBlack"
+					"iconColor"		"ZeesBlack"
+		"iconColor_minmode"	"ZeesWhite"
 		}
 
 		"Icon_Upgrade_3"
@@ -125,7 +130,8 @@
 			"enabled"		"1"
 			"scaleImage"	"1"
 			"icon"			"obj_status_upgrade_3"
-			"iconColor"		"ZeesBlack"
+					"iconColor"		"ZeesBlack"
+		"iconColor_minmode"	"ZeesWhite"
 		}
 
 		"AlertTray"
@@ -154,7 +160,8 @@
 			"enabled"		"1"
 			"scaleImage"	"1"
 			"icon"			"obj_status_icon_wrench"
-			"iconColor"		"ZeesBlack"
+					"iconColor"		"ZeesBlack"
+		"iconColor_minmode"	"ZeesWhite"
 		}
 
 		"SapperIcon"
@@ -170,7 +177,8 @@
 			"enabled"		"1"
 			"scaleImage"	"1"
 			"icon"			"obj_status_icon_sapper"
-			"iconColor"		"ZeesBlack"
+					"iconColor"		"ZeesBlack"
+		"iconColor_minmode"	"ZeesWhite"
 		}
 
 		"Health"

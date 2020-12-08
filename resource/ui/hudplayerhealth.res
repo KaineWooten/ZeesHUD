@@ -6,7 +6,9 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
 		"xpos"			"0"
+		"xpos_minmode"	"c-400"
 		"ypos"			"r250"
+		"ypos_minmode"	"r275"
 		"wide"			"350"
 		"tall"			"250"
 		"visible"		"1"
@@ -16,27 +18,27 @@
 		"HealthDeathWarningColor"	"255 255 255 255"
 	}
 	
-	//disabled cause sv_pure 1 is a bitch
 	"PlayerStatusHealthImage"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PlayerStatusHealthImage"
-		"xpos"			"-110"
-		"ypos"			"-27"
+		"xpos"			"110"
+		"ypos"			"151"
 		"zpos"			"-5"
 		"wide"			"80"
-		"tall"			"53"
+		"tall"			"52"
 		"visible"		"1"
+		"visible_minmode"		"0"
 		"enabled"		"1"
 		"scaleImage"	"0"
 		"alpha"			"255"
 		"image"			"../hud/health_color"
 		
-		"pin_to_sibling"		"PlayerStatusHealthImageBG"
+		"pin_to_sibling"		"PlayerStatusHealthImageBG2"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
-	//ditto
+	
 	"PlayerStatusHealthImageBG2"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -47,31 +49,42 @@
 		"wide"			"250"
 		"tall"			"125"
 		"visible"		"1"
+		"visible_minmode"		"0"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/hp_bg_under"
 		"scaleImage"		"1"
 		
-		"pin_to_sibling"		"PlayerStatusHealthImageBG"
+		"pin_to_sibling"		"PlayerStatusHealthImageBG3"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
-
-	"PlayerStatusHealthImageBG"
+	
+	"PlayerStatusHealthImageBG3"
 	{
 		"ControlName"	"CTFImagePanel"
-		"fieldName"		"PlayerStatusHealthImageBG"
+		"fieldName"		"PlayerStatusHealthImageBG3"
 		"xpos"			"0"
 		"ypos"			"125"
 		"zpos"			"-4"
 		"wide"			"250"
 		"tall"			"125"
 		"visible"		"1"
+		"visible_minmode"		"0"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/hp_bg_red"
 		"scaleImage"		"1"
-		"teambg_1"		"replay/thumbnails/hp_bg_blu"
+		"teambg_1"		"replay/thumbnails/hp_bg_red"
 		"teambg_2"		"replay/thumbnails/hp_bg_red"
-		"teambg_3"		"replay/thumbnails/hp_bg_blu"
+		"teambg_3"		"replay/thumbnails/hp_bg_red"
+	}
+	
+	"PlayerStatusHealthImageBG"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"PlayerStatusHealthImageBG"
+		"xpos"			"9999"
+		"visible"		"0"
+		"enabled"		"0"
 	}
 
 	//for some fucking stupid reason i have to make the low hp thing here
@@ -161,7 +174,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PlayerStatusAnchor"
-		"xpos"			"335"
+		"xpos"			"115"
 		"ypos"			"115"
 		"wide"			"0"
 		"tall"			"0"
@@ -185,8 +198,8 @@
 		"image"			"replay/thumbnails/zh_effect_bleed"
 		"fgcolor"		"255 255 255 255"
 		"pin_to_sibling"		"PlayerStatusAnchor"
-		"pin_corner_to_sibling"	"1"
-		"pin_to_sibling_corner"	"1"
+		"pin_corner_to_sibling"	"0"
+		"pin_to_sibling_corner"	"0"
 	}
 
 	"PlayerStatusMilkImage"
@@ -204,8 +217,8 @@
 		"image"			"replay/thumbnails/zh_effect_milk"
 		"fgcolor"		"255 255 255 255"
 		"pin_to_sibling"		"PlayerStatusAnchor"
-		"pin_corner_to_sibling"	"1"
-		"pin_to_sibling_corner"	"1"
+		"pin_corner_to_sibling"	"0"
+		"pin_to_sibling_corner"	"0"
 	}
 
 	"PlayerStatusGasImage"
@@ -223,8 +236,8 @@
 		"image"			"replay/thumbnails/zh_effect_gas"
 		"fgcolor"		"255 255 255 255"
 		"pin_to_sibling"		"PlayerStatusAnchor"
-		"pin_corner_to_sibling"	"1"
-		"pin_to_sibling_corner"	"1"
+		"pin_corner_to_sibling"	"0"
+		"pin_to_sibling_corner"	"0"
 	}
 
 	"PlayerStatusMarkedForDeathImage"
@@ -242,8 +255,8 @@
 		"image"			"replay/thumbnails/zh_effect_marked"
 		"fgcolor"		"255 255 255 255"
 		"pin_to_sibling"		"PlayerStatusAnchor"
-		"pin_corner_to_sibling"	"1"
-		"pin_to_sibling_corner"	"1"
+		"pin_corner_to_sibling"	"0"
+		"pin_to_sibling_corner"	"0"
 	}
 
 	"PlayerStatusMarkedForDeathSilentImage"
@@ -261,8 +274,8 @@
 		"image"			"replay/thumbnails/zh_effect_marked"
 		"fgcolor"		"255 255 255 255"
 		"pin_to_sibling"		"PlayerStatusAnchor"
-		"pin_corner_to_sibling"	"1"
-		"pin_to_sibling_corner"	"1"
+		"pin_corner_to_sibling"	"0"
+		"pin_to_sibling_corner"	"0"
 	}
 
 	"PlayerStatus_MedicUberBulletResistImage"
@@ -280,8 +293,8 @@
 		"image"			"../HUD/defense_buff_bullet_blue"
 		"fgcolor"		"255 255 255 255"
 		"pin_to_sibling"		"PlayerStatusAnchor"
-		"pin_corner_to_sibling"	"1"
-		"pin_to_sibling_corner"	"1"
+		"pin_corner_to_sibling"	"0"
+		"pin_to_sibling_corner"	"0"
 	}
 
 	"PlayerStatus_MedicUberBlastResistImage"
@@ -299,8 +312,8 @@
 		"image"			"../HUD/defense_buff_explosion_blue"
 		"fgcolor"		"255 255 255 255"
 		"pin_to_sibling"		"PlayerStatusAnchor"
-		"pin_corner_to_sibling"	"1"
-		"pin_to_sibling_corner"	"1"
+		"pin_corner_to_sibling"	"0"
+		"pin_to_sibling_corner"	"0"
 	}
 
 	"PlayerStatus_MedicUberFireResistImage"
@@ -318,8 +331,8 @@
 		"image"			"../HUD/defense_buff_fire_blue"
 		"fgcolor"		"117 107 94 255"
 		"pin_to_sibling"		"PlayerStatusAnchor"
-		"pin_corner_to_sibling"	"1"
-		"pin_to_sibling_corner"	"1"
+		"pin_corner_to_sibling"	"0"
+		"pin_to_sibling_corner"	"0"
 	}
 
 	"PlayerStatus_MedicSmallBulletResistImage"
@@ -337,8 +350,8 @@
 		"image"			"../HUD/defense_buff_bullet_blue"
 		"fgcolor"		"117 107 94 255"
 		"pin_to_sibling"		"PlayerStatusAnchor"
-		"pin_corner_to_sibling"	"1"
-		"pin_to_sibling_corner"	"1"
+		"pin_corner_to_sibling"	"0"
+		"pin_to_sibling_corner"	"0"
 	}
 
 	"PlayerStatus_MedicSmallBlastResistImage"
@@ -356,8 +369,8 @@
 		"image"			"../HUD/defense_buff_explosion_blue"
 		"fgcolor"		"255 255 255 255"
 		"pin_to_sibling"		"PlayerStatusAnchor"
-		"pin_corner_to_sibling"	"1"
-		"pin_to_sibling_corner"	"1"
+		"pin_corner_to_sibling"	"0"
+		"pin_to_sibling_corner"	"0"
 	}
 
 	"PlayerStatus_MedicSmallFireResistImage"
@@ -373,10 +386,10 @@
 		"enabled"		"1"
 		"scaleImage"	"1"
 		"image"			"../HUD/defense_buff_fire_blue"
-		"fgcolor"		"117 107 94 255"
+		"fgcolor"		"255 255 255 255"
 		"pin_to_sibling"		"PlayerStatusAnchor"
-		"pin_corner_to_sibling"	"1"
-		"pin_to_sibling_corner"	"1"
+		"pin_corner_to_sibling"	"0"
+		"pin_to_sibling_corner"	"0"
 	}
 
 	"PlayerStatus_WheelOfDoom"

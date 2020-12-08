@@ -60,8 +60,7 @@
 			"tall"			"f5"
 			"visible"		"0"
 			"PaintBackgroundType"	"2"
-			"border"				"NoBorder"
-			"bgcolor_override"		"DarkGrey"
+			"border"				"ZeesBorderWhiteOpaque"
 			"proportionaltoparent"	"1"
 		}
 
@@ -274,8 +273,7 @@
 				"tall"			"f4"
 				"visible"		"1"
 				"proportionaltoparent"	"1"
-				"border"		"ReplayDefaultBorder"
-				"bgcolor_override"	"DarkGrey"
+				"border"		"ZeesBorderWhiteOpaque"
 			}
 
 			"QueueLogoButton"
@@ -396,7 +394,7 @@
 				"ControlName"	"CExImageButton"
 				"fieldName"		"CloseButton"
 				"xpos"			"rs1-6"
-				"ypos"			"12"
+				"ypos"			"6"
 				"zpos"			"10"
 				"wide"			"14"
 				"tall"			"14"
@@ -645,7 +643,7 @@
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
-				"xpos"			"cs-0.5"
+				"xpos"			"4"
 				"ypos"			"7"
 				"zpos"			"1"
 				"wide"			"10"

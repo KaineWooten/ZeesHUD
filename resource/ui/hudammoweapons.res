@@ -10,6 +10,7 @@
 		"wide"			"250"
 		"tall"			"125"
 		"visible"		"1"
+		"visible_minmode"	"0"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/am_bg_red"
 		"scaleImage"		"1"

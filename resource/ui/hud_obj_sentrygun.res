@@ -31,6 +31,7 @@
 		"wide"			"140"
 		"tall"			"140"
 		"visible"		"1"
+		"visible_minmode"		"0"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/build_bg_big"
 		"scaleImage"	"0"
@@ -50,7 +51,8 @@
 		"enabled"		"1"
 		"scaleImage"	"1"
 		"icon"			"obj_status_sentrygun_1"
-		"iconColor"		"ZeesBlack"
+				"iconColor"		"ZeesBlack"
+		"iconColor_minmode"	"ZeesWhite"
 	}
 
 	"Icon_Sentry_2"
@@ -65,7 +67,8 @@
 		"enabled"		"1"
 		"scaleImage"	"1"
 		"icon"			"obj_status_sentrygun_2"
-		"iconColor"		"ZeesBlack"
+				"iconColor"		"ZeesBlack"
+		"iconColor_minmode"	"ZeesWhite"
 	}
 
 	"Icon_Sentry_3"
@@ -80,7 +83,8 @@
 		"enabled"		"1"
 		"scaleImage"	"1"
 		"icon"			"obj_status_sentrygun_3"
-		"iconColor"		"ZeesBlack"
+				"iconColor"		"ZeesBlack"
+		"iconColor_minmode"	"ZeesWhite"
 	}
 
 	"NotBuiltPanel"
@@ -110,7 +114,8 @@
 			"textAlignment"	"Left"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"FGColor"		"ZeesBlack"
+			"fgcolor"		"ZeesBlack"
+			"fgcolor_minmode"		"ZeesWhite"
 		}
 	}
 
@@ -137,7 +142,8 @@
 			"enabled"		"1"
 			"scaleImage"	"1"
 			"icon"			"obj_status_upgrade_1"
-			"iconColor"		"ZeesBlack"
+					"iconColor"		"ZeesBlack"
+		"iconColor_minmode"	"ZeesWhite"
 		}
 
 		"Icon_Upgrade_2"
@@ -153,7 +159,8 @@
 			"enabled"		"1"
 			"scaleImage"	"1"
 			"icon"			"obj_status_upgrade_2"
-			"iconColor"		"ZeesBlack"
+					"iconColor"		"ZeesBlack"
+		"iconColor_minmode"	"ZeesWhite"
 		}
 
 		"Icon_Upgrade_3"
@@ -169,7 +176,8 @@
 			"enabled"		"1"
 			"scaleImage"	"1"
 			"icon"			"obj_status_upgrade_3"
-			"iconColor"		"ZeesBlack"
+					"iconColor"		"ZeesBlack"
+		"iconColor_minmode"	"ZeesWhite"
 		}
 
 		"AlertTray"
@@ -183,7 +191,8 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"icon"			"obj_status_alert_background_tall"
-			"iconColor"		"ZeesBlack"
+					"iconColor"		"ZeesBlack"
+		"iconColor_minmode"	"ZeesWhite"
 		}
 
 		"WrenchIcon"
@@ -199,7 +208,8 @@
 			"enabled"		"1"
 			"scaleImage"	"1"
 			"icon"			"obj_status_icon_wrench"
-			"iconColor"		"ZeesBlack"
+					"iconColor"		"ZeesBlack"
+		"iconColor_minmode"	"ZeesWhite"
 		}
 
 		"SapperIcon"
@@ -215,7 +225,8 @@
 			"enabled"		"1"
 			"scaleImage"	"1"
 			"icon"			"obj_status_icon_sapper"
-			"iconColor"		"ZeesBlack"
+					"iconColor"		"ZeesBlack"
+		"iconColor_minmode"	"ZeesWhite"
 		}
 
 		"Health"
@@ -234,7 +245,8 @@
 			"textAlignment"	"Left"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"FGColor"		"ZeesBlack"
+			"fgcolor"		"ZeesBlack"
+			"fgcolor_minmode"		"ZeesWhite"
 		}
 
 		"BuildingPanel"
@@ -264,7 +276,8 @@
 				"textAlignment"	"Left"
 				"dulltext"		"0"
 				"brighttext"	"0"
-				"FGColor"		"ZeesBlack"
+				"fgcolor"		"ZeesBlack"
+			"fgcolor_minmode"		"ZeesWhite"
 			}
 
 			"BuildingProgress"
@@ -310,6 +323,7 @@
 				"scaleImage"	"1"
 				"image"			"../hud/hud_obj_status_kill_64"
 				"drawcolor"		"ZeesBlack"
+				"drawcolor_minmode"		"ZeesWhite"
 			}
 
 			"KillsLabel"
@@ -329,7 +343,8 @@
 				"textAlignment"	"center"
 				"dulltext"		"0"
 				"brighttext"	"0"
-				"FGColor"		"ZeesBlack"
+				"fgcolor"		"ZeesBlack"
+			"fgcolor_minmode"		"ZeesWhite"
 			}
 
 			"ShellIcon"
@@ -346,6 +361,7 @@
 				"scaleImage"	"1"
 				"image"			"../hud/hud_obj_status_ammo_64"
 				"drawcolor"		"ZeesBlack"
+				"drawcolor_minmode"		"ZeesWhite"
 			}
 
 			"Shells"
@@ -361,7 +377,7 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"textAlignment"	"Left"
+				"textAlignment"	"left"
 				"bgcolor_override" "0 0 0 255"
 				"fgcolor_override" "0 0 0 255"
 			}
@@ -380,6 +396,7 @@
 				"scaleImage"	"1"
 				"image"			"../hud/hud_obj_status_rockets_64"
 				"drawcolor"		"ZeesBlack"
+				"drawcolor_minmode"		"ZeesWhite"
 			}
 
 			"Rockets"
@@ -413,7 +430,8 @@
 				"enabled"		"1"
 				"scaleImage"	"1"
 				"icon"			"ico_metal"
-				"iconColor"		"ZeesBlack"
+						"iconColor"		"ZeesBlack"
+		"iconColor_minmode"	"ZeesWhite"
 			}
 
 			"Upgrade"

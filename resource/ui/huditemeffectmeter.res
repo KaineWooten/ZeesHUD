@@ -41,7 +41,6 @@
 		"pinCorner"			"2"
 		"visible"			"1"
 		"enabled"			"1"
-		"visible_minmode"	"0"
 		"tabPosition"		"0"
 		"labelText"			"#TF_Ball"
 		"textAlignment"		"east"

@@ -87,72 +87,67 @@
 		"playerpanels_kv"
 		{
 			"visible"		"0"
-			"wide"			"50"
-			"tall"			"35"
+			"wide"			"60"
+			"tall"			"40"
 			"zpos"			"1"
-			"color_ready"		"0 255 0 220"
+			"color_ready"		"ZeesGreen"
 			"color_notready"	"TransparentBlack"
 
 			if_competitive
 			{
-				"wide"		"40"
-				"tall"		"29"
+				"wide"		"60"
+				"tall"		"40"
 			}
-
-			"PanelBG"
+			
+			"bg"
 			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"PanelBG"
-				"xpos"			"1"
-				"ypos"			"1"
-				"zpos"			"2"
-				"wide"			"48"
-				"tall"			"24"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"1"
-				"enabled"		"1"
-				"fillcolor"		"TransparentBlack"
-
-				if_competitive
-				{
-					"wide"		"38"
-					"tall"		"20"
-				}
+				
+				"ControlName"		"CTFImagePanel"
+				"fieldName"			"bg"
+				"xpos"				"0"
+				"ypos"				"0"
+				"zpos"				"-1"
+				"wide"				"60"
+				"tall"				"40"
+				"visible"			"1"
+				"enabled"			"1"
+				"image"				"replay/thumbnails/pixel_border_n"
+				"scaleImage"		"1"
+				"teambg_1"			"replay/thumbnails/pixel_border_n"
+				"teambg_2"			"replay/thumbnails/pixel_border_r"
+				"teambg_3"			"replay/thumbnails/pixel_border_b"
+				"alpha"				"255"
+				"src_corner_height"		"23"
+				"src_corner_width"		"23"
+				"draw_corner_width"		"5"
+				"draw_corner_height" 	"5"
 			}
 
 			"playername"
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"playername"
-				"font"			"Default"
+				"font"			"NOKIA_8"
 				"xpos"			"1"
 				"ypos"			"25"
 				"zpos"			"5"
-				"wide"			"48"
-				"tall"			"10"
+				"wide"			"60"
+				"tall"			"12"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
 				"labelText"		"%playername%"
 				"textAlignment"	"center"
 
-				if_competitive
-				{
-					"xpos"		"1"
-					"ypos"		"20"
-					"wide"		"39"
-					"tall"		"10"
-					"font"		"DefaultVerySmall"
-				}
+
 			}
 
 			"classimage"
 			{
 				"ControlName"	"CTFClassImage"
 				"fieldName"		"classimage"
-				"xpos"			"1"
-				"ypos"			"1"
+				"xpos"			"3"
+				"ypos"			"3"
 				"zpos"			"3"
 				"wide"			"24"
 				"tall"			"24"
@@ -168,8 +163,6 @@
 
 				if_competitive
 				{
-					"wide"		"20"
-					"tall"		"20"
 					"image"		"../vgui/hud_connecting"
 				}
 
@@ -183,32 +176,13 @@
 			{
 				"ControlName"	"Panel"
 				"fieldName"		"classimagebg"
-				"xpos"			"1"
-				"ypos"			"1"
-				"zpos"			"3"
-				"wide"			"24"
-				"tall"			"24"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"0"
+				"wide"			"0"
+				"tall"			"0"
 				"visible"		"0"
-				"enabled"		"1"
-				"bgcolor_override"		"TransparentBlack"
-				"PaintBackgroundType"	"0"
-
-				if_mvm
-				{
-					"visible"		"1"
-				}
-
-				if_competitive
-				{
-					"wide"			"20"
-					"tall"			"20"
-					"visible"		"1"
-				}
-
-				if_readymode
-				{
-					"visible"		"1"
-				}
+				"enabled"		"0"
 			}
 
 			"HealthIcon"
@@ -236,7 +210,7 @@
 
 			"ReadyBG"
 			{
-				"ControlName"	"ScalableImagePanel"
+				"ControlName"	"CTFImagePanel"
 				"fieldName"		"ReadyBG"
 				"xpos"			"29"
 				"ypos"			"5"

@@ -11,7 +11,7 @@
 		"tall"				"20"
 		"visible"			"1"
 		"enabled"			"1"
-		"bgcolor_override"	"TransparentBlack"
+		"border"			"ZeesBorderWhiteOpaque"
 		"PaintBackgroundType"	"2"
 	}
 
@@ -37,7 +37,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"			"CurrencyGood"
 		"font"				"HudFontSmall"
-		"fgcolor"			"CreditsGreen"
+		"fgcolor"			"ZeesGreen"
 		"xpos"				"45"
 		"ypos"				"0"
 		"zpos"				"4"
@@ -54,7 +54,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"			"CurrencyBad"
 		"font"				"HudFontSmall"
-		"fgcolor"			"225 30 30 255"
+		"fgcolor"			"ZeesRed"
 		"xpos"				"45"
 		"ypos"				"0"
 		"zpos"				"4"

@@ -15,7 +15,7 @@
 		"tabPosition"	"0"
 	}
 	
-sapper_bg	
+	sapper_bg	
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"sapper_bg"
@@ -25,6 +25,7 @@ sapper_bg
 		"wide"			"140"
 		"tall"			"70"
 		"visible"		"1"
+		"visible_minmode"		"0"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/build_bg_small"
 		"scaleImage"	"0"
@@ -54,7 +55,8 @@ sapper_bg
 		"enabled"		"1"
 		"scaleImage"	"1"
 		"icon"			"obj_status_sapper"
-		"iconColor"		"ZeesBlack"
+				"iconColor"		"ZeesBlack"
+		"iconColor_minmode"	"ZeesWhite"
 	}
 
 	"NotBuiltPanel"
@@ -85,6 +87,7 @@ sapper_bg
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"fgcolor"		"ZeesBlack"
+			"fgcolor_minmode"		"ZeesWhite"
 		}
 	}
 
@@ -145,6 +148,7 @@ sapper_bg
 				"dulltext"		"0"
 				"brighttext"	"0"
 				"fgcolor"		"ZeesBlack"
+			"fgcolor_minmode"		"ZeesWhite"
 			}
 
 			"BuildingProgress"
@@ -188,7 +192,8 @@ sapper_bg
 				"enabled"		"1"
 				"scaleImage"	"1"
 				"icon"			"obj_status_sentrygun_1"
-				"iconColor"		"ZeesBlack"	
+						"iconColor"		"ZeesBlack"
+		"iconColor_minmode"	"ZeesWhite"	
 			}
 
 			"TargetHealth"

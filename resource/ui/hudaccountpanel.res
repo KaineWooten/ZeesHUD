@@ -9,9 +9,9 @@
 		"NegativeColor"			"ColorRed"
 		"delta_lifetime"		"2"
 		"delta_item_font"		"HudFontMedium"
-		"delta_item_x_minmode"			"18"
+		"delta_item_x_minmode"			"8"
 		"delta_item_start_y_minmode"	"10"
-		"delta_item_end_y_minmode"		"25"
+		"delta_item_end_y_minmode"		"35"
 	}
 
 	"AccountBG"

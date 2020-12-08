@@ -25,6 +25,7 @@
 		"wide"			"140"
 		"tall"			"140"
 		"visible"		"1"
+		"visible_minmode"		"0"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/build_bg_big"
 		"scaleImage"	"0"
