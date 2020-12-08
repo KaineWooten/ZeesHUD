@@ -241,7 +241,7 @@
 				"dulltext"		"0"
 				"brighttext"	"0"
 				"fgcolor"		"ZeesBlack"
-			"fgcolor_minmode"		"ZeesWhite"
+				"fgcolor_minmode"		"ZeesWhite"
 			}
 
 			"BuildingProgress"
@@ -287,6 +287,7 @@
 				"scaleImage"	"1"
 				"image"			"../hud/hud_obj_status_ammo_64"
 				"drawcolor"		"ZeesBlack"
+				"drawcolor_minmode"		"ZeesWhite"
 			}
 
 			"Ammo"
@@ -320,8 +321,8 @@
 				"enabled"		"1"
 				"scaleImage"	"1"
 				"icon"			"ico_metal"
-						"iconColor"		"ZeesBlack"
-		"iconColor_minmode"	"ZeesWhite"
+				"iconColor"		"ZeesBlack"
+				"iconColor_minmode"	"ZeesWhite"
 			}
 
 			"Upgrade"

@@ -226,7 +226,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"BuildingLabel"
-				"font"			"Default"
+				"font"			"NOKIA_8"
 				"xpos"			"0"
 				"ypos"			"5"
 				"wide"			"200"
@@ -285,6 +285,7 @@
 				"enabled"		"1"
 				"image"			"../hud/hud_obj_status_teleport_64"
 				"drawcolor"		"ZeesBlack"
+				"drawcolor_minmode"		"ZeesWhite"
 				"scaleImage"	"1"
 			}
 
