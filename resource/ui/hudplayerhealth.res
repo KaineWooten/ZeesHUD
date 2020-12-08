@@ -174,10 +174,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PlayerStatusAnchor"
-		"xpos"			"115"
+		"xpos"			"100"
 		"ypos"			"115"
-		"wide"			"0"
-		"tall"			"0"
+		"wide"			"16"
+		"tall"			"16"
 		"visible"		"1"
 		"enabled"		"1"
 	}
@@ -198,8 +198,8 @@
 		"image"			"replay/thumbnails/zh_effect_bleed"
 		"fgcolor"		"255 255 255 255"
 		"pin_to_sibling"		"PlayerStatusAnchor"
-		"pin_corner_to_sibling"	"0"
-		"pin_to_sibling_corner"	"0"
+		"pin_corner_to_sibling"	"1"
+		"pin_to_sibling_corner"	"1"
 	}
 
 	"PlayerStatusMilkImage"
@@ -217,8 +217,8 @@
 		"image"			"replay/thumbnails/zh_effect_milk"
 		"fgcolor"		"255 255 255 255"
 		"pin_to_sibling"		"PlayerStatusAnchor"
-		"pin_corner_to_sibling"	"0"
-		"pin_to_sibling_corner"	"0"
+		"pin_corner_to_sibling"	"1"
+		"pin_to_sibling_corner"	"1"
 	}
 
 	"PlayerStatusGasImage"
@@ -236,8 +236,8 @@
 		"image"			"replay/thumbnails/zh_effect_gas"
 		"fgcolor"		"255 255 255 255"
 		"pin_to_sibling"		"PlayerStatusAnchor"
-		"pin_corner_to_sibling"	"0"
-		"pin_to_sibling_corner"	"0"
+		"pin_corner_to_sibling"	"1"
+		"pin_to_sibling_corner"	"1"
 	}
 
 	"PlayerStatusMarkedForDeathImage"
@@ -255,8 +255,8 @@
 		"image"			"replay/thumbnails/zh_effect_marked"
 		"fgcolor"		"255 255 255 255"
 		"pin_to_sibling"		"PlayerStatusAnchor"
-		"pin_corner_to_sibling"	"0"
-		"pin_to_sibling_corner"	"0"
+		"pin_corner_to_sibling"	"1"
+		"pin_to_sibling_corner"	"1"
 	}
 
 	"PlayerStatusMarkedForDeathSilentImage"
@@ -274,8 +274,8 @@
 		"image"			"replay/thumbnails/zh_effect_marked"
 		"fgcolor"		"255 255 255 255"
 		"pin_to_sibling"		"PlayerStatusAnchor"
-		"pin_corner_to_sibling"	"0"
-		"pin_to_sibling_corner"	"0"
+		"pin_corner_to_sibling"	"1"
+		"pin_to_sibling_corner"	"1"
 	}
 
 	"PlayerStatus_MedicUberBulletResistImage"
@@ -293,8 +293,8 @@
 		"image"			"../HUD/defense_buff_bullet_blue"
 		"fgcolor"		"255 255 255 255"
 		"pin_to_sibling"		"PlayerStatusAnchor"
-		"pin_corner_to_sibling"	"0"
-		"pin_to_sibling_corner"	"0"
+		"pin_corner_to_sibling"	"1"
+		"pin_to_sibling_corner"	"1"
 	}
 
 	"PlayerStatus_MedicUberBlastResistImage"
@@ -312,8 +312,8 @@
 		"image"			"../HUD/defense_buff_explosion_blue"
 		"fgcolor"		"255 255 255 255"
 		"pin_to_sibling"		"PlayerStatusAnchor"
-		"pin_corner_to_sibling"	"0"
-		"pin_to_sibling_corner"	"0"
+		"pin_corner_to_sibling"	"1"
+		"pin_to_sibling_corner"	"1"
 	}
 
 	"PlayerStatus_MedicUberFireResistImage"
@@ -331,8 +331,8 @@
 		"image"			"../HUD/defense_buff_fire_blue"
 		"fgcolor"		"117 107 94 255"
 		"pin_to_sibling"		"PlayerStatusAnchor"
-		"pin_corner_to_sibling"	"0"
-		"pin_to_sibling_corner"	"0"
+		"pin_corner_to_sibling"	"1"
+		"pin_to_sibling_corner"	"1"
 	}
 
 	"PlayerStatus_MedicSmallBulletResistImage"
@@ -350,8 +350,8 @@
 		"image"			"../HUD/defense_buff_bullet_blue"
 		"fgcolor"		"117 107 94 255"
 		"pin_to_sibling"		"PlayerStatusAnchor"
-		"pin_corner_to_sibling"	"0"
-		"pin_to_sibling_corner"	"0"
+		"pin_corner_to_sibling"	"1"
+		"pin_to_sibling_corner"	"1"
 	}
 
 	"PlayerStatus_MedicSmallBlastResistImage"
@@ -369,8 +369,8 @@
 		"image"			"../HUD/defense_buff_explosion_blue"
 		"fgcolor"		"255 255 255 255"
 		"pin_to_sibling"		"PlayerStatusAnchor"
-		"pin_corner_to_sibling"	"0"
-		"pin_to_sibling_corner"	"0"
+		"pin_corner_to_sibling"	"1"
+		"pin_to_sibling_corner"	"1"
 	}
 
 	"PlayerStatus_MedicSmallFireResistImage"
@@ -388,8 +388,8 @@
 		"image"			"../HUD/defense_buff_fire_blue"
 		"fgcolor"		"255 255 255 255"
 		"pin_to_sibling"		"PlayerStatusAnchor"
-		"pin_corner_to_sibling"	"0"
-		"pin_to_sibling_corner"	"0"
+		"pin_corner_to_sibling"	"1"
+		"pin_to_sibling_corner"	"1"
 	}
 
 	"PlayerStatus_WheelOfDoom"
