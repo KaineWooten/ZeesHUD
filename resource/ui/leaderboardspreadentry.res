@@ -7,9 +7,9 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"2"
-		"wide"			"f0"
-		"tall"			"30"
-		"visible"		"1"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
 		"proportionaltoparent"	"1"
 
 		"Border"

@@ -4,12 +4,12 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"LeaderboardEntry"
-		"xpos"			"0"
+		"xpos"			"9999"
 		"ypos"			"0"
 		"zpos"			"2"
-		"wide"			"275"
-		"tall"			"22"
-		"visible"		"1"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
 	
 		"Background"
 		{
