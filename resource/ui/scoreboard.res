@@ -384,6 +384,11 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		
+		if_mvm
+		{
+			"ypos"		"52"
+		}
 	}
 	"ServerTimeValue"
 	{
@@ -401,6 +406,11 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		
+		if_mvm
+		{
+			"ypos"		"62"
+		}
 	}
 
 	"BluePlayerList"
@@ -590,6 +600,10 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor"		"ZeesWhite"
+		if_mvm
+		{
+			"ypos"		"74"
+		}
 	}
 	"HorizontalLine"
 	{
