@@ -83,8 +83,8 @@
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"ToggleChatButton"
-			"xpos"			"0"
-			"ypos"			"0"
+			"xpos"			"144"
+			"ypos"			"4"
 			"zpos"			"100"
 			"wide"			"25"
 			"tall"			"f6"
@@ -120,7 +120,7 @@
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot0"
-			"xpos"			"30"
+			"xpos"			"0"
 			"ypos"			"3"
 			"zpos"			"100"
 			"wide"			"o1"
@@ -134,14 +134,15 @@
 			"mouseinputenabled"	"1"
 			"keyboardinputenabled"	"0"
 			"party_slot"	"0"
+			"bgcolor_override"	"zeesDarkGray"
 		}
 
 		"PartySlot1"
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot1"
-			"xpos"			"54"
-			"ypos"			"3"
+			"xpos"			"-24"
+			"ypos"			"0"
 			"zpos"			"100"
 			"wide"			"o1"
 			"tall"			"24"
@@ -154,14 +155,19 @@
 			"mouseinputenabled"	"1"
 			"keyboardinputenabled"	"0"
 			"party_slot"	"1"
+			"bgcolor_override"	"zeesDarkGray"
+			
+			"pin_to_sibling"		"PartySlot0"
+			"pin_corner_to_sibling" "0"
+			"pin_to_sibling_corner" "0"
 		}
 
 		"PartySlot2"
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot2"
-			"xpos"			"78"
-			"ypos"			"3"
+			"xpos"			"-24"
+			"ypos"			"0"
 			"zpos"			"100"
 			"wide"			"o1"
 			"tall"			"24"
@@ -174,14 +180,19 @@
 			"mouseinputenabled"	"1"
 			"keyboardinputenabled"	"0"
 			"party_slot"	"2"
+			"bgcolor_override"	"zeesDarkGray"
+			
+			"pin_to_sibling"		"PartySlot1"
+			"pin_corner_to_sibling" "0"
+			"pin_to_sibling_corner" "0"
 		}
 
 		"PartySlot3"
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot3"
-			"xpos"			"102"
-			"ypos"			"3"
+			"xpos"			"-24"
+			"ypos"			"0"
 			"zpos"			"100"
 			"wide"			"o1"
 			"tall"			"24"
@@ -194,14 +205,19 @@
 			"mouseinputenabled"	"1"
 			"keyboardinputenabled"	"0"
 			"party_slot"	"3"
+			"bgcolor_override"	"zeesDarkGray"
+			
+			"pin_to_sibling"		"PartySlot2"
+			"pin_corner_to_sibling" "0"
+			"pin_to_sibling_corner" "0"
 		}
 
 		"PartySlot4"
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot4"
-			"xpos"			"126"
-			"ypos"			"3"
+			"xpos"			"-24"
+			"ypos"			"0"
 			"zpos"			"100"
 			"wide"			"o1"
 			"tall"			"24"
@@ -214,14 +230,19 @@
 			"mouseinputenabled"	"1"
 			"keyboardinputenabled"	"0"
 			"party_slot"	"4"
+			"bgcolor_override"	"zeesDarkGray"
+			
+			"pin_to_sibling"		"PartySlot3"
+			"pin_corner_to_sibling" "0"
+			"pin_to_sibling_corner" "0"
 		}
 
 		"PartySlot5"
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot5"
-			"xpos"			"150"
-			"ypos"			"3"
+			"xpos"			"-24"
+			"ypos"			"0"
 			"zpos"			"100"
 			"wide"			"o1"
 			"tall"			"24"
@@ -234,6 +255,11 @@
 			"mouseinputenabled"	"1"
 			"keyboardinputenabled"	"0"
 			"party_slot"	"5"
+			"bgcolor_override"	"zeesDarkGray"
+			
+			"pin_to_sibling"		"PartySlot4"
+			"pin_corner_to_sibling" "0"
+			"pin_to_sibling_corner" "0"
 		}
 
 		"QueueContainer"
