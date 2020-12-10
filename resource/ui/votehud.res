@@ -4,14 +4,14 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"VotePassed"
-		"xpos"				"10"
+		"xpos"				"r160"
 		"ypos"				"r315"
 		"wide"				"150"
 		"tall"				"67"
 		"visible"			"0"
 		"enabled"			"1"
 		"paintborder"		"1"
-		"border"			"ZeesBorderWhite"
+		"border"			"ZeesBorderWhiteOpaque"
 		"PaintBackgroundType"	"2"
 
 		"PassedIcon"
@@ -72,15 +72,14 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"VoteActive"
-		"xpos"				"10"
+		"xpos"				"r160"
 		"ypos"				"r315"
 		"wide"				"150"
 		"tall"				"144"
 		"visible"			"0"
 		"enabled"			"1"
 		"paintborder"		"1"
-		"border"			"ZeesBorderWhite"
-		"bgcolor_override"	"DarkGrey"
+		"border"			"ZeesBorderWhiteOpaque"
 		"PaintBackgroundType"	"2"
 
 		"Header"
@@ -403,7 +402,7 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"CallVoteFailed"
-		"xpos"				"10"
+		"xpos"				"r160"
 		"ypos"				"c-80"
 		"wide"				"150"
 		"tall"				"67"
@@ -472,7 +471,7 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"VoteFailed"
-		"xpos"				"10"
+		"xpos"				"r160"
 		"ypos"				"r315"
 		"wide"				"150"
 		"tall"				"67"
@@ -551,8 +550,7 @@
 		"tabPosition"		"0"
 		"settitlebarvisible"	"0"
 		"paintborder"			"1"
-		"border"				"ZeesBorderWhite"
-		"bgcolor_override"		"DarkGrey"
+		"border"				"ZeesBorderWhiteOpaque"
 		"PaintBackground"		"1"
 		"PaintBackgroundType"	"2"
 
