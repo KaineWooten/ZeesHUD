@@ -9,9 +9,12 @@
 		"xpos"					"5"
 		"ypos"					"r220"
 		"wide"					"210"
+		"wide_minmode"			"180"
 		"tall"					"120"
 		"PaintBackgroundType"	"0"
 	}
+	
+	
 
 	ChatInputLine
 	{
@@ -31,7 +34,8 @@
 		"ControlName"			"Button"
 		"fieldName"				"ChatFiltersButton"
 		"xpos"					"173"
-		"ypos"					"87"
+		"xpos_minmode"			"143"
+		"ypos"					"107"
 		"wide"					"33"
 		"tall"					"8"
 		"autoResize"			"1"
@@ -39,7 +43,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
-		"labelText"				"#chat_filterbutton"
+		"labelText"				"Filter"
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
@@ -53,6 +57,7 @@
 		"xpos"					"0"
 		"ypos"					"0"
 		"wide"					"210"
+		"wide_minmode"			"180"
 		"tall"					"75"
 		"wrap"					"1"
 		"autoResize"			"1"
