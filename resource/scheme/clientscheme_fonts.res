@@ -3155,16 +3155,25 @@ Scheme
 		{
 			"font"	"resource/fonts/Futura PT Bold.otf"
 			"name"	"Futura PT Bold"
-		}
+			"russian"
+			{
+				"range" "0x0000 0xFFFF"
+			}
 		"12"
 		{
 			"font"	"resource/fonts/Super Mario Bros. 2 Regular.ttf"
 			"name"	"Super Mario Bros. 2 Regular"
-		}
+			"russian"
+			{
+				"range" "0x0000 0xFFFF"
+			}
 		"13"
 		{
 			"font"	"resource/fonts/SteelfishRg-Regular.ttf"
 			"name"	"SteelfishRg-Regular"
-		}
+			"russian"
+			{
+				"range" "0x0000 0xFFFF"
+			}
 	}
 }
