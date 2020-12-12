@@ -37,18 +37,8 @@ Scheme
 		"ZeesNull"					"0 0 0 0"
 		
 		
-		//==============================================================================
-		//	WANNA CHANGE THE COLOR OF THE MENU? 
-		//	YOU DOUBT MY TALENTS OF HUDMAKING AND HATE THE RED?
-		//	alright sure whatever
-		//	just change "ZeesMain" to one of the existing colors or put your own!
-		//	(that'll get implemented in a future update, don't worry if some things are broken)
-		//==============================================================================
-		
-		"ZeesMain"					"ZeesRed"
-		"ZeesDarkMain"				"ZeesDarkRed"
-		
-		//===============================================================================
+
+	
 		
 		
 		

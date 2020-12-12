@@ -4,6 +4,28 @@ Scheme
 	{
 		// ZEESHUD GENERIC BORDERS
 		
+		ZeesMenuButton
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color"					"255 255 255 255"
+			"image"					"replay/thumbnails/menu/button_generic"
+			"src_corner_height"		"64"				// pixels inside the image
+			"src_corner_width"		"64"
+			"draw_corner_width"		"10"					// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"10"
+		}
+		ZeesMenuButtonSelect
+	{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color"					"255 255 255 255"
+			"image"					"replay/thumbnails/menu/button_generic_s"
+			"src_corner_height"		"64"				// pixels inside the image
+			"src_corner_width"		"64"
+			"draw_corner_width"		"10"					// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"10"
+		}
 		PixelBorderNeutral
 		{
 			"bordertype"			"scalable_image"
@@ -115,6 +137,42 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"255 255 255 255"
 			"image"					"replay/thumbnails/box_3_r_t"
+			"src_corner_height"		"30"				// pixels inside the image
+			"src_corner_width"		"30"
+			"draw_corner_width"		"7"					// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"7"
+		}
+		
+		ZeesBorderFriends
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color"					"ZeesMain"
+			"image"					"replay/thumbnails/box_3_n"
+			"src_corner_height"		"30"				// pixels inside the image
+			"src_corner_width"		"30"
+			"draw_corner_width"		"3"					// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"3"
+		}
+				
+		ZeesBorderColorOpaque
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color"					"ZeesMain"
+			"image"					"replay/thumbnails/box_3_n"
+			"src_corner_height"		"30"				// pixels inside the image
+			"src_corner_width"		"30"
+			"draw_corner_width"		"7"					// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"7"
+		}
+		
+		ZeesBorderColorDarkOpaque
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color"					"ZeesDarkMain"
+			"image"					"replay/thumbnails/box_3_n"
 			"src_corner_height"		"30"				// pixels inside the image
 			"src_corner_width"		"30"
 			"draw_corner_width"		"7"					// screen size of the corners ( and sides ), proportional

@@ -1,4 +1,5 @@
 #base "../../resource/preload.res"
+#base "../../customizations/menu_buttons.res"
 
 "Resource/UI/MainMenuOverride.res"
 {
@@ -74,7 +75,6 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"scaleImage"	"1"
-					"image"			"replay/thumbnails/menu/button_items_u"
 				}
 			}
 		}
@@ -208,7 +208,7 @@
 		"zpos"			"-99"
 		"wide"			"600"
 		"tall"			"600"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"scaleImage"	"1"
 	}
@@ -335,7 +335,7 @@
 		"textinsety"	"10"
 
 		"font"				"HudFontSmallestBold"
-		"fgcolor_override"	"TanLight"
+		"fgcolor_override"	"ZeesWhite"
 		"labelText"			"#TF_MM_NoGC_Rank"
 		"textAlignment"		"north-west"
 		"use_proportional_insets"	"1"
@@ -379,7 +379,7 @@
 		"xpos"					"0"
 		"ypos"					"0"
 		"zpos"					"10000"
-		"wide"					"150"
+		"wide"					"200"
 		"tall"					"25"
 		"visible"				"0"
 		"PaintBackgroundType"	"1"
@@ -421,7 +421,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"allcaps"		"1"
-			"fgcolor"		"TanLight"
+			"fgcolor"		"ZeesWhite"
 			"auto_wide_tocontents" "1"
 		}
 	}
@@ -480,9 +480,9 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"WatchStreamButton"
-		"xpos"			"r28"
-		"ypos"			"65"
-		"zpos"			"0"
+		"xpos"			"r75"
+		"ypos"			"r115"
+		"zpos"			"8"
 		"wide"			"20"
 		"tall"			"20"
 		"autoResize"	"0"
@@ -497,8 +497,8 @@
 		"armedBgColor_override" "Transparent"
 		"depressedBgColor_override" "Transparent"
 		
-		"image_drawcolor"	"235 226 202 255"
-		"image_armedcolor"	"72 255 255 255"
+		"image_drawcolor"	"255 255 255 255"
+		"image_armedcolor"	"155 155 155 255"
 
 		"SubImage"
 		{
@@ -514,31 +514,24 @@
 			"scaleImage"	"1"
 			"proportionaltoparent"	"1"
 			"image"			"icon_resume"
-			"drawcolor_override" "235 226 202 255"
+			"drawcolor_override" "255 255 255 255"
 		}
 	}
 
+	// this has been deprecated
 	"StreamListPanel"
 	{
 		"ControlName"	"CTFStreamListPanel"
 		"fieldName"		"StreamListPanel"
-		"xpos"			"r330"
-		"ypos"			"65"
-		"zpos"			"1"
-		"wide"			"300"
-		"tall"			"325"
 		"visible"		"0"
-		"PaintBackgroundType"	"0"
-		"paintbackground"		"2"
-		"bgcolor_override"		"DarkGrey"
 	}
 
 	"QuestLogButton"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"QuestLogButton"
-		"xpos"			"r28"
-		"ypos"			"90"
+		"xpos"			"r50"
+		"ypos"			"r115"
 		"zpos"			"1"
 		"wide"			"20"
 		"tall"			"20"
@@ -573,8 +566,8 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"defaultFgColor_override"	"235 226 202 255"
-			"armedFgColor_override"		"72 255 255 255"
+			"defaultFgColor_override"	"255 255 255 255"
+			"armedFgColor_override"		"155 155 155 255"
 		}
 	}
 
@@ -582,8 +575,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MOTD_ShowButtonPanel"
-		"xpos"			"r28"
-		"ypos"			"115"
+		"xpos"			"r25"
+		"ypos"			"r115"
 		"zpos"			"0"
 		"wide"			"20"
 		"tall"			"20"
@@ -618,8 +611,8 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"defaultFgColor_override"	"235 226 202 255"
-			"armedFgColor_override"		"72 255 255 255"
+			"defaultFgColor_override"	"255 255 255 255"
+			"armedFgColor_override"		"155 155 155 255"
 		}
 	}
 
@@ -636,7 +629,7 @@
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
 		"border"				"NoBorder"
-		"bgcolor_override"		"DarkGrey"
+		"bgcolor_override"		"ZeesDarkGray"
 
 		"MOTD_HeaderContainer"
 		{
@@ -664,8 +657,8 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"PaintBackgroundType" "0"
-				"fgcolor_override"	"TanLight"
-				"bgcolor_override"	"25 25 25 255"
+				"fgcolor_override"	"ZeesWhite"
+				"bgcolor_override"	"0 0 0 0"
 			}
 		}
 
@@ -696,14 +689,14 @@
 			"Command"			"motd_hide"
 			"paintbackground"	"0"
 
-			//"defaultFgColor_override" "TanLight"
+			//"defaultFgColor_override" "ZeesWhite"
 			//"armedFgColor_override" "TanDarker"
 			"defaultFgColor_override" "Blank"
 			"armedFgColor_override" "Blank"
 			"depressedFgColor_override" "Blank"
 
-			"image_drawcolor"	"TanLight"
-			"image_armedcolor"	"255 0 0 255"
+			"image_drawcolor"	"255 255 255 255"
+			"image_armedcolor"	"155 155 155 255"
 
 			"SubImage"
 			{
@@ -1110,13 +1103,12 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"FriendsContainer"
 		"xpos"			"40"
-		"ypos"			"260"
+		"ypos"			"230"
 		"zpos"			"20"
-		"wide"			"260"
-		"tall"			"110"
+		"wide"			"240"
+		"tall"			"150"
 		"visible"		"1"
-		"border"			"NoBorder"
-		"bgcolor_override"	"Blank"
+		"bgcolor_override"	"ZeesNull"
 
 		"TitleLabel"
 		{
@@ -1157,16 +1149,16 @@
 			"ControlName"	"CSteamFriendsListPanel"
 			"fieldname"		"SteamFriendsList"
 			"xpos"			"0"
-			"ypos"			"0"
+			"ypos"			"10"
 			"zpos"			"500"
-			"wide"			"242"
-			"tall"			"150"
+			"wide"			"240"
+			"tall"			"140"
 			"visible"		"1"
 			"proportionaltoparent"	"1"
 
 			"columns_count"	"2"
-			"inset_x"		"10"
-			"inset_y"		"5"
+			"inset_x"		"5"
+			"inset_y"		"0"
 			"row_gap"		"5"
 			"column_gap"	"5"
 			"restrict_width"	"0"
@@ -1175,6 +1167,7 @@
 			{
 				"wide"			"110"
 				"tall"			"20"
+				"border"		"ZeesBorderFriends"
 			}
 
 			"ScrollBar"
@@ -1227,7 +1220,7 @@
 		}
 	}
 
-"HudName"
+	"HudName"
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"HudName"
@@ -1299,8 +1292,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"IconAnchor"
-		"xpos"			"330"
-		"ypos"			"180"
+		"xpos"			"305"
+		"ypos"			"165"
 		"wide"			"0"
 		"tall"			"0"
 		"visible"		"1"
@@ -1318,6 +1311,11 @@
 		"wide"			"20"
 		"tall"			"20"
 		"visible"		"1"
+		
+		"label"			""
+		"command"		"OpenAchievementsDialog"
+		"subimage" 		"glyph_achievements"
+		"tooltip" 		"#Achievements"
 		
 		"pin_to_sibling" "IconAnchor"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
@@ -1352,7 +1350,7 @@
 			"paintbackground"	"0"
 
 			"image_drawcolor"	"255 255 255 255"
-			"image_armedcolor"	"255 0 90 255"
+			"image_armedcolor"	"0 0 0 255"
 
 			"SubImage"
 			{
@@ -1381,6 +1379,11 @@
 		"tall"			"20"
 		"visible"		"0"
 		
+		"label"			""
+		"command"		"engine toggleconsole"
+		"subimage"		"glyph_options"
+		"tooltip"		"Console"
+		
 		"pin_to_sibling" "IconAnchor"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
 		"pin_to_sibling_corner" "PIN_TOPLEFT"
@@ -1413,7 +1416,7 @@
 			"paintbackground"	"0"
 
 			"image_drawcolor"	"255 255 255 255"
-			"image_armedcolor"	"255 0 90 255"
+			"image_armedcolor"	"0 0 0 255"
 			
 			"SubImage"
 			{
@@ -1442,6 +1445,11 @@
 		"tall"			"20"
 		"visible"		"1"
 		
+		"label"			""
+		"command"		"engine replay_reloadbrowser"
+		"subimage" 		"glyph_tv"
+		"tooltip" 		"#MMenu_Tooltip_Replay"
+		
 		"pin_to_sibling" "IconAnchor"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
 		"pin_to_sibling_corner" "PIN_TOPLEFT"
@@ -1475,7 +1483,7 @@
 			"paintbackground"	"0"
 
 			"image_drawcolor"	"255 255 255 255"
-			"image_armedcolor"	"255 0 90 255"
+			"image_armedcolor"	"0 0 0 255"
 
 			"SubImage"
 			{
@@ -1504,6 +1512,11 @@
 		"tall"			"20"
 		"visible"		"1"
 		
+		"label"			""
+		"command"		"engine bug"
+		"subimage"		"glyph_bug"
+		"tooltip"		"#MMenu_Tooltip_ReportBug"
+		
 		"pin_to_sibling" "IconAnchor"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
 		"pin_to_sibling_corner" "PIN_TOPLEFT"
@@ -1537,7 +1550,7 @@
 			"paintbackground"	"0"
 
 			"image_drawcolor"	"255 255 255 255"
-			"image_armedcolor"	"255 0 90 255"
+			"image_armedcolor"	"0 0 0 255"
 
 			"SubImage"
 			{
@@ -1566,6 +1579,11 @@
 		"tall"			"20"
 		"visible"		"1"
 		
+		"label" 		""
+		"command" 		"engine cl_coach_toggle"
+		"subimage" 		"glyph_commentary"
+		"tooltip" 		"#MMenu_Tooltip_Coach"
+		
 		"pin_to_sibling" "IconAnchor"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
 		"pin_to_sibling_corner" "PIN_TOPLEFT"
@@ -1599,7 +1617,7 @@
 			"paintbackground"	"0"
 
 			"image_drawcolor"	"255 255 255 255"
-			"image_armedcolor"	"255 0 90 255"
+			"image_armedcolor"	"0 0 0 255"
 
 			"SubImage"
 			{
@@ -1628,6 +1646,12 @@
 		"tall"			"20"
 		"visible"		"1"
 		
+		"label"			""
+		"command"		"engine cl_coach_find_coach"
+		"OnlyInGame"	"1"
+		"subimage"		"glyph_tutorial"
+		"tooltip"		"#MMenu_RequestCoach"
+		
 		"pin_to_sibling" "IconAnchor"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
 		"pin_to_sibling_corner" "PIN_TOPLEFT"
@@ -1661,7 +1685,7 @@
 			"paintbackground"	"0"
 
 			"image_drawcolor"	"255 255 255 255"
-			"image_armedcolor"	"255 0 90 255"
+			"image_armedcolor"	"0 0 0 255"
 
 			"SubImage"
 			{
@@ -1690,6 +1714,12 @@
 		"tall"			"20"
 		"visible"		"1"
 		
+		"label"			""
+		"command"		"callvote"
+		"OnlyInGame"	"1"
+		"subimage"		"icon_checkbox"
+		"tooltip"		"#MMenu_CallVote"
+		
 		"pin_to_sibling" "IconAnchor"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
 		"pin_to_sibling_corner" "PIN_TOPLEFT"
@@ -1723,7 +1753,7 @@
 			"paintbackground"	"0"
 
 			"image_drawcolor"	"255 255 255 255"
-			"image_armedcolor"	"255 0 90 255"
+			"image_armedcolor"	"0 0 0 255"
 
 			"SubImage"
 			{
@@ -1752,6 +1782,12 @@
 		"tall"			"20"
 		"visible"		"1"
 		
+		"label"			""
+		"command"		"OpenMutePlayerDialog"
+		"OnlyInGame"	"1"
+		"subimage"		"glyph_muted"
+		"tooltip"		"#MMenu_MutePlayers"
+		
 		"pin_to_sibling" "IconAnchor"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
 		"pin_to_sibling_corner" "PIN_TOPLEFT"
@@ -1785,7 +1821,7 @@
 			"paintbackground"	"0"
 
 			"image_drawcolor"	"255 255 255 255"
-			"image_armedcolor"	"255 0 90 255"
+			"image_armedcolor"	"0 0 0 255"
 
 			"SubImage"
 			{
@@ -1814,6 +1850,12 @@
 		"tall"			"20"
 		"visible"		"1"
 		
+		"label"			""
+		"command"		"OpenReportPlayerDialog"
+		"OnlyInGame"	"1"
+		"subimage"		"glyph_quest_icon"
+		"tooltip"		"#MMenu_ReportPlayer"
+		
 		"pin_to_sibling" "IconAnchor"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
 		"pin_to_sibling_corner" "PIN_TOPLEFT"
@@ -1847,7 +1889,7 @@
 			"paintbackground"	"0"
 
 			"image_drawcolor"	"255 255 255 255"
-			"image_armedcolor"	"255 0 90 255"
+			"image_armedcolor"	"0 0 0 255"
 
 			"SubImage"
 			{
@@ -1870,8 +1912,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ButtonAnchor"
-		"xpos"			"390"
-		"ypos"			"c-88"
+		"xpos"			"370"
+		"ypos"			"c-108"
 		"wide"			"0"
 		"tall"			"0"
 		"visible"		"1"
@@ -1900,14 +1942,7 @@
 		"image_default"		"replay/thumbnails/menu/button_items_u"
 		"image_armed"		"replay/thumbnails/menu/button_items_s"
 
-		"border_default"	""
-		"border_armed"		""
 
-		"defaultFgColor_override" 	"TanLight"
-		"armedFgColor_override" 	"ColorCyan"
-
-		"defaultBgColor_override" 	"Transparent"
-		"armedBgColor_override" 	"25 25 25 148"
 		
 		
 			"SubImage"
@@ -1960,8 +1995,8 @@
 		"border_default"	""
 		"border_armed"		""
 
-		"defaultFgColor_override" 	"TanLight"
-		"armedFgColor_override" 	"ColorCyan"
+		"defaultFgColor_override" 	"ZeesWhite"
+		"armedFgColor_override" 	"ZeesMain"
 
 		"defaultBgColor_override" 	"Transparent"
 		"armedBgColor_override" 	"25 25 25 148"
@@ -1994,7 +2029,7 @@
 	"SettingButton"
 	{
 		"ControlName"	"CExImageButton"
-		"fieldName"		"SettingsButton"
+		"fieldName"		"SettingButton"
 		"xpos"		"6"
 		"ypos"		"-88"
 		"wide"		"120"
@@ -2002,7 +2037,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"font"		"FUTURA_BOLD_16"
-		"textAlignment"	"west"
 		"paintbackground"	"0"
 		"command"		"OpenOptionsDialog"
 		"font"			"HudFontSmallishBold"
@@ -2010,18 +2044,11 @@
 		"textinsetx"	"25"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"tooltip"		""
 		
 		"image_default"		"replay/thumbnails/menu/button_options"
 		"image_armed"		"replay/thumbnails/menu/button_options_s"
 
-		"border_default"	""
-		"border_armed"		""
-
-		"defaultFgColor_override" 	"ZeesWhite"
-		"armedFgColor_override" 	"ZeesRed"
-
-		"defaultBgColor_override" 	"Transparent"
-		"armedBgColor_override" 	"25 25 25 0"
 		
 		
 			"SubImage"
@@ -2059,9 +2086,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"font"		"FUTURA_BOLD_16"
-		"textAlignment"	"west"
 		"labeltext"		" "
-		"paintbackground"	"1" // this needs to be 1 for bgcolor
+		"paintbackground"	"0"
 		"command"		"OpenTF2Options"
 		"font"			"HudFontSmallishBold"
 		"textAlignment"	"west"
@@ -2072,16 +2098,6 @@
 		"image_default"		"replay/thumbnails/menu/button_plus"
 		"image_armed"		"replay/thumbnails/menu/button_plus_s"
 
-		"border_default"	""
-		"border_armed"		""
-
-		"defaultFgColor_override" 	"TanLight"
-		"armedFgColor_override" 	"ColorCyan"
-
-		"defaultBgColor_override" 	"Transparent"
-		"armedBgColor_override" 	"25 25 25 148"
-		
-		
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -2109,50 +2125,36 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"SteamWorkshopButton"
 		"xpos"		"-1"
-		"ypos"		"-128"
-		"wide"		"100"
-		"tall"		"25"
+		"ypos"		"-130"
+		"zpos"		"2"
+		"wide"		"83"
+		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
 		"font"		"FUTURA_BOLD_16"
-		"textAlignment"	"west"
 		"paintbackground"	"0"
 		
-		"command"		"engine OpenSteamWorkshopDialog"
+		"labelText"			"WORKSHOP"
 		"font"			"HudFontSmallishBold"
 		"textAlignment"	"west"
-		"textinsetx"	"25"
+		"textinsetx"	"10"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-
-
-		"defaultFgColor_override" 	"TanLight"
-		"armedFgColor_override" 	"ColorCyan"
-
-		"defaultBgColor_override" 	"Transparent"
-		"armedBgColor_override" 	"25 25 25 148"
 		
+		"border_default"		"ZeesMenuButton"
+		"border_armed"			"ZeesMenuButtonSelect"
+
+		"defaultFgColor_override" 	"ZeesWhite"
+		"armedFgColor_override" 	"ZeesBlack"
 		
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"1"
-				"wide"			"100"
-				"tall"			"25"
-				"visible"		"1"
-				"enabled"		"1"
-				"scaleImage"	"1"
-				"image"			"replay/thumbnails/menu/button_workshop"
-			}
-			
-			"pin_to_sibling" "ButtonAnchor"
+		"pin_to_sibling" "ButtonAnchor"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
 		"pin_to_sibling_corner" "PIN_TOPLEFT"
 		
 	}
+	
+	
+	
 	
 	
 	
@@ -2161,7 +2163,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"BGPanel1"
-		"xpos"			"0"
+		"xpos"			"-50"
 		"ypos"			"0"
 		"zpos"			"-55"
 		"wide"			"480"
@@ -2170,6 +2172,23 @@
 		"enabled"		"1"
 		"image"			"replay/thumbnails/menu/bg"
 		"scaleImage"	"1"
+		"drawcolor"		"ZeesMain"
+	}
+	//bigass red thing's edge
+	"BGPanel1Edge"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BGPanel1Edge"
+		"xpos"			"430"
+		"ypos"			"0"
+		"zpos"			"-55"
+		"wide"			"15"
+		"tall"			"480"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/menu/bg2"
+		"scaleImage"	"1"
+		"drawcolor"		"ZeesMain"
 	}
 	
 	//friends
@@ -2180,14 +2199,14 @@
 		"xpos"			"10"
 		"ypos"			"r326"
 		"zpos"			"-54"
-		"wide"			"326"
-		"tall"			"326"
+		"wide"			"300"
+		"tall"			"300"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/menu/friends_tab"
 		"scaleImage"	"1"
 	}
-	//friends
+	//rank
 	"BGPanel3"
 	{
 		"ControlName"	"ImagePanel"
@@ -2203,15 +2222,13 @@
 		"scaleImage"	"1"
 	}
 	
-	
-	
 	//banner
 	"BGBanner"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"BGBanner"
 		"xpos"			"r440"
-		"ypos"			"r65"
+		"ypos"			"r73"
 		"zpos"			"-60"
 		"wide"			"440"
 		"tall"			"55"
@@ -2221,6 +2238,22 @@
 		"scaleImage"	"1"
 	}
 	
+	"BGBannerColor"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"BGBannerColor"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-61"
+		"wide"			"440"
+		"tall"			"55"
+		"bgcolor_override"	"ZeesMain"
+		
+		"pin_to_sibling" "BGBanner"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_TOPLEFT"
+	}
+	
 	"SupportLabelTop"
 	{
 		"ControlName"	"CExLabel"
@@ -2228,7 +2261,7 @@
 		"font"			"FUTURA_BOLD_10"
 		"labelText"		"ZeesHUD is a Work-in-progress, some elements may differ from the final result."
 		"xpos"			"r360"
-		"ypos"			"r84"
+		"ypos"			"r104"
 		"wide"			"360"
 		"tall"			"30"
 		"autoResize"	"0"
@@ -2245,7 +2278,7 @@
 		"font"			"FUTURA_BOLD_10"
 		"labelText"		"This HUD is available for free. Consider supporting the project! paypal.me/zeesastrous"
 		"xpos"			"r360"
-		"ypos"			"r76"
+		"ypos"			"r96"
 		"wide"			"360"
 		"tall"			"30"
 		"autoResize"	"0"
@@ -2338,7 +2371,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"SupportRank1"
 		"font"			"SupportBig"
-		"labelText"		"Joshua - Penis - Balls - Sex - Joshua - Penis - Balls - Sex - "
+		"labelText"		""
 		"xpos"			"-6"
 		"ypos"			"-10"
 		"zpos"			"-44"
@@ -2362,7 +2395,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"SupportRank2"
 		"font"			"SupportMedium"
-		"labelText"		"Joshua - Penis - Balls - Sex - Joshua - Penis - Balls - Sex - Joshua - Penis - Balls - Sex - Joshua - Penis - Balls - Sex - "
+		"labelText"		" "
 		"xpos"			"-5"
 		"ypos"			"-40"
 		"wide"			"135"
@@ -2384,7 +2417,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"SupportRank3"
 		"font"			"SupportSmall"
-		"labelText"		"Joshua - Penis - Balls - Sex - Joshua - Penis - Balls - Sex - Joshua - Penis - Balls - Sex - Joshua - Penis - Balls - Sex - Joshua - Penis - Balls - Sex - Joshua - Penis - Balls - Sex - Joshua - Penis - Balls - Sex - Joshua - Penis - Balls - Sex -"
+		"labelText"		""
 		"xpos"			"-4"
 		"ypos"			"-70"
 		"wide"			"135"
@@ -2464,5 +2497,201 @@
 			"angles_y"		"130"
 			"angles_z"		"0"
 		}
+	}
+	
+	
+	
+	
+	//==============================================================================
+	//			CUSTOM BUTTONS (SET THEM IN "customizations/menu_buttons.res")
+	//==============================================================================
+	
+	"CustomButton1"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"CustomButton1"
+		"ypos"		"-150"
+		"zpos"		"2"
+
+		"tall"		"20"
+
+		
+		"enabled"		"1"
+
+		"textAlignment"	"center"
+		"paintbackground"	"0"
+
+		"textinsetx"	"10"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"border_default"		"ZeesMenuButton"
+		"border_armed"			"ZeesMenuButtonSelect"
+
+		"defaultFgColor_override" 	"ZeesWhite"
+		"armedFgColor_override" 	"ZeesBlack"
+		
+		"pin_to_sibling" "ButtonAnchor"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_TOPLEFT"
+		
+	}
+	
+	"CustomButton2"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"CustomButton2"
+		"ypos"		"-170"
+		"zpos"		"2"
+
+		"tall"		"20"
+
+		
+		"enabled"		"1"
+
+		"textAlignment"	"center"
+		"paintbackground"	"0"
+		
+		
+		
+		"textinsetx"	"10"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"border_default"		"ZeesMenuButton"
+		"border_armed"			"ZeesMenuButtonSelect"
+
+		"defaultFgColor_override" 	"ZeesWhite"
+		"armedFgColor_override" 	"ZeesBlack"
+		
+		"pin_to_sibling" "ButtonAnchor"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_TOPLEFT"
+		
+	}
+	
+	"CustomButton3"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"CustomButton3"
+		"ypos"		"-190"
+		"zpos"		"2"
+
+		"tall"		"20"
+
+		
+		"enabled"		"1"
+
+		"textAlignment"	"center"
+		"paintbackground"	"0"
+		
+		
+		
+		"textinsetx"	"10"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"border_default"		"ZeesMenuButton"
+		"border_armed"			"ZeesMenuButtonSelect"
+
+		"defaultFgColor_override" 	"ZeesWhite"
+		"armedFgColor_override" 	"ZeesBlack"
+		
+		"pin_to_sibling" "ButtonAnchor"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_TOPLEFT"
+		
+	}
+	
+	"CustomButton4"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"CustomButton4"
+		"ypos"		"-210"
+		"zpos"		"2"
+
+		"tall"		"20"
+
+		
+		"enabled"		"1"
+
+		"textAlignment"	"center"
+		"paintbackground"	"0"
+		
+		
+		"textinsetx"	"10"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"border_default"		"ZeesMenuButton"
+		"border_armed"			"ZeesMenuButtonSelect"
+
+		"defaultFgColor_override" 	"ZeesWhite"
+		"armedFgColor_override" 	"ZeesBlack"
+		
+		"pin_to_sibling" "ButtonAnchor"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_TOPLEFT"
+		
+	}
+	"CustomButton5"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"CustomButton5"
+		"ypos"		"-230"
+		"zpos"		"2"
+
+		"tall"		"20"
+
+		
+		"enabled"		"1"
+
+		"textAlignment"	"center"
+		"paintbackground"	"0"
+		
+		"textinsetx"	"10"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"border_default"		"ZeesMenuButton"
+		"border_armed"			"ZeesMenuButtonSelect"
+
+		"defaultFgColor_override" 	"ZeesWhite"
+		"armedFgColor_override" 	"ZeesBlack"
+		
+		"pin_to_sibling" "ButtonAnchor"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_TOPLEFT"
+		
+	}
+	"CustomButton6"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"CustomButton6"
+		"ypos"		"-250"
+		"zpos"		"2"
+
+		"tall"		"20"
+
+		
+		"enabled"		"1"
+
+		"textAlignment"	"center"
+		"paintbackground"	"0"
+		
+		"textinsetx"	"10"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"border_default"		"ZeesMenuButton"
+		"border_armed"			"ZeesMenuButtonSelect"
+
+		"defaultFgColor_override" 	"ZeesWhite"
+		"armedFgColor_override" 	"ZeesBlack"
+		
+		"pin_to_sibling" "ButtonAnchor"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_TOPLEFT"
+		
 	}
 }
