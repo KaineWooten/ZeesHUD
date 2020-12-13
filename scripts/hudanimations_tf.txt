@@ -96,7 +96,7 @@ event MenuClose
 {	
 	// Hide it
 	Animate HudMenu Alpha		"0"		Linear 0.2 0.1
-	Animate HudMenu xPos		"-100" Linear 0.0 0.1
+	Animate HudMenu xPos		"-200" Linear 0.0 0.1
 	Animate HudMenu SelectionAlpha 	"0" Linear 0.0 1
 	Animate HudMenu FgColor		"0 0 0 0" Linear 0.0 1
 	Animate HudMenu MenuColor		"0 0 0 0" Linear 0.0 1
