@@ -2,6 +2,7 @@
 #base "scheme/clientscheme_colors.res"
 #base "../customizations/custom_colors.res"
 #base "scheme/clientscheme_fonts.res"
+#base "scheme/clientscheme_zeeshud_fonts.res"
 #base "scheme/clientscheme_icons.res"
 #base "scheme/clientscheme_settings.res"
 #base "scheme/clientscheme_xhairs.res"

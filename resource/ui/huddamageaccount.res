@@ -1,3 +1,5 @@
+#base "../../customizations/damage_counter.res"
+
 "Resource/UI/HudDamageAccount.res"
 {
 	"CDamageAccountPanel"
@@ -6,12 +8,9 @@
 		"text_x"				"0"
 		"text_y"				"0"
 		"delta_item_end_y"		"0"
-		"PositiveColor"			"ZeesGreen"
-		"NegativeColor"			"ZeesRed"
-		"delta_lifetime"		"2.5"
+		"PositiveColor"			"Damage Heal"
+		"NegativeColor"			"Damage Hurt"
 		"textAlignment"			"center"
-		"delta_item_font"		"FUTURA_BOLD_32"
-		"delta_item_font_big"	"FUTURA_BOLD_48"
 	}
 
 	"DamageAccountValue"
@@ -23,12 +22,11 @@
 		"zpos"				"2"
 		"wide"				"100"
 		"tall"				"26"
-		"visible"			"1"
-		"enabled"			"1"
+
 		"labelText"			"%metal%"
 		"textAlignment"		"center"
 		"font"				"FUTURA_BOLD_16"
-		"fgcolor"			"ZeesWhite"
+		"fgcolor"			"Damage Number"
 	}
 
 	"DamageAccountValueShadow"
@@ -40,12 +38,11 @@
 		"zpos"				"1"
 		"wide"				"100"
 		"tall"				"26"
-		"visible"			"1"
-		"enabled"			"1"
+
 		"labelText"			"%metal%"
 		"textAlignment"		"center"
 		"font"				"FUTURA_BOLD_16"
-		"fgcolor"			"ZeesBlack"
+		"fgcolor"			"Damage Number Shadow"
 
 		"pin_to_sibling"		"DamageAccountValue"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"

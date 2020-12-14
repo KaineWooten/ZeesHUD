@@ -82,10 +82,6 @@ Scheme
 		"ItemPanelBG"				"50 50 50 255"
 		"Button Color"				"72 255 255 255"
 		//---------------------------------------------
-		// Crosshair Colors
-		"Crosshair"					"242 242 242 255"
-		"CrosshairDamage"			"255 0 0 255"
-		//---------------------------------------------
 		// Ubercharge
 		"Uber Bar Color"			"255 255 255 255"
 		"Solid Color Uber"			"255 0 90 255"
