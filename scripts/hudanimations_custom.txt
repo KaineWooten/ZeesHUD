@@ -43,6 +43,7 @@ event HudHealthDyingPulseStop
 
 	Animate	PlayerStatusHealthOverheal		Alpha		"0"				Linear 0.0 0.0
 	Animate PlayerStatusHealthValue			FgColor		"Health Text"		Accel 0.0 0.0
+	Animate	PlayerStatusHealthValueShadow	FgColor		"Health Text Shadow"		Accel 0.0 0.0
 	Animate GuiPlayerHealth					FgColor		"ZeesWhite"		Accel 0.0 0.0
 }
 //==================================================================================
