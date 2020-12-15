@@ -30,7 +30,7 @@ event HudHealthDyingPulse
 	Animate	PlayerStatusHealthOverheal		Alpha		"0"				Linear 0.0 0.0
 
 	Animate	PlayerStatusHealthValue			FgColor		"Health Text Low"		Accel 0.0 0.0
-	Animate	PlayerStatusHealthValueShadow	FgColor		"Health Text LowShadow"		Accel 0.0 0.0
+	Animate	PlayerStatusHealthValueShadow	FgColor		"Health Text Low Shadow"		Accel 0.0 0.0
 	Animate	GuiPlayerHealth					FgColor		"ZeesWhite"		Accel 0.0 0.0
 
 	RunEvent HudHealthDyingPulseLoop		0.5
