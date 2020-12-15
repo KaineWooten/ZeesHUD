@@ -33,7 +33,7 @@ Scheme
 		
 		//---------------------------------------------
 		// Health Meter
-		//
+		//		Affects the health meter and it's aesthetic elements.
 		//---------------------------------------------
 		"Health Bar"				"255 255 255 255"
 		"Health Bar Hurt"			"35 28 34 255"
@@ -51,7 +51,7 @@ Scheme
 		
 		//---------------------------------------------
 		// Ammo Meter
-		//
+		//		Affects the ammo meter's numbers.
 		//---------------------------------------------
 		"Ammo Clip"					"255 255 255 255"
 		"Ammo Clip Shadow"			"0 0 0 255"
