@@ -31,11 +31,11 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"13"
+		"xpos"			"18"
 		"ypos"			"15"
 		"zpos"			"3"
-		"wide"			"18"
-		"tall"			"19"
+		"wide"			"15"
+		"tall"			"15"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/health_over_bg"
@@ -56,7 +56,7 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"east"
 		"font"			"FUTURA_BOLD_24"
-		"fgcolor"		"Health Normal"
+		"fgcolor"		"Health Text"
 	}
 
 	"GuiPlayerHealthShadow"
@@ -73,7 +73,7 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"east"
 		"font"			"FUTURA_BOLD_24"
-		"fgcolor"		"ZeesBlack"
+		"fgcolor"		"Health Text Shadow"
 
 		"pin_to_sibling"		"GuiPlayerHealth"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"

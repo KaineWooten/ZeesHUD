@@ -6,7 +6,8 @@ event HudHealthBonusPulse
 
 	Animate	PlayerStatusHealthValue			FgColor		"Health Text Buff"		Accel 0.0 0.0
 	Animate	PlayerStatusHealthValueShadow	FgColor		"Health Text Buff Shadow"		Accel 0.0 0.0
-	Animate	GuiPlayerHealth					FgColor		"ZeesWhite"		Accel 0.0 0.0
+	Animate	GuiPlayerHealth					FgColor		"Health Text Buff"		Accel 0.0 0.0
+	Animate	GuiPlayerHealthShadow			FgColor		"Health Text Buff Shadow"		Accel 0.0 0.0
 
 	// RunEvent HudHealthBonusPulseLoop		0.4
 }
@@ -19,7 +20,8 @@ event HudHealthBonusPulseStop
 	Animate	PlayerStatusHealthOverheal		Alpha		"0"				Linear 0.0 0.0
 	Animate	PlayerStatusHealthValue			FgColor		"Health Text"		Accel 0.0 0.0
 	Animate	PlayerStatusHealthValueShadow	FgColor		"Health Text Shadow"		Accel 0.0 0.0
-	Animate	GuiPlayerHealth					FgColor		"ZeesWhite"		Accel 0.0 0.0
+	Animate	GuiPlayerHealth					FgColor		"Health Text"		Accel 0.0 0.0
+	Animate	GuiPlayerHealthShadow			FgColor		"Health Text Shadow"		Accel 0.0 0.0
 }
 //==================================================================================
 // Low Health Pulse
@@ -31,7 +33,8 @@ event HudHealthDyingPulse
 
 	Animate	PlayerStatusHealthValue			FgColor		"Health Text Low"		Accel 0.0 0.0
 	Animate	PlayerStatusHealthValueShadow	FgColor		"Health Text Low Shadow"		Accel 0.0 0.0
-	Animate	GuiPlayerHealth					FgColor		"ZeesWhite"		Accel 0.0 0.0
+	Animate	GuiPlayerHealth					FgColor		"Health Text Low"		Accel 0.0 0.0
+	Animate	GuiPlayerHealthShadow					FgColor		"Health Text Low Shadow"		Accel 0.0 0.0
 
 	RunEvent HudHealthDyingPulseLoop		0.5
 }
@@ -44,7 +47,8 @@ event HudHealthDyingPulseStop
 	Animate	PlayerStatusHealthOverheal		Alpha		"0"				Linear 0.0 0.0
 	Animate PlayerStatusHealthValue			FgColor		"Health Text"		Accel 0.0 0.0
 	Animate	PlayerStatusHealthValueShadow	FgColor		"Health Text Shadow"		Accel 0.0 0.0
-	Animate GuiPlayerHealth					FgColor		"ZeesWhite"		Accel 0.0 0.0
+	Animate	GuiPlayerHealth					FgColor		"Health Text"		Accel 0.0 0.0
+	Animate	GuiPlayerHealthShadow			FgColor		"Health Text Shadow"		Accel 0.0 0.0
 }
 //==================================================================================
 // Low Ammo Pulse
