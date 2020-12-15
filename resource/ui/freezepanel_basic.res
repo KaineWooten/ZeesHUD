@@ -225,11 +225,11 @@
 		{
 			"ControlName"	"CAvatarImagePanel"
 			"fieldName"		"AvatarImage"
-			"xpos"			"0"
-			"ypos"			"0"
+			"xpos"			"38"
+			"ypos"			"-2"
 			"zpos"			"3"
-			"wide"			"34"
-			"tall"			"34"
+			"wide"			"36"
+			"tall"			"36"
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			""
@@ -241,25 +241,7 @@
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPLEFT"
 		}
-		"AvatarImageBG"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"AvatarImageBG"
-			"xpos"			"38"
-			"ypos"			"-2"
-			"zpos"			"4"
-			"wide"			"36"
-			"tall"			"36"
-			"visible"		"1"
-			"enabled"		"1"
-			"bgcolor_override"		"ZeesWhite"
-			"fgcolor"				"ZeesWhite"
-			
-			"pin_to_sibling"		"FreezePanelAnchor"
-			"pin_corner_to_sibling"	"PIN_TOPLEFT"
-			"pin_to_sibling_corner"	"PIN_TOPLEFT"
-		}
-		
+
 
 		"NemesisSubPanel"
 		{
