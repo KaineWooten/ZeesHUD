@@ -31,6 +31,37 @@ Scheme
 		"Damage Number"				"255 255 255 255"
 		"Damage Number Shadow"		"0 0 0 255"
 		
+		//---------------------------------------------
+		// Health Meter
+		//
+		//---------------------------------------------
+		"Health Bar"				"255 255 255 255"
+		"Health Bar Hurt"			"35 28 34 255"
+		
+		"Health BG"					"0 0 0 255"
+		
+		"Health Text"				"255 255 255 255"
+		"Health Text Shadow"		"0 0 0 255"
+		
+		"Health Text Low"			"255 164 164 255"
+		"Health Text Low Shadow"	"71 9 31 255"
+		
+		"Health Text Buff"			"48 255 164 255"
+		"Health Text Buff Shadow"	"9 71 49 255"
+		
+		//---------------------------------------------
+		// Ammo Meter
+		//
+		//---------------------------------------------
+		"Ammo Clip"					"255 255 255 255"
+		"Ammo Clip Shadow"			"0 0 0 255"
+		"Ammo Reserve"				"255 255 255 255"
+		"Ammo Reserve Shadow"		"0 0 0 255"
+		
+		"Ammo Clip Low"				"255 164 164 255"
+		"Ammo Clip Low Shadow"		"71 9 31 255"
+		"Ammo Reserve Low"			"255 164 164 255"
+		"Ammo Reserve Low Shadow"	"71 9 31 255"
 	}
 	
 }

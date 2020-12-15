@@ -33,6 +33,7 @@
 		"scaleImage"	"0"
 		"alpha"			"255"
 		"image"			"../hud/health_color"
+		"drawcolor"		"Health Bar"
 		
 		"pin_to_sibling"		"PlayerStatusHealthImageBG2"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
@@ -53,6 +54,7 @@
 		"enabled"		"1"
 		"image"			"replay/thumbnails/hp_bg_under"
 		"scaleImage"		"1"
+		"drawcolor"		"Health Bar Hurt"
 		
 		"pin_to_sibling"		"PlayerStatusHealthImageBG3"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
@@ -76,6 +78,7 @@
 		"teambg_1"		"replay/thumbnails/hp_bg_red"
 		"teambg_2"		"replay/thumbnails/hp_bg_red"
 		"teambg_3"		"replay/thumbnails/hp_bg_red"
+		"drawcolor"		"Health BG"
 	}
 	
 	"PlayerStatusHealthImageBG"
@@ -87,7 +90,7 @@
 		"enabled"		"0"
 	}
 
-	//for some fucking stupid reason i have to make the low hp thing here
+	//for some stupid reason i have to make the low hp thing here
 	"PlayerStatusHealthBonusImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -136,7 +139,7 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
 		"font"			"CIKANDEI_56"
-		"fgcolor"		"Health Normal"
+		"fgcolor"		"Health Text"
 	}
 
 	"PlayerStatusHealthValueShadow"
@@ -153,7 +156,7 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
 		"font"			"CIKANDEI_56"
-		"fgcolor"		"0 0 0 255"
+		"fgcolor"		"Health Text Shadow"
 
 		"pin_to_sibling"		"PlayerStatusHealthValue"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"

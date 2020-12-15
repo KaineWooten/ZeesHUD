@@ -21,13 +21,7 @@ Scheme
 		"ZeesYellow"				"255 214 0 255"
 		"ZeesDarkYellow"			"133 114 7 255"
 		"ZeesDarkerYellow"			"71 61 9 255"
-		
-		"ZeesHealth"				"255 255 255 255"
-		"ZeesHealthBuff"			"48 255 164 255"
-		"ZeesHealthLow"				"255 164 164 255"
-		
-		"ZeesAmmo"					"255 255 255 255"
-		"ZeesAmmoLow"				"255 164 164 255"
+
 		
 		"ZeesWhite"					"255 255 255 255"
 		"ZeesBlack"					"0 0 0 255"
@@ -74,9 +68,6 @@ Scheme
 		"Ammo In Reserve"			"255 255 255 255"
 		"Ammo In Clip Low"			"255 125 125 255"
 		"Ammo In Reserve Low"		"255 125 125 255"
-		"Health Normal"				"255 255 255 255"
-		"Health Buff"				"0 255 164 255"
-		"Health Hurt"				"255 125 125 255"
 		"Heal Numbers"				"48 255 48 255"
 		"Last DamageHeal Info"		"72 255 255 255"
 		"ItemPanelBG"				"50 50 50 255"
