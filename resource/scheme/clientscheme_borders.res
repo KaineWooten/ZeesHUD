@@ -122,6 +122,18 @@ Scheme
 			"draw_corner_height" 	"7"
 		}
 		
+		ZeesBorderColoredOpaque
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color"					"ZeesMain"
+			"image"					"replay/thumbnails/box_3_n"
+			"src_corner_height"		"30"				// pixels inside the image
+			"src_corner_width"		"30"
+			"draw_corner_width"		"7"					// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"7"
+		}
+		
 		ZeesBorderWhite
 		{
 			"bordertype"			"scalable_image"
@@ -152,6 +164,18 @@ Scheme
 			"backgroundtype"		"2"
 			"color"					"255 255 255 255"
 			"image"					"replay/thumbnails/box_3_r_t"
+			"src_corner_height"		"30"				// pixels inside the image
+			"src_corner_width"		"30"
+			"draw_corner_width"		"7"					// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"7"
+		}
+		
+		ZeesBorderColored
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color"					"ZeesMain"
+			"image"					"replay/thumbnails/box_3_n_t"
 			"src_corner_height"		"30"				// pixels inside the image
 			"src_corner_width"		"30"
 			"draw_corner_width"		"7"					// screen size of the corners ( and sides ), proportional
