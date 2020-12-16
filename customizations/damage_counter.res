@@ -1,3 +1,5 @@
+// Customize how the damage numbers appear when you hit an enemy.
+
 "Customizations/Damage_Counter.res"
 {
 	// the numbers that show up in-game above an enemy that you shot at

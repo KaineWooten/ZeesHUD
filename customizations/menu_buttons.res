@@ -1,3 +1,5 @@
+// Add in extra buttons to the main menu
+
 "Resource/UI/MainMenuOverride.res"
 {
 

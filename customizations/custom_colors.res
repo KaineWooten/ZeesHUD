@@ -1,6 +1,6 @@
-// change these colors to affect the HUD!
-// values input is "[red] [green] [blue] [alpha]"
-// i highly recommend keeping alpha to 255!
+// Change the colors of the HUD!
+// Color inputs should be "[red] [green] [blue] [alpha]"
+// I highly recommend keeping alpha to 255!
 
 Scheme
 {
