@@ -1,0 +1,19 @@
+event HudHealthBonusPulse
+{
+
+}
+
+event HudHealthBonusPulseStop
+{
+
+}
+
+event HudHealthDyingPulse
+{
+	Animate	PlayerStatusHealthBonusSubImage	Alpha		"255"			Linear 0.0 0.0
+}
+
+event HudHealthDyingPulseStop
+{
+	Animate	PlayerStatusHealthBonusSubImage	Alpha		"0"			Linear 0.0 0.0
+}

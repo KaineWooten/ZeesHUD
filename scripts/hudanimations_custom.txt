@@ -1,7 +1,7 @@
 // Bonus Health Pulse
 event HudHealthBonusPulse
 {
-	Animate	PlayerStatusHealthOverheal		Alpha		"255"				Linear 0.0 0.2
+	Animate	PlayerStatusHealthOverheal		Alpha		"255"				Linear 0.0 0.
 	Animate	PlayerStatusHealthBonusImage	Alpha		"0"				Linear 0.0 0.0
 
 	Animate	PlayerStatusHealthValue			FgColor		"Health Text Buff"		Accel 0.0 0.0
@@ -28,6 +28,7 @@ event HudHealthBonusPulseStop
 event HudHealthDyingPulse
 {
 	Animate	PlayerStatusHealthBonusImage	Alpha		"0"			Linear 0.0 0.0
+	
 	Animate	PlayerStatusHealthBonusImage	Alpha		"255"		Linear 0.125 0.0
 	Animate	PlayerStatusHealthOverheal		Alpha		"0"				Linear 0.0 0.0
 
