@@ -325,7 +325,7 @@
 				"Command"		"queue_logo_clicked"
 				"proportionaltoparent"	"1"
 				"actionsignallevel"	"3"
-				"button_activation_type"	"1"
+				"button_activation_type"	"0"
 				"paintbackground"	"0"
 				"paintborder"		"0"
 			}
@@ -343,7 +343,6 @@
 				"proportionaltoparent"	"1"
 				"radius"		"7"
 				"velocity"		"100"
-				"fgcolor_override"	"ZeesRed"
 			}
 
 			"QueueText"
@@ -488,7 +487,7 @@
 				"zpos"			"-1"
 				"wide"			"f0"
 				"tall"			"f0"
-				"visible"		"1"
+				"visible"		"0"
 				"proportionaltoparent"	"1"
 				"border"		"OuterShadowBorderThin"
 			}
@@ -498,7 +497,7 @@
 				"ControlName"	"Panel"
 				"fieldName"		"BGPanel"
 				"xpos"			"cs-0.5"
-				"ypos"			"cs-0.5"
+				"ypos"			"-15"
 				"zpos"			"0"
 				"wide"			"f6"
 				"tall"			"f6"
@@ -512,7 +511,7 @@
 				"ControlName"	"Label"
 				"fieldName"		"PromptText"
 				"xpos"			"cs-0.5"
-				"ypos"			"1"
+				"ypos"			"-11"
 				"wide"			"f35"
 				"zpos"			"100"
 				"tall"			"f0"
@@ -531,7 +530,7 @@
 				"ControlName"	"CExButton"
 				"fieldName"		"JoinNowButton"
 				"xpos"			"rs1-10"
-				"ypos"			"rs1-9"
+				"ypos"			"7"
 				"wide"			"40"
 				"zpos"			"100"
 				"tall"			"15"
@@ -558,8 +557,8 @@
 				"keyboardinputenabled"	"0"
 				"actionsignallevel"	"3"
 
-				"armedBgColor_override"		"ZeesGreen"
-				"defaultBgColor_override"	"ZeesDarkGreen"
+				"armedBgColor_override"		"ZeesMain"
+				"defaultBgColor_override"	"ZeesDarkMain"
 
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
