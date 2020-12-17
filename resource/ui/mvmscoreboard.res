@@ -5,8 +5,10 @@
 		"ControlName"		"CWaveStatusPanel"
 		"fieldName"			"WaveStatusPanel"
 		"xpos"				"c-300"
+		"ypos"				"-30"
 		"zpos"				"0"
 		"wide"				"600"
+		"tall"				"40"
 		"visible"			"1"
 		"enabled"			"1"
 		"verbose"			"1"
@@ -135,6 +137,7 @@
 			"xpos"			"9999"
 			"ypos"			"9999"
 			"wide"			"200"
+			"fgcolor"		"ZeesMain"
 		}
 
 		"PreviousWaveCreditInfoPanel"
