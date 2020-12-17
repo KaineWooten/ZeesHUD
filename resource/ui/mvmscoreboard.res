@@ -199,6 +199,7 @@
 			"ypos"			"8"
 			"wide"			"220"
 			"tall"			"40"
+			"fgcolor"		"ZeesWhite"
 		}
 	}
 }
