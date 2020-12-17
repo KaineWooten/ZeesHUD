@@ -5,10 +5,8 @@
 		"ControlName"		"CWaveStatusPanel"
 		"fieldName"			"WaveStatusPanel"
 		"xpos"				"c-300"
-		"ypos"				"8"
 		"zpos"				"0"
 		"wide"				"600"
-		"tall"				"67"
 		"visible"			"1"
 		"enabled"			"1"
 		"verbose"			"1"
@@ -122,6 +120,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"bgcolor_override"		"TransparentBlack"
+			"border"		"ZeesBorderColoredOpaque"
 			"PaintBackgroundType"	"2"
 
 		}
@@ -136,7 +135,6 @@
 			"xpos"			"9999"
 			"ypos"			"9999"
 			"wide"			"200"
-			"fgcolor"		"TanLight"
 		}
 
 		"PreviousWaveCreditInfoPanel"
@@ -198,7 +196,6 @@
 			"ypos"			"8"
 			"wide"			"220"
 			"tall"			"40"
-			"fgcolor"		"TanLight"
 		}
 	}
 }

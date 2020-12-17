@@ -13,7 +13,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"
 		"PaintBackgroundType" "2"
-		"bgcolor_override"	"TanLight"
+		"bgcolor_override"	"ZeesWhite"
 	}
 	
 	"EnemyIcon"
@@ -41,6 +41,6 @@
 		"ypos"			"3"
 		"wide"			"250"
 		"tall"			"32"
-		"fgcolor"		"tanlight"
+		"fgcolor"		"ZeesWhite"
 	}
 }

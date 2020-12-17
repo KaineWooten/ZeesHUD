@@ -34,7 +34,7 @@
 
 			"team1_player_base_y"		"66"
 			"team2_player_base_y"		"66"
-			"team2_player_delta_x"		"52"
+			"team2_player_delta_x"		"61"
 		}
 
 		if_competitive
@@ -58,7 +58,7 @@
 
 			"team1_player_base_y"		"66"
 			"team2_player_base_y"		"66"
-			"team2_player_delta_x"		"52"
+			"team2_player_delta_x"		"61"
 			"team2_player_base_offset_x" "5"
 		}
 

@@ -25,8 +25,8 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"WaveCountLabel"
-		"font"				"Cerbetica14"
-		"fgcolor"			"TanLight"
+		"font"				"FUTURA_BOLD_14"
+		"fgcolor"			"ZeesWhite"
 		"xpos"				"140"
 		"ypos"				"15"
 		"ypos_minmode"		"5"
@@ -43,7 +43,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"WaveCountLabelShadow"
-		"font"				"Cerbetica14"
+		"font"				"FUTURA_BOLD_14"
 		"fgcolor"			"TransparentBlack"
 		"xpos"				"-1"
 		"ypos"				"-1"
@@ -73,7 +73,7 @@
 		"enabled"			"1"
 		"scaleImage"		"1"
 		"PaintBackgroundType"	"2"
-		"bgcolor_override"		"TanLight"
+		"bgcolor_override"		"ZeesWhite"
 
 		if_verbose
 		{
@@ -137,7 +137,7 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"fillcolor"			"ColorCyan"
+		"fillcolor"			"ZeesRed"
 	}
 
 	"ProgressBarBG"
