@@ -69,10 +69,7 @@
 		"tall"			"140"
 		"visible"		"0"
 		"enabled"		"0"
-		"image"			"replay/thumbnails/addons/health_jrpg/hp_bg_jrpg"
-		"scaleImage"	"1"
-		"teambg_2"		"replay/thumbnails/addons/health_jrpg/hp_bg_jrpg"
-		"teambg_3"		"replay/thumbnails/addons/health_jrpg/hp_bg_jrpg"
+
 		"drawcolor"		"0 0 0 255"
 	}
 
@@ -80,14 +77,14 @@
 	{
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"classmodelpanel"
-		"xpos"			"35"
-		"xpos_minmode"	"80"
-		"ypos"			"r200"
+		"xpos"			"45"
+		"xpos_minmode"	"85"
+		"ypos"			"r220"
 		"ypos_minmode"	"r210"
 		"zpos"			"2"
-		"wide"			"150"
+		"wide"			"140"
 		"wide_minmode"	"120"
-		"tall"			"150"
+		"tall"			"140"
 		"tall_minmode"	"120"
 		"autoResize"	"0"
 		"pinCorner"		"0"
