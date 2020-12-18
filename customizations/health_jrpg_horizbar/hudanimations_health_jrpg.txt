@@ -1,0 +1,30 @@
+event HudHealthBonusPulse
+{
+	Animate	PlayerStatusHealthOverheal		Alpha		"255"				Linear 0.0 0.
+
+	Animate	PlayerStatusHealthValue			FgColor		"Health Text Buff"		Accel 0.0 0.0
+	Animate	PlayerStatusHealthValueShadow	FgColor		"Health Text Buff Shadow"		Accel 0.0 0.0
+	Animate	GuiPlayerHealth					FgColor		"Health Text Buff"		Accel 0.0 0.0
+	Animate	GuiPlayerHealthShadow			FgColor		"Health Text Buff Shadow"		Accel 0.0 0.0
+}
+
+event HudHealthBonusPulseStop
+{
+	StopEvent HudHealthBonusPulse			0.0
+
+	Animate	PlayerStatusHealthOverheal		Alpha		"0"				Linear 0.0 0.0
+	Animate	PlayerStatusHealthValue			FgColor		"Health Text"		Accel 0.0 0.0
+	Animate	PlayerStatusHealthValueShadow	FgColor		"Health Text Shadow"		Accel 0.0 0.0
+	Animate	GuiPlayerHealth					FgColor		"Health Text"		Accel 0.0 0.0
+	Animate	GuiPlayerHealthShadow			FgColor		"Health Text Shadow"		Accel 0.0 0.0
+}
+
+event HudHealthDyingPulse
+{
+	Animate	PlayerStatusHealthBonusImage	Alpha		"255"				Linear 0.0 0.0
+}
+
+event HudHealthDyingPulseStop
+{
+	Animate	PlayerStatusHealthBonusImage	Alpha		"0"				Linear 0.0 0.0
+}
