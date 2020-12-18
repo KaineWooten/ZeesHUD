@@ -1358,9 +1358,9 @@
 		"fieldName"		"ClassTipsPanel"
 		"xpos"			"0"
 		"ypos"			"128"
-		"zpos"			"10"
+		"zpos"			"5"
 		"wide"			"200"
-		"tall"			"f0"
+		"tall"			"380"
 		"visible"		"1"
 		"enabled"		"1"
 		
