@@ -3141,16 +3141,184 @@ Scheme
 		{
 			"font"	"resource/fonts/CIKANDEI.ttf"
 			"name"	"CIKANDEI"
+			"turkish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"swedish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"spanish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"romanian"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"polish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"norwegian"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"danish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"hungarian"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"german"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"french"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"finnish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"czech"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"bulgarian"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"russian"
+			{
+				"range" "0x0000 0xFFFF"
+			}
 		}
 		"9"
 		{
 			"font"	"resource/fonts/GAMERIA.ttf"
 			"name"	"GAMERIA"
+			"turkish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"swedish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"spanish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"romanian"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"polish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"norwegian"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"danish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"hungarian"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"german"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"french"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"finnish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"czech"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"bulgarian"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"russian"
+			{
+				"range" "0x0000 0xFFFF"
+			}
 		}
 		"10"
 		{
 			"font"	"resource/fonts/Nokia Cellphone FC Small.ttf"
 			"name"	"Nokia Cellphone FC Small"
+			"turkish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"swedish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"spanish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"romanian"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"polish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"norwegian"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"danish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"hungarian"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"german"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"french"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"finnish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"czech"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"bulgarian"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"russian"
+			{
+				"range" "0x0000 0xFFFF"
+			}
 		}
 		"11"
 		{
@@ -3216,6 +3384,58 @@ Scheme
 		{
 			"font"	"resource/fonts/Super Mario Bros. 2 Regular.ttf"
 			"name"	"Super Mario Bros. 2 Regular"
+			"turkish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"swedish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"spanish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"romanian"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"polish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"norwegian"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"danish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"hungarian"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"german"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"french"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"finnish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"czech"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"bulgarian"
+			{
+				"range" "0x0000 0xFFFF"
+			}
 			"russian"
 			{
 				"range" "0x0000 0xFFFF"
@@ -3224,6 +3444,58 @@ Scheme
 		{
 			"font"	"resource/fonts/SteelfishRg-Regular.ttf"
 			"name"	"SteelfishRg-Regular"
+			"turkish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"swedish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"spanish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"romanian"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"polish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"norwegian"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"danish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"hungarian"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"german"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"french"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"finnish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"czech"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"bulgarian"
+			{
+				"range" "0x0000 0xFFFF"
+			}
 			"russian"
 			{
 				"range" "0x0000 0xFFFF"
