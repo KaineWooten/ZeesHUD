@@ -78,7 +78,7 @@
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"classmodelpanel"
 		"xpos"			"45"
-		"xpos_minmode"	"85"
+		"xpos_minmode"	"c-310"
 		"ypos"			"r220"
 		"ypos_minmode"	"r210"
 		"zpos"			"2"
