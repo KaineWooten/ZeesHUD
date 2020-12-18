@@ -21,7 +21,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"xpos"				"r350"
-		"xpos_minmode"		"c-10"
+		"xpos_minmode"		"c0"
 		"ypos"				"r250"
 		"ypos_minmode"		"r275"
 		"wide"				"350"

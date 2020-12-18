@@ -17,19 +17,33 @@
 	{
 		"ControlName"	"CTFClassImage"
 		"fieldName"		"PlayerStatusClassImage"
-		"xpos"			"0"
-		"xpos_minmode"	"30"
-		"ypos"			"r100"
-		"ypos_minmode"	"r60"
+		"xpos"			"110"
+		"xpos_minmode"	"c-260"
+		"ypos"			"r155"
+		"ypos_minmode"	"r160"
 		"zpos"			"2"
-		"wide"			"100"
+		"wide"			"80"
 		"wide_minmode"	"60"
-		"tall"			"100"
+		"tall"			"80"
 		"tall_minmode"	"60"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/class_scoutred"
 		"scaleImage"	"1"
+	}
+	"PlayerStatusClassImageBG"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"PlayerStatusClassImageBG"
+		"xpos"			"0"
+		"xpos_minmode"	"0"
+		"ypos"			"0"
+		"wide"			"00
+		"tall"			"116"
+		"visible"		"0"
+		"enabled"		"0"
+
+		
 	}
 	"PlayerStatusSpyImage"
 	{
@@ -55,6 +69,8 @@
 		"image"			"../hud/class_spy_outline"
 		"scaleImage"	"1"
 	}
+	
+	
 
 
 	"classmodelpanelBG"
