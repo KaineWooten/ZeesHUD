@@ -1224,7 +1224,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"HudName"
-		"xpos"			"r110"
+		"xpos"			"r114"
 		"ypos"			"r15"
 		"zpos"			"1"
 		"wide"			"56"
@@ -1274,7 +1274,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"VersionLabel"
 		"font"			"FUTURA_BOLD_16"
-		"labelText"		"ALPHA I"
+		"labelText"		"ALPHA II"
 		"xpos"			"r135"
 		"ypos"			"r15"
 		"wide"			"130"
@@ -1913,12 +1913,14 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ButtonAnchor"
 		"xpos"			"370"
-		"ypos"			"c-108"
+		"ypos"			"c-138"
 		"wide"			"0"
 		"tall"			"0"
 		"visible"		"1"
 	
 	}
+	
+
 	"CharacterSetupButton"
 	{
 		"ControlName"	"CExImageButton"
@@ -2153,7 +2155,38 @@
 		
 	}
 	
-	
+		"ToggleMinmodeButton"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"ToggleMinmodeButton"
+		"xpos"		"15"
+		"ypos"		"-151"
+		"zpos"		"2"
+		"wide"		"130"
+		"tall"		"20"
+		"visible"		"1"
+		"enabled"		"1"
+		"font"		"FUTURA_BOLD_16"
+		"paintbackground"	"0"
+		"command"		"engine incrementvar cl_hud_minmode 0 1 1"
+		"labelText"			"TOGGLE MINMODE"
+		"font"			"HudFontSmallishBold"
+		"textAlignment"	"center"
+		"textinsetx"	"10"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"border_default"		"ZeesMenuButton"
+		"border_armed"			"ZeesMenuButtonSelect"
+
+		"defaultFgColor_override" 	"ZeesWhite"
+		"armedFgColor_override" 	"ZeesBlack"
+		
+		"pin_to_sibling" "ButtonAnchor"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_TOPLEFT"
+		
+	}
 	
 	
 	
@@ -2510,7 +2543,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CustomButton1"
-		"ypos"		"-150"
+		"ypos"		"-170"
 		"zpos"		"2"
 
 		"tall"		"20"
@@ -2541,7 +2574,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CustomButton2"
-		"ypos"		"-170"
+		"ypos"		"-190"
 		"zpos"		"2"
 
 		"tall"		"20"
@@ -2574,7 +2607,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CustomButton3"
-		"ypos"		"-190"
+		"ypos"		"-210"
 		"zpos"		"2"
 
 		"tall"		"20"
@@ -2607,7 +2640,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CustomButton4"
-		"ypos"		"-210"
+		"ypos"		"-230"
 		"zpos"		"2"
 
 		"tall"		"20"
@@ -2638,7 +2671,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CustomButton5"
-		"ypos"		"-230"
+		"ypos"		"-250"
 		"zpos"		"2"
 
 		"tall"		"20"
@@ -2668,7 +2701,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CustomButton6"
-		"ypos"		"-250"
+		"ypos"		"-270"
 		"zpos"		"2"
 
 		"tall"		"20"
