@@ -16,6 +16,8 @@ HOW TO USE CUSTOMIZATIONS :
 - For addon folders (i.e. health_jrpg) :
 	- Drag and drop them in the "_enabled" folder in order to enable addons.
 	- To disable them, drag them out of the "_enabled" folder.
+	- All addons start with the element that they're replacing, and there should be only addon with the word included.
+	- Some addons include a readme inside, make sure to read them!
 
 
 Feedback, bugs and suggestions : https://discord.gg/4pJeqcJYYs
