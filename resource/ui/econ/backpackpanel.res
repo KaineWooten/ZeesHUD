@@ -152,7 +152,7 @@
 			"use_item_sounds"	"1"
 		}
 	}
-	
+
 	"backpackBG"
 	{
 		"controlname"		"imagepanel"
@@ -165,7 +165,7 @@
 		"image"				"replay/thumbnails/items/items_menu_bg_3"
 		"visible"			"1"
 		"enabled"			"1"
-	
+		"scaleImage"		"1"
 	}
 
 	"ClassLabel"
@@ -532,8 +532,8 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"bgcolor_override"	"ZeesDarkGray"
 	}
-	
-	
+
+
 	// explanations
 
 	"ShowExplanationsButton"
