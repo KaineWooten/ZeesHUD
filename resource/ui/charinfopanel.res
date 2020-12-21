@@ -30,7 +30,7 @@
 		"clientinsetx_override"			"0"
 		"sheetinset_bottom"				"40"
 	}
-	
+
 	"itemsBG"
 	{
 		"controlname"		"imagepanel"
@@ -43,7 +43,7 @@
 		"image"				"replay/thumbnails/items/items_menu_bg_1"
 		"visible"			"1"
 		"enabled"			"1"
-	
+		"scaleImage"		"1"
 	}
 
 	"BackgroundHeader"
