@@ -268,7 +268,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Super Mario Bros. 2 Regular"
+				"name"			"Contra Regular"
 				"tall" 		 	"28"
 				"additive"		"0"
 				"antialias"		"0"
@@ -278,7 +278,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Super Mario Bros. 2 Regular"
+				"name"			"Contra Regular"
 				"tall" 		 	"16"
 				"additive"		"0"
 				"antialias"		"0"
@@ -288,7 +288,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Super Mario Bros. 2 Regular"
+				"name"			"Contra Regular"
 				"tall" 		 	"14"
 				"additive"		"0"
 				"antialias"		"0"
@@ -298,7 +298,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Super Mario Bros. 2 Regular"
+				"name"			"Contra Regular"
 				"tall" 		 	"12"
 				"additive"		"0"
 				"antialias"		"0"
@@ -308,7 +308,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Super Mario Bros. 2 Regular"
+				"name"			"Contra Regular"
 				"tall" 		 	"10"
 				"additive"		"0"
 				"antialias"		"0"
@@ -318,7 +318,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Super Mario Bros. 2 Regular"
+				"name"			"Contra Regular"
 				"tall" 		 	"8"
 				"additive"		"0"
 				"antialias"		"0"
@@ -3382,9 +3382,9 @@ Scheme
 			}
 		"12"
 		{
-			"font"	"resource/fonts/smb2.ttf"
-			"name"	"Super Mario Bros. 2 Regular"
-
+			"font"	"resource/fonts/Contra.ttf"
+			"name"	"Contra Regular"
+		}
 		"13"
 		{
 			"font"	"resource/fonts/SteelfishRg-Regular.ttf"
