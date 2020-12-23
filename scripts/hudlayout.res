@@ -214,9 +214,9 @@
 		"fieldName" 			"DisguiseStatus"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"15"
+		"xpos"					"10"
 		"ypos"					"r40"
-		"wide"					"150"
+		"wide"					"170"
 		"tall"					"30"
 	}
 
@@ -1112,9 +1112,9 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"HudAchievementTracker"
-		"xpos"				"5"
-		"NormalY"			"300"
-		"EngineerY"			"150"
+		"xpos"				"0"
+		"NormalY"			"0"
+		"EngineerY"			"160"
 		"zpos"				"0"
 		"wide"				"200"
 		"tall"				"100"

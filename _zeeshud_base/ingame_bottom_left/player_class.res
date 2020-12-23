@@ -1,4 +1,4 @@
-"_zeeshud_base\resource\ui\HudPlayerClass.res"
+"resource\ui\HudPlayerClass.res"
 {
 	// Player Class Data
 	"HudPlayerClass"
@@ -84,6 +84,7 @@
 		"tall"			"116"
 		"visible"		"0"
 		"enabled"		"1"
+		"enabled_minmode"	"0"
 		"image"			"replay/thumbnails/classframe_red"
 		"scaleImage"	"1"
 		"teambg_2"		"replay/thumbnails/classframe_red"
@@ -100,7 +101,7 @@
 		"ypos_minmode"	"r150"
 		"zpos"			"2"
 		"wide"			"150"
-		"wide_minmode"	"150"
+		"wide_minmode"	"100"
 		"tall"			"200"
 		"tall_minmode"	"150"
 		"autoResize"	"0"

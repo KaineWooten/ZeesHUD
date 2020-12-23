@@ -20,4 +20,4 @@ sv_unlockedchapters 99
 
 // and then the hud
 
-exec ZeesHUD/zeeshud_refract.cfg
+exec ZeesHUD/zeeshud_main.cfg
