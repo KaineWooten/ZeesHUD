@@ -1,5 +1,3 @@
-#base "HudItemEffectMeter_Cleaver.res"
+#base "..\..\_zeeshud_base\ingame_bottom_right\item_meters\meter_heatmaker.res"
 
-"Resource/UI/HudItemEffectMeter_SniperFocus.res"
-{
-}
+// Primary

@@ -1,9 +1,1 @@
-#base "huditemeffectmeter_particlecannon.res"
-
-"Resource/UI/HudItemEffectMeter_Raygun.res"
-{
-	"HudItemEffectMeter"
-	{
-		"ypos"				"r94"
-	}
-}
+#base "..\..\_zeeshud_base\ingame_bottom_right\item_meters\meter_bison.res"

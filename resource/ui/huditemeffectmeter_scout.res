@@ -1,12 +1,1 @@
-#base "huditemeffectmeter.res"
-
-"Resource/UI/HudItemEffectMeter_Scout.res"
-{
-	"HudItemEffectMeter"
-	{
-		"ypos"					"r86"
-
-	}
-	
-	
-}
+#base "..\..\_zeeshud_base\ingame_bottom_right\item_meters\meter_bonk.res"

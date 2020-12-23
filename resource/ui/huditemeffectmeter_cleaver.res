@@ -1,9 +1,3 @@
-#base "huditemeffectmeter.res"
+#base "..\..\_zeeshud_base\ingame_bottom_right\item_meters\meter_cleaver.res"
 
-"Resource/UI/HudItemEffectMeter_Cleaver.res"
-{
-	"HudItemEffectMeter"
-	{
-		"ypos"					"r88"
-	}
-}
+// Secondary

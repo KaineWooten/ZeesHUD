@@ -1,8 +1,1 @@
-#base "huditemeffectmeter_sodapopper.res"
-
-"Resource/UI/HudItemEffectMeter_Scout.res"
-{
-	"HudItemEffectMeter"
-	{
-	}
-}
+#base "..\..\_zeeshud_base\ingame_bottom_right\item_meters\heavy_rage_mvm.res"

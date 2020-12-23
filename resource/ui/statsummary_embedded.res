@@ -9,7 +9,7 @@
 		"wide"			"f0"
 		"tall"			"480"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"bgcolor_override"	"DarkGrey"
 	}
 
@@ -31,7 +31,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"OnYourWayLabel"
-		"font"			"Cerbetica24"
+		"font"			"FUTURA_BOLD_24"
 		"labelText"		"#LoadingMap"
 		"textAlignment"	"west"
 		"xpos"			"0"
@@ -85,13 +85,13 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"StatData"
-		"xpos"			"0"
-		"ypos"			"-130"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"1"
-		"wide"			"f0"
-		"tall"			"480"
-		"visible"		"1"
-		"enabled"		"1"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
 
 		"NonInteractiveHeaders"
 		{
@@ -109,7 +109,7 @@
 			{
 				"ControlName"		"Label"
 				"fieldName"			"BarChartLabelA"
-				"font"				"Cerbetica12"
+				"font"				"FUTURA_BOLD_12"
 				"labelText"			"#StatSummary_StatTitle_MostPoints"
 				"textAlignment"		"east"
 				"xpos"				"c-282"

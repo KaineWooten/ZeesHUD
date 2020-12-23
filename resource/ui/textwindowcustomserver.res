@@ -1,6 +1,1 @@
-#base "TextWindow.res"
-
-"Resource/UI/TextWindowCustomServer.res"
-{
-
-}
+#base "../../_zeeshud_base/ingame_popups/motd.res"

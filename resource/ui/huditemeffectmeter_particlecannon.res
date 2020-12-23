@@ -1,9 +1,1 @@
-#base "huditemeffectmeter_sodapopper.res"
-
-"Resource/UI/HudItemEffectMeter_ParticleCannon.res"
-{
-	"HudItemEffectMeter"
-	{
-		"ypos"				"r126"
-	}
-}
+#base "..\..\_zeeshud_base\ingame_bottom_right\item_meters\meter_cowmangler.res"

@@ -1,10 +1,1 @@
-#base "huditemeffectmeter.res"
-
-"Resource/UI/HudItemEffectMeter_Sapper.res"
-{
-	"HudItemEffectMeter"
-	{
-		"ypos"					"c83"
-		"ypos_minmode"			"c60"
-	}
-}
+#base "..\..\_zeeshud_base\ingame_bottom_right\item_meters\mvm_canteen.res"

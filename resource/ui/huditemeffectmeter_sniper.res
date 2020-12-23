@@ -1,9 +1,1 @@
-#base "huditemeffectmeter_demoman.res"
-
-"Resource/UI/HudItemEffectMeter_Sniper.res"
-{
-	"ItemEffectMeterBar"
-	{
-		"image"			"replay/thumbnails/counter_heads"
-	}
-}
+#base "..\..\_zeeshud_base\ingame_bottom_right\item_meters\meter_bazaar.res"

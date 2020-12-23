@@ -1,30 +1,6 @@
 "Resource/UI/MainMenuOverride.res"
 {
 
-	//=====================================
-	//
-	//		  	HEALTH BAR (doesnt work lol)
-	//
-	//=====================================
-	
-	"hp_bar"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"hp_bar"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/health_color"
-	}
-	"hp_bg"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"hp_bg"
-		"xpos"			"9999"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/health_color"
-	}
 	
 	//=====================================
 	//
