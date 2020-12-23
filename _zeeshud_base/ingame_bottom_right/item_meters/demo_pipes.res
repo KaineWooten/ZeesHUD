@@ -45,10 +45,8 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"PipesPresentPanel"
-		"xpos"				"216"
-		"xpos_minmode"		"274"
-		"ypos"				"110"
-		"ypos_minmode"		"130"
+		"xpos"				"150"
+		"ypos"				"105"
 		"zpos"				"1"
 		"wide"				"100"
 		"tall"				"50"

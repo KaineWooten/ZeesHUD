@@ -1,1 +1,1 @@
-#base "../../_zeeshud_base/ingame_bottom_right/item_meters/meter_ubercharge.res"
+#base "../../_zeeshud_base/ingame_bottom_right/item_meters/medic_uber.res"
