@@ -1113,7 +1113,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"			"HudAchievementTracker"
 		"xpos"				"0"
-		"NormalY"			"0"
+		"NormalY"			"4"
 		"EngineerY"			"160"
 		"zpos"				"0"
 		"wide"				"200"

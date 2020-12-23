@@ -7,28 +7,28 @@
 		"xpos"			"c-250"
 		"ypos"			"110"
 		"zpos"			"0"
-		"wide"			"500"
+		"wide"			"f0"
 		"tall"			"50"
 		"autoResize"	"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"PaintBackgroundType"	"2"
-		"bgcolor_override"		"TransparentBlack"
+		"bgcolor_override"		"ZeesBlack"
 	}
 
 	"SplashLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SplashLabel"
-		"font"			"ScoreboardSmall"
+		"font"			"FUTURA_BOLD_16"
 		"labelText"		""
 		"textAlignment" "center"
 		"xpos"			"c-250"
 		"ypos"			"70"
 		"zpos"			"2"
-		"wide"			"500"
+		"wide"			"f0"
 		"tall"			"50"
 		"autoResize"	"0"
-		"fgcolor"		"White"
+		"fgcolor"		"ZeesWhite"
 	}
 }
