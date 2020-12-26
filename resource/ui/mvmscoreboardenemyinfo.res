@@ -1,1 +1,1 @@
-#base "../../_zeeshud_base/mvm/enemy_status.res"
+#base "../../_zeeshud_base/mvm/enemy_info.res"

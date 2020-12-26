@@ -1,1 +1,1 @@
-#base "..\..\_zeeshud_base\matchmaking\side_panel.res"
+#base "../../_zeeshud_base/matchmaking/side_panel.res"

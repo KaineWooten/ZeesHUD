@@ -1,1 +1,1 @@
-#base "..\..\_zeeshud_base\mvm\mvm_hud_layout.res"
+#base "../../_zeeshud_base/mvm/mvm_hud_layout.res"
