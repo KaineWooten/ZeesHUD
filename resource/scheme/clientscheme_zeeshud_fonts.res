@@ -2,6 +2,189 @@ Scheme
 {
 	Fonts
 	{
+		
+		// ZEESHUD CROSSHAIR NUMBER SIZE
+		
+		"Centered (8)"
+		{
+			"1"
+			{
+				"name"			"Futura PT Bold"
+				"tall" 		 	"8"
+				"additive"		"0"
+				"antialias"		"1"
+				"outline"		"1"
+			}
+		}
+		
+		"Centered (10)"
+		{
+			"1"
+			{
+				"name"			"Futura PT Bold"
+				"tall" 		 	"10"
+				"additive"		"0"
+				"antialias"		"1"
+				"outline"		"1"
+			}
+		}
+		
+		"Centered (12)"
+		{
+			"1"
+			{
+				"name"			"Futura PT Bold"
+				"tall" 		 	"12"
+				"additive"		"0"
+				"antialias"		"1"
+				"outline"		"1"
+			}
+		}
+		
+		"Centered (14)"
+		{
+			"1"
+			{
+				"name"			"Futura PT Bold"
+				"tall" 		 	"14"
+				"additive"		"0"
+				"antialias"		"1"
+				"outline"		"1"
+			}
+		}
+		
+		"Centered (16)"
+		{
+			"1"
+			{
+				"name"			"Futura PT Bold"
+				"tall" 		 	"16"
+				"additive"		"0"
+				"antialias"		"1"
+				"outline"		"1"
+			}
+		}
+		
+		"Centered (8) (O)"
+		{
+			"1"
+			{
+				"name"			"Futura PT Bold"
+				"tall" 		 	"8"
+				"additive"		"0"
+				"antialias"		"1"
+				"outline"		"1"
+			}
+		}
+		
+		"Centered (10) (O)"
+		{
+			"1"
+			{
+				"name"			"Futura PT Bold"
+				"tall" 		 	"10"
+				"additive"		"0"
+				"antialias"		"1"
+				"outline"		"1"
+			}
+		}
+		
+		"Centered (12) (O)"
+		{
+			"1"
+			{
+				"name"			"Futura PT Bold"
+				"tall" 		 	"12"
+				"additive"		"0"
+				"antialias"		"1"
+				"outline"		"1"
+			}
+		}
+		
+		"Centered (14) (O)"
+		{
+			"1"
+			{
+				"name"			"Futura PT Bold"
+				"tall" 		 	"14"
+				"additive"		"0"
+				"antialias"		"1"
+				"outline"		"1"
+			}
+		}
+		
+		"Centered (16) (O)"
+		{
+			"1"
+			{
+				"name"			"Futura PT Bold"
+				"tall" 		 	"16"
+				"additive"		"0"
+				"antialias"		"1"
+				"outline"		"1"
+			}
+		}
+		"Centered (8) (S)"
+		{
+			"1"
+			{
+				"name"			"Futura PT Bold"
+				"tall" 		 	"8"
+				"additive"		"0"
+				"antialias"		"1"
+				"shadow"		"1"
+			}
+		}
+		
+		"Centered (10) (S)"
+		{
+			"1"
+			{
+				"name"			"Futura PT Bold"
+				"tall" 		 	"10"
+				"additive"		"0"
+				"antialias"		"1"
+				"shadow"		"1"
+			}
+		}
+		
+		"Centered (12) (S)"
+		{
+			"1"
+			{
+				"name"			"Futura PT Bold"
+				"tall" 		 	"12"
+				"additive"		"0"
+				"antialias"		"1"
+				"shadow"		"1"
+			}
+		}
+		
+		"Centered (14) (S)"
+		{
+			"1"
+			{
+				"name"			"Futura PT Bold"
+				"tall" 		 	"14"
+				"additive"		"0"
+				"antialias"		"1"
+				"shadow"		"1"
+			}
+		}
+		
+		"Centered (16) (S)"
+		{
+			"1"
+			{
+				"name"			"Futura PT Bold"
+				"tall" 		 	"16"
+				"additive"		"0"
+				"antialias"		"1"
+				"shadow"		"1"
+			}
+		}
+		
+	
 		// ZEESHUD DAMAGE NUMBERS
 		
 		"Damage (16)"

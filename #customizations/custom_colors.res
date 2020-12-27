@@ -62,6 +62,12 @@ Scheme
 		"Ammo Clip Low Shadow"		"71 9 31 255"
 		"Ammo Reserve Low"			"255 164 164 255"
 		"Ammo Reserve Low Shadow"	"71 9 31 255"
+		
+		//---------------------------------------------
+		// Misc Colors
+		//		Affects various HUD elements' colors.
+		//---------------------------------------------
+		"Metal Counter"				"255 255 255 255"
 	}
 	
 }

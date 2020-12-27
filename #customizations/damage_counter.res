@@ -25,17 +25,40 @@
 	// the damage number under the crosshair
 	"DamageAccountValue"
 	{
-		// set both of these to 0 to disable
+		// set both of these to "0" to disable, "1" to enable
 		"visible"			"1"
 		"enabled"			"1"
-	}
-	
-	// the shadow of the damage number under the crosshair
-	"DamageAccountValueShadow"
-	{
-		// also set both of these to 0 to disable
-		"visible"			"1"
-		"enabled"			"1"
+		
+		// adjust the text size 
+			// FONT OPTIONS :
+			// "Centered ([8-10-12-14-16]) (S)" for Shadow
+			// "Centered ([8-10-12-14-16]) (O)" for Outline
+			// "Centered ([8-10-12-14-16])" for no extras
+		"font"				"Centered (12) (S)"
+		
+		// adjust the position however you like
+		"xpos"				"c-25"
+		"ypos"				"c5"
+		"textAlignment"		"center"
+
+			//PRESETS
+			/////////BOTTOM///////
+			// "xpos"				"c-25"
+			// "ypos"				"c5"
+			// "textAlignment"		"center"
+			//////////RIGHT////////
+			// "xpos"				"c15"
+			// "ypos"				"c-15"
+			// "textAlignment"		"west"
+			//////////LEFT/////////
+			// "xpos"				"c-65"
+			// "ypos"				"c-15"
+			// "textAlignment"		"east"
+			///////////TOP/////////
+			// "xpos"				"c-25"
+			// "ypos"				"c-35"
+			// "textAlignment"		"center"
+		
 	}
 	
 	// colors can be set in "custom_colors.res"

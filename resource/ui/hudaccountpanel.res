@@ -1,3 +1,6 @@
+//CENTERED METAL (OVERWRITES ALL CUSTOMIZATION OPTIONS)
+#base "../../#customizations/_enabled/metal_centered/metal_account.res"
+
 //zeeshud style
 #base "../../#customizations/_enabled/buildings_comicstyle/metal_account.res"
 
