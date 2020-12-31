@@ -13,17 +13,15 @@
 		"visible"			"0"
 		"enabled"			"0"
 		
-		//check "Crosshair_List.png" in the customization folder, and set the LabelText character to the crosshair you want.
+		//check "Crosshair_List.png" in the customization folder, and set the LabelText input to the crosshair you want.
 		"labelText"			"<"
 		
 		// set the size inbetween 10 and 30, and then followed by an option.
+		// input should be "Size:[10-30] | Outline:[ON/OFF]"
 		"font"				"Size:18 | Outline:OFF"
 		
 		// OPTIONS :
-		// Size:[10-30]
-		// Outline:[ON/OFF]
-		// Shadow:[ON]
-		// Blur:[ON]
+		// 
 		
 		
 		

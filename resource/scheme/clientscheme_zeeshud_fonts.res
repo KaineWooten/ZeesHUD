@@ -13,7 +13,6 @@ Scheme
 				"tall" 		 	"8"
 				"additive"		"0"
 				"antialias"		"1"
-				"outline"		"1"
 			}
 		}
 		
@@ -25,7 +24,6 @@ Scheme
 				"tall" 		 	"10"
 				"additive"		"0"
 				"antialias"		"1"
-				"outline"		"1"
 			}
 		}
 		
@@ -37,7 +35,6 @@ Scheme
 				"tall" 		 	"12"
 				"additive"		"0"
 				"antialias"		"1"
-				"outline"		"1"
 			}
 		}
 		
@@ -49,7 +46,6 @@ Scheme
 				"tall" 		 	"14"
 				"additive"		"0"
 				"antialias"		"1"
-				"outline"		"1"
 			}
 		}
 		
@@ -61,7 +57,6 @@ Scheme
 				"tall" 		 	"16"
 				"additive"		"0"
 				"antialias"		"1"
-				"outline"		"1"
 			}
 		}
 		
@@ -122,65 +117,6 @@ Scheme
 				"additive"		"0"
 				"antialias"		"1"
 				"outline"		"1"
-			}
-		}
-		"Centered (8) (S)"
-		{
-			"1"
-			{
-				"name"			"Futura PT Bold"
-				"tall" 		 	"8"
-				"additive"		"0"
-				"antialias"		"1"
-				"shadow"		"1"
-			}
-		}
-		
-		"Centered (10) (S)"
-		{
-			"1"
-			{
-				"name"			"Futura PT Bold"
-				"tall" 		 	"10"
-				"additive"		"0"
-				"antialias"		"1"
-				"shadow"		"1"
-			}
-		}
-		
-		"Centered (12) (S)"
-		{
-			"1"
-			{
-				"name"			"Futura PT Bold"
-				"tall" 		 	"12"
-				"additive"		"0"
-				"antialias"		"1"
-				"shadow"		"1"
-			}
-		}
-		
-		"Centered (14) (S)"
-		{
-			"1"
-			{
-				"name"			"Futura PT Bold"
-				"tall" 		 	"14"
-				"additive"		"0"
-				"antialias"		"1"
-				"shadow"		"1"
-			}
-		}
-		
-		"Centered (16) (S)"
-		{
-			"1"
-			{
-				"name"			"Futura PT Bold"
-				"tall" 		 	"16"
-				"additive"		"0"
-				"antialias"		"1"
-				"shadow"		"1"
 			}
 		}
 		
