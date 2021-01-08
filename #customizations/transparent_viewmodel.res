@@ -1,3 +1,5 @@
+// TRANSPARENT VIEWMODEL IS KNOWN TO REALLY SCREW OVER YOUR GRAPHICS. USE THIS WITH CAUTION.
+
 "Customizations/Transparent_Viewmodel.res"
 {
 	//--------------------------------------------------------------

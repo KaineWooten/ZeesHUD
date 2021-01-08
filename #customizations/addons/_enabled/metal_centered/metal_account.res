@@ -1,4 +1,4 @@
-#base "../../centered_metal_counter.res"
+#base "../../../centered_metal_counter.res"
 "Resource/UI/HudAccountPanel.res"
 {
 	"CHudAccountPanel"
@@ -90,21 +90,19 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"AccountValueShadow"
-		"xpos"				"-2"
-		"ypos"				"-2"
+		"xpos"				"-1"
+		"ypos"				"-1"
 		"zpos"				"2"
 		"wide"				"50"
-		"tall"				"20"
+		"tall"				"30"
 		"autoResize"		"1"
 		"pinCorner"			"2"
-		"visible"			"0"
-		"enabled"			"0"
+
 		"tabPosition"		"0"
 		"labelText"			"%metal%"
-		"textAlignment"		"west"
+		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"font"				"NOKIA_24"
 		"fgcolor"			"0 0 0 255"
 
 		"pin_to_sibling"		"AccountValue"

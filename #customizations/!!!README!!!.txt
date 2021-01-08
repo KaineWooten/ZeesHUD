@@ -13,8 +13,8 @@ HOW TO USE CUSTOMIZATIONS :
 	- Open them using Notepad++ or any other text editor.
 	- Follow the guide available in these files to modify the HUD.
 
-- For addon folders (i.e. health_jrpg) :
-	- Drag and drop them in the "_enabled" folder in order to enable addons.
+- For files in the "addons" folder :
+	- Drag and drop addon folders in the "_enabled" folder in order to enable addons.
 	- To disable them, drag them out of the "_enabled" folder.
 	- All addons start with the element that they're replacing, and there should be only addon with the word included.
 	- Some addons include a readme inside, make sure to read them!

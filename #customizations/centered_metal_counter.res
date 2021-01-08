@@ -6,9 +6,18 @@
 	{
 		// adjust the text size 
 			// FONT OPTIONS :
-			// "Centered ([8-10-12-14-16]) (S)" for Shadow
 			// "Centered ([8-10-12-14-16]) (O)" for Outline
 			// "Centered ([8-10-12-14-16])" for no extras
-		"font"				"Centered (12) (O)"
+		"font"				"Centered (12)"
+	}
+	
+	"AccountValueShadow"
+	{
+		//set both of these to 1 to enable"
+		"visible"			"1"
+		"enabled"			"1"
+		//set the font to the same as the font in AccountValue
+		"font"				"Centered (12)"
+		
 	}
 }
