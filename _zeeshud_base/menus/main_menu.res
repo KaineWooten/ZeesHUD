@@ -184,11 +184,11 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"TFLogoImage"
-		"xpos"			"-15"
-		"ypos"			"35"
+		"xpos"			"0"
+		"ypos"			"25"
 		"zpos"			"0"
-		"wide"			"350"
-		"tall"			"175"
+		"wide"			"180"
+		"tall"			"90"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/menu/logo"
@@ -214,8 +214,8 @@
 	{
 		"ControlName"	"CPvPRankPanel"
 		"fieldName"		"RankModelPanel"
-		"xpos"			"120"
-		"ypos"			"r442"
+		"xpos"			"80"
+		"ypos"			"r432"
 		"zpos"			"0"
 		"wide"			"170"
 		"tall"			"800"
@@ -230,8 +230,8 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CycleRankTypeButton"
-		"xpos"			"240"
-		"ypos"			"r32"
+		"xpos"			"200"
+		"ypos"			"r22"
 		"zpos"			"1"
 		"wide"			"15"
 		"tall"			"15"
@@ -285,11 +285,11 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"RankTooltipPanel"
-		"xpos"			"c-285"
-		"ypos"			"r16"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"-1"
 		"wide"			"0"
-		"tall"			"8"
+		"tall"			"0"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"1"
@@ -302,10 +302,10 @@
 	{
 		"ControlName"	"CPvPRankPanel"
 		"fieldName"		"RankPanel"
-		"xpos"			"0"
-		"ypos"			"r72"
+		"xpos"			"-25"
+		"ypos"			"r60"
 		"zpos"			"0"
-		"wide"			"170"
+		"wide"			"140"
 		"tall"			"50"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
@@ -319,8 +319,8 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"NoGCMessage"
-		"xpos"			"10"
-		"ypos"			"r64"
+		"xpos"			"0"
+		"ypos"			"r50"
 		"zpos"			"99"
 		"wide"			"260"
 		"tall"			"100"
@@ -342,8 +342,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"NoGCImage"
-		"xpos"			"230"
-		"ypos"			"r64"
+		"xpos"			"220"
+		"ypos"			"r50"
 		"zpos"			"99"
 		"wide"			"30"
 		"tall"			"30"
@@ -1095,127 +1095,7 @@
 		"visible"		"0"
 	}
 
-	"FriendsContainer"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldname"		"FriendsContainer"
-		"xpos"			"40"
-		"ypos"			"230"
-		"zpos"			"20"
-		"wide"			"240"
-		"tall"			"150"
-		"visible"		"1"
-		"bgcolor_override"	"ZeesNull"
-
-		"TitleLabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"TitleLabel"
-			"font"			"FUTURA_BOLD_20"
-			"labelText"		"#TF_Competitive_Friends"
-			"textAlignment"	"center"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"260"
-			"tall"			"20"
-			"visible"		"0"
-			"enabled"		"0"
-			"fgcolor_override"	"ZeesWhite"
-		}
-
-		"InnerShadow"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldname"		"InnerShadow"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"501"
-			"wide"			"f20"
-			"tall"			"150"
-			"visible"		"0"
-			"PaintBackgroundType"	"0"
-			"proportionaltoparent"	"1"
-			"mouseinputenabled"	"0"
-
-			"paintborder"	"0"
-			"border"		"InnerShadowBorder"
-		}
-
-		"SteamFriendsList"
-		{
-			"ControlName"	"CSteamFriendsListPanel"
-			"fieldname"		"SteamFriendsList"
-			"xpos"			"0"
-			"ypos"			"10"
-			"zpos"			"500"
-			"wide"			"240"
-			"tall"			"140"
-			"visible"		"1"
-			"proportionaltoparent"	"1"
-
-			"columns_count"	"2"
-			"inset_x"		"5"
-			"inset_y"		"0"
-			"row_gap"		"5"
-			"column_gap"	"5"
-			"restrict_width"	"0"
-
-			"friendpanel_kv"
-			{
-				"wide"			"110"
-				"tall"			"20"
-				"border"		"ZeesBorderFriends"
-			}
-
-			"ScrollBar"
-			{
-				"ControlName"	"ScrollBar"
-				"FieldName"		"ScrollBar"
-				"xpos"			"rs1-1"
-				"ypos"			"0"
-				"tall"			"f0"
-				"wide"			"3"
-				"zpos"			"1000"
-				"nobuttons"		"1"
-				"proportionaltoparent"	"1"
-
-				"Slider"
-				{
-					"fgcolor_override"	"ZeesWhite"
-				}
-
-				"UpButton"
-				{
-					"ControlName"	"Button"
-					"FieldName"		"UpButton"
-					"visible"		"0"
-				}
-
-				"DownButton"
-				{
-					"ControlName"	"Button"
-					"FieldName"		"DownButton"
-					"visible"		"0"
-				}
-			}
-		}
-
-		"BelowDarken"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldname"		"BelowDarken"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"499"
-			"wide"			"f20"
-			"tall"			"150"
-			"visible"		"1"
-			"PaintBackgroundType"	"0"
-			"proportionaltoparent"	"1"
-			"mouseinputenabled"	"0"
-			"bgcolor_override"	"0 0 0 100"
-		}
-	}
+	
 
 	"HudName"
 	{
@@ -1289,8 +1169,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"IconAnchor"
-		"xpos"			"305"
-		"ypos"			"165"
+		"xpos"			"10"
+		"ypos"			"c-116"
 		"wide"			"0"
 		"tall"			"0"
 		"visible"		"1"
@@ -1909,8 +1789,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ButtonAnchor"
-		"xpos"			"370"
-		"ypos"			"c-138"
+		"xpos"			"60"
+		"ypos"			"c-130"
 		"wide"			"0"
 		"tall"			"0"
 		"visible"		"1"
@@ -1922,7 +1802,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CharacterSetupButton"
-		"xpos"		"5"
+		"xpos"		"0"
 		"ypos"		"0"
 		"wide"		"120"
 		"tall"		"44"
@@ -1973,7 +1853,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"GeneralStoreButton"
 		"xpos"		"21"
-		"ypos"		"-44"
+		"ypos"		"-42"
 		"wide"		"120"
 		"tall"		"44"
 		"visible"		"1"
@@ -2030,7 +1910,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"SettingButton"
 		"xpos"		"6"
-		"ypos"		"-88"
+		"ypos"		"-83"
 		"wide"		"120"
 		"tall"		"44"
 		"visible"		"1"
@@ -2078,7 +1958,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"TF2SettingsButton"
 		"xpos"		"-112"
-		"ypos"		"-102"
+		"ypos"		"-100"
 		"zpos"		"3"
 		"wide"		"22"
 		"tall"		"22"
@@ -2123,8 +2003,8 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"SteamWorkshopButton"
-		"xpos"		"-1"
-		"ypos"		"-130"
+		"xpos"		"-10"
+		"ypos"		"-124"
 		"zpos"		"2"
 		"wide"		"83"
 		"tall"		"20"
@@ -2139,7 +2019,7 @@
 		"textinsetx"	"10"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		
+		"command"		"OpenTF2Options"
 		"border_default"		"ZeesMenuButton"
 		"border_armed"			"ZeesMenuButtonSelect"
 
@@ -2157,7 +2037,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"ToggleMinmodeButton"
 		"xpos"		"15"
-		"ypos"		"-151"
+		"ypos"		"-145"
 		"zpos"		"2"
 		"wide"		"130"
 		"tall"		"20"
@@ -2193,7 +2073,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"BGPanel1"
-		"xpos"			"-50"
+		"xpos"			"-260"
 		"ypos"			"0"
 		"zpos"			"-55"
 		"wide"			"480"
@@ -2209,7 +2089,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"BGPanel1Edge"
-		"xpos"			"430"
+		"xpos"			"220"
 		"ypos"			"0"
 		"zpos"			"-55"
 		"wide"			"15"
@@ -2221,28 +2101,14 @@
 		"drawcolor"		"ZeesMain"
 	}
 	
-	//friends
-	"BGPanel2"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BGPanel2"
-		"xpos"			"10"
-		"ypos"			"r326"
-		"zpos"			"-54"
-		"wide"			"300"
-		"tall"			"300"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/menu/friends_tab"
-		"scaleImage"	"1"
-	}
+	
 	//rank
 	"BGPanel3"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"BGPanel3"
-		"xpos"			"0"
-		"ypos"			"r180"
+		"xpos"			"-30"
+		"ypos"			"r170"
 		"zpos"			"-52"
 		"wide"			"360"
 		"tall"			"180"
@@ -2267,21 +2133,31 @@
 		"image"			"replay/thumbnails/menu/banner"
 		"scaleImage"	"1"
 	}
+	"BGBannerExtended"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BGBannerExtended"
+		"xpos"			"r880"
+		"ypos"			"r73"
+		"zpos"			"-60"
+		"wide"			"440"
+		"tall"			"55"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/menu/banner"
+		"scaleImage"	"1"
+	}
 	
 	"BGBannerColor"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"BGBannerColor"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"r73"
 		"zpos"			"-61"
-		"wide"			"440"
+		"wide"			"f0"
 		"tall"			"55"
 		"bgcolor_override"	"ZeesMain"
-		
-		"pin_to_sibling" "BGBanner"
-		"pin_corner_to_sibling" "PIN_TOPLEFT"
-		"pin_to_sibling_corner" "PIN_TOPLEFT"
 	}
 	
 	"SupportLabelTop"
@@ -2540,7 +2416,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CustomButton1"
-		"ypos"		"-170"
+		"ypos"		"-165"
 		"zpos"		"2"
 
 		"tall"		"20"
@@ -2571,7 +2447,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CustomButton2"
-		"ypos"		"-190"
+		"ypos"		"-185"
 		"zpos"		"2"
 
 		"tall"		"20"
@@ -2604,7 +2480,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CustomButton3"
-		"ypos"		"-210"
+		"ypos"		"-205"
 		"zpos"		"2"
 
 		"tall"		"20"
@@ -2637,7 +2513,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CustomButton4"
-		"ypos"		"-230"
+		"ypos"		"-225"
 		"zpos"		"2"
 
 		"tall"		"20"
@@ -2668,7 +2544,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CustomButton5"
-		"ypos"		"-250"
+		"ypos"		"-245"
 		"zpos"		"2"
 
 		"tall"		"20"
@@ -2698,7 +2574,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CustomButton6"
-		"ypos"		"-270"
+		"ypos"		"-265"
 		"zpos"		"2"
 
 		"tall"		"20"
