@@ -764,11 +764,11 @@
 		"fieldName"			"WinPanel"
 		"visible"			"1"
 		"enabled"			"1"
-		"xpos"				"c-100"
-		"ypos"				"270"
+		"xpos"				"0"
+		"ypos"				"r155"
 		"zpos"				"1"
-		"wide"				"200"
-		"tall"				"300"
+		"wide"				"f0"
+		"tall"				"156"
 	}
 
 	ArenaWinPanel
