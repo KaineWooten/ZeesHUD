@@ -1,6 +1,1 @@
-#base "meter_cleaver.res"
-
-"Resource/UI/HudItemEffectMeter_SpyKnife.res"
-{
-
-}
+#base "meter_default_2.res"
