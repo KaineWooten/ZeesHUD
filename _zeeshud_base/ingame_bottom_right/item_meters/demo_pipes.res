@@ -28,7 +28,7 @@
 		"xpos"				"60"
 		"ypos"				"5"
 		"zpos"				"2"
-		"wide"				"29"
+		"wide"				"30"
 		"tall"				"2"
 		"autoResize"		"0"
 		"pinCorner"			"0"
@@ -38,7 +38,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"fgcolor_override"	"White"
-		"alpha"				"124"
+		"alpha"				"200"
 	}
 
 	"PipesPresentPanel"
