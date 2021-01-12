@@ -1,4 +1,5 @@
 #base "../#customizations/crosshairs.res"
+#base "../#customizations/hitmarker.res"
 #base "../#customizations/transparent_viewmodel.res"
 
 //centered metal

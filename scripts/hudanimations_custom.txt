@@ -153,7 +153,9 @@ event DamagedPlayer
 event HitMarker
 {
 	Animate	CustomCrosshair					FgColor		"CrosshairDamage"	Linear 0.0	0.0
+	Animate	CustomHitmarker					Alpha		"255"				Linear 0.0	0.0
 	Animate	CustomCrosshair					FgColor		"Crosshair"			Linear 0.15	0.0
+	Animate	CustomHitmarker					Alpha		"0"					Accel  0.15	0.0
 }
 //==================================================================================
 // Spy Disguise

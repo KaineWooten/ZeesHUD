@@ -21,6 +21,12 @@ Scheme
 		"CrosshairDamage"			"255 0 0 255"
 		
 		//---------------------------------------------
+		// Hitmarker Colors
+		//		Affects the custom HUD hitmarker.
+		//---------------------------------------------
+		"Hitmarker"					"255 0 90 255"
+		
+		//---------------------------------------------
 		// Damage Colors
 		//		Affects the damage numbers' colors.
 		//---------------------------------------------
