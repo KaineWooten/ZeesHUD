@@ -3,41 +3,54 @@
 	//--------------------------------------------------------------
 	// HUD CROSSHAIR
 	//--------------------------------------------------------------
-	// Set visible and enabled to 1 to use.
-	// Change xpos and ypos values if not perfectly centered.
-	// Change labelText to the corresponding crosshair in TF2Crosshairs.png.
-	//--------------------------------------------------------------
 	CustomCrosshair
 	{
-		//set both of these to "1" to enable the HUD crosshair.
-		"visible"			"0"
-		"enabled"			"0"
+		//=========================================================================
+		// CROSSHAIR VISIBILITY
+		//=========================================================================
+		// "visible" "1" = Enabled  "visible" "0" = Disabled
+		//=========================================================================
 		
-		//check "Crosshair_List.png" in the customization folder, and set the LabelText input to the crosshair you want.
-		"labelText"			"<"
+		"visible"	"1"																																																																			"controlName" "CExLabel" "fieldName" "CustomCrosshair" "wide" "f0" "tall" "f0" "enabled" "1" "zpos" "0" "textAlignment" "center"
 		
-		// set the size inbetween 10 and 30, and then followed by an option.
-		// input should be "Size:[10-30] | Outline:[ON/OFF]"
-		"font"				"Size:18 | Outline:OFF"
+		//=========================================================================
+		// CROSSHAIR TYPE
+		//-------------------------------------------------------------------------
+		// The "labelText" can be changed to display different types of crosshairs
+		// each alphabet letter / symbol represents a different crosshair
+		// Checkout the different options in the TF2Crosshairs.png
+		//=========================================================================
 		
-		// OPTIONS :
-		// 
+		"labelText"	"?"
 		
+		//=========================================================================
+		// CROSSHAIR SIZE & PROPERTIES
+		//-------------------------------------------------------------------------
+		// The crosshair size can be any number between 10 and 30
+		// The Outline can be toggled between ON and OFF
+		//=========================================================================
 		
+		"font"		"Size:18 | Outline:OFF"
 		
-		// you can change the color in "custom_colors.res". changing this value might break the crosshair.
-		"fgcolor"			"Crosshair" 
+		//=========================================================================
+		// CROSSHAIR POSITION
+		//-------------------------------------------------------------------------
+		// "xpos" represents the horizontal crosshair position
+		// "ypos" represents the vertical crosshair position
+		// Adjust the values in order to perfectly center the crosshair
+		//=========================================================================
 		
-		// i recommend not touching these at all.
-		"controlName"		"CExLabel"
-		"fieldName"			"CustomCrosshair"
-		"zpos"				"2"
-		"xpos"				"c-50"
-		"ypos"				"c-49"
-		"wide"				"100"
-		"tall"				"100"
-		"textAlignment"		"center"
+		"xpos"		"cs-0.4999"
+		"ypos"		"cs-0.4990"
 		
+		//=========================================================================
+		// CROSSHAIR COLOR
+		//-------------------------------------------------------------------------
+		// The color is a R. (red) G. (green) B. (blu) A. (alpha) code
+		// Adjust each value to get the desired color
+		//=========================================================================
+		
+		"fgcolor"	"255 255 255 255"
 	}
 	
 }
