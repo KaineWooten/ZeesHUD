@@ -14,10 +14,10 @@
 			// 16, 20, 24, 28, 32, 36, 40, 44, 48, 52, 56
 		
 		// regular damage
-		"delta_item_font"		"Damage (32)"
+		"delta_item_font"		"Damage (20)"
 		
 		// crit damage
-		"delta_item_font_big"	"Damage (48)"
+		"delta_item_font_big"	"Damage (28)"
 		
 		
 	}
