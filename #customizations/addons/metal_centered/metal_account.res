@@ -84,6 +84,7 @@
 		"labelText"			"%metal%"
 		"dulltext"			"0"
 		"brighttext"		"0"
+		"fgcolor"			"Metal Centered"
 	}
 
 	"AccountValueShadow"
@@ -103,7 +104,7 @@
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"fgcolor"			"0 0 0 255"
+		"fgcolor"			"Metal Centered Shadow"
 
 		"pin_to_sibling"		"AccountValue"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"

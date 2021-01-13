@@ -71,9 +71,12 @@ Scheme
 		
 		//---------------------------------------------
 		// Misc Colors
-		//		Affects various HUD elements' colors.
+		//		Affects various other HUD elements' colors.
 		//---------------------------------------------
-		"Metal Counter"				"255 255 255 255"
+		"Metal Centered"			"255 255 255 255"
+		"Metal Centered Shadow"		"0 0 0 255"
+		"Uber Centered"				"255 255 255 255"
+		"Uber Centered Shadow"		"0 0 0 255"
 	}
 	
 }
