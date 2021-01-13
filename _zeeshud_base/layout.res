@@ -80,10 +80,10 @@
 		"fieldName"			"HudDemomanCharge"
 		"visible"			"1"
 		"enabled"			"1"
-		"xpos"				"c-100"
-		"ypos"				"c120"
-		"wide"				"192"
-		"tall"				"64"
+		"xpos"				"0"
+		"ypos"				"0"
+		"wide"				"f0"
+		"tall"				"480"
 		"MeterFG"			"White"
 		"MeterBG"			"Gray"
 	}
@@ -929,11 +929,11 @@
 		"fieldName"			"HudDemomanPipes"
 		"visible"			"1"
 		"enabled"			"1"
-		"xpos"				"c-75"
-		"ypos"				"c10"
+		"xpos"				"0"
+		"ypos"				"0"
 		"zpos"				"3"
-		"wide"				"500"
-		"tall"				"500"
+		"wide"				"f0"
+		"tall"				"480"
 	}
 
 	HudTeamGoal
