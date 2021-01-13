@@ -69,7 +69,7 @@
 		"fieldName"			"TargetNameLabel"
 		"font"				"FUTURA_BOLD_16"
 		"xpos"				"45"
-		"ypos"				"4"
+		"ypos"				"3"
 		"zpos"				"7"
 		"wide"				"300"
 		"tall"				"20"
@@ -84,7 +84,7 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"			"TargetDataLabel"
-		"font"				"NOKIA_8"
+		"font"				"FUTURA_BOLD_8"
 		"xpos"				"0"
 		"ypos"				"15"
 		"zpos"				"6"

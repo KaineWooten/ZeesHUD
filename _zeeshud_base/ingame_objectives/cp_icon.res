@@ -25,7 +25,12 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
-
+	"CapImage"
+	{
+		"tileImage"		"0"
+		"wide"			"56"
+		"tall"			"28"
+	}
 	"CapPlayerImage"
 	{
 		"ControlName"	"ImagePanel"

@@ -46,7 +46,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"GuiPlayerHealth"
-		"xpos"			"-19"
+		"xpos"			"-17"
 		"ypos"			"7"
 		"zpos"			"5"
 		"wide"			"55"
