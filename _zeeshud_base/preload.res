@@ -127,6 +127,33 @@
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_e"
 	}
+	"cpcapblu"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"cpcapblu"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../sprites/obj_icons/icon_obj_cap_blu"
+	}
+	"cpcapred"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"cpcapred"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../sprites/obj_icons/icon_obj_cap_red"
+	}
+	"cpcapmask"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"cpcapmask"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../sprites/obj_icons/icon_obj_cap_mask"
+	}
 	
 	//=====================================
 	//
