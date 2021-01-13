@@ -38,7 +38,7 @@
 		"xpos"			"0"
 		"xpos_minmode"	"0"
 		"ypos"			"0"
-		"wide"			"00
+		"wide"			"00"
 		"tall"			"116"
 		"visible"		"0"
 		"enabled"		"0"

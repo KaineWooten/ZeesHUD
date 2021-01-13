@@ -38,7 +38,7 @@
 		"xpos"			"0"
 		"xpos_minmode"	"0"
 		"ypos"			"0"
-		"wide"			"00
+		"wide"			"00"
 		"tall"			"116"
 		"visible"		"0"
 		"enabled"		"0"
@@ -98,7 +98,7 @@
 		"fieldName"		"classmodelpanel"
 		"xpos"			"35"
 		"xpos_minmode"	"c-310"
-		"ypos"			"r200"
+		"ypos"			"r220"
 		"ypos_minmode"	"r210"
 		"zpos"			"2"
 		"wide"			"150"
