@@ -980,7 +980,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Notifications_Panel"
-		"xpos"			"c60"
+		"xpos"			"200"
 		"ypos"			"c-88"
 		"zpos"			"1"
 		"wide"			"210"
