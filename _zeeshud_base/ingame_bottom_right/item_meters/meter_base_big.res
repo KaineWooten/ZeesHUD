@@ -2,41 +2,45 @@
 
 "Resource/UI/meter_big.res"
 {
+
 	"HudItemEffectMeter"
 	{
-		"xpos"				"c-100"
-		"ypos"				"c120"
-		"wide"				"192"
-		"tall"				"64"
+		"xpos"			"r170"
+		"ypos"			"r116"
+		"zpos"			"3"
+		"wide"			"100"
+		"tall"			"100"
 	}
-	
 	"ItemEffectMeterBar"
 	{
-		"xpos"			"0"
-		"ypos"			"-10"
-		"zpos"			"3"
-		"wide"			"192"
-		"tall"			"48"
-		"image"			"replay/thumbnails/chargebar_title"
+		"image"			"replay/thumbnails/top_meter_red"
+		"teambg_1"		"replay/thumbnails/top_meter_blu"
+		"teambg_2"		"replay/thumbnails/top_meter_red"
+		"teambg_3"		"replay/thumbnails/top_meter_blu"
 	}
+	
+	"ItemEffectMeterBarMask"
+	{
+		"image"			"replay/thumbnails/top_meter_mask"
+	}
+	
+
 	
 	"ItemEffectMeterLabel"
 	{
-		"xpos"				"6"
-		"ypos"				"5"
-		"zpos"				"6"
-		"wide"				"80"
-		"tall"				"16"
-		"textAlignment"		"west"
-		"font"				"GAMERIA_12"
+		"xpos"				"20"
+		"ypos"				"11"
+		"font"				"GAMERIA_10"
+
+		
 	}
 	
 	"ItemEffectMeter"
 	{
-		"xpos"				"7"
-		"ypos"				"21"
-		"zpos"				"2"
-		"wide"				"177"
-		"tall"				"12"
+		"xpos"				"-20"
+		"ypos"				"-15"
+		"wide"				"70"
+		"tall"				"22"
+
 	}
 }

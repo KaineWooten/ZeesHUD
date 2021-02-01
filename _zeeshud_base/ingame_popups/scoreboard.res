@@ -1062,7 +1062,7 @@
 		"Assists2"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"Assists"
+			"fieldName"		"Assists2"
 			"font"			"HudFontGiantBold"
 			"labelText"		"%assists%"
 			"textAlignment"	"center"
@@ -1291,7 +1291,7 @@
 		"Domination2"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"Domination"
+			"fieldName"		"Domination2"
 			"font"			"FUTURA_BOLD_10"
 			"labelText"		"%dominations%"
 			"textAlignment"	"west"

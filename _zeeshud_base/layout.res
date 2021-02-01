@@ -17,12 +17,10 @@
 		"fieldName"			"HudWeaponAmmo"
 		"visible"			"1"
 		"enabled"			"1"
-		"xpos"				"r350"
-		"xpos_minmode"		"c0"
-		"ypos"				"r250"
-		"ypos_minmode"		"r275"
-		"wide"				"350"
-		"tall"				"250"
+		"xpos"				"0"
+		"ypos"				"0"
+		"wide"				"f0"
+		"tall"				"480"
 	}
 
 	HudObjectiveStatus
@@ -169,10 +167,8 @@
 	CHudAccountPanel
 	{
 		"fieldName"				"CHudAccountPanel"
-		"xpos"					"r220"
-		"xpos_minmode"			"c130"
-		"ypos"					"r60"
-		"ypos_minmode"			"c154"
+		"xpos"					"r150"
+		"ypos"					"r65"
 		"zpos"					"0"
 		"wide"					"100"
 		"tall"  				"70"
@@ -211,8 +207,8 @@
 		"fieldName" 			"DisguiseStatus"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"10"
-		"ypos"					"r40"
+		"xpos"					"60"
+		"ypos"					"r38"
 		"wide"					"170"
 		"tall"					"30"
 	}
@@ -868,7 +864,7 @@
 		"xpos"				"10"
 		"ypos"				"r40"
 		"wide"	 			"400"
-		"tall"	 			"150"
+		"tall"	 			"120"
 		"PaintBackgroundType"	"2"
 	}
 

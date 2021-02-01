@@ -1101,17 +1101,17 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"HudName"
-		"xpos"			"r114"
+		"xpos"			"r138"
 		"ypos"			"r15"
 		"zpos"			"1"
-		"wide"			"56"
+		"wide"			"135"
 		"tall"			"10"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"ZeesHUD"
+		"labelText"		"ZeesHUD ALPHA III"
 		"font"			"FUTURA_BOLD_16"
 		"textAlignment"	"east"
 		"textinsetx"	"0"
@@ -1144,24 +1144,6 @@
 			"scaleImage"	"1"
 			"image"			"glyph_quit"
 		}
-	}
-	
-	"VersionLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"VersionLabel"
-		"font"			"FUTURA_BOLD_16"
-		"labelText"		"ALPHA II"
-		"xpos"			"r135"
-		"ypos"			"r15"
-		"wide"			"130"
-		"tall"			"10"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"textAlignment"	"east"
-		"fgcolor_override"	"ZeesWhite"
 	}
 	
 		

@@ -8,9 +8,8 @@
 		"enabled" 				"1"
 		"xpos"					"5"
 		"ypos"					"r220"
-		"wide"					"210"
-		"wide_minmode"			"180"
-		"tall"					"120"
+		"wide"					"220"
+		"tall"					"100"
 		"PaintBackgroundType"	"0"
 	}
 	
@@ -24,7 +23,7 @@
 		"enabled"				"1"
 		"xpos"					"10"
 		"ypos"					"395"
-		"wide"					"160"
+		"wide"					"170"
 		"tall"					"0"
 		"PaintBackgroundType"	"0"
 	}
@@ -33,9 +32,8 @@
 	{
 		"ControlName"			"Button"
 		"fieldName"				"ChatFiltersButton"
-		"xpos"					"173"
-		"xpos_minmode"			"143"
-		"ypos"					"107"
+		"xpos"					"185"
+		"ypos"					"87"
 		"wide"					"33"
 		"tall"					"8"
 		"autoResize"			"1"
@@ -56,8 +54,7 @@
 		"fieldName"				"HudChatHistory"
 		"xpos"					"0"
 		"ypos"					"0"
-		"wide"					"210"
-		"wide_minmode"			"180"
+		"wide"					"220"
 		"tall"					"75"
 		"wrap"					"1"
 		"autoResize"			"1"
