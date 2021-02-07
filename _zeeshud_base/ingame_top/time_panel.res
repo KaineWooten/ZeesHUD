@@ -30,7 +30,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"			"WaitingForPlayersLabel"
 		"xpos"				"25"
-		"ypos"				"20"
+		"ypos"				"25"
 		"zpos"				"5"
 		"wide"				"50"
 		"tall"				"24"
@@ -41,11 +41,11 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
-		"font"				"NOKIA_8"
+		"font"				"FUTURA_BOLD_8"
 
 		if_match
 		{
-			"xpos"			"25"
+			"xpos"			"30"
 		}
 	}
 	"WaitingForPlayersBG"
@@ -59,8 +59,8 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"OvertimeLabel"
-		"xpos"				"30"
-		"ypos"				"32"
+		"xpos"				"0"
+		"ypos"				"17"
 		"zpos"				"5"
 		"wide"				"100"
 		"tall"				"24"
@@ -71,11 +71,11 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
-		"font"				"NOKIA_8"
+		"font"				"FUTURA_BOLD_12"
 
 		if_match
 		{
-			"xpos"			"30"
+			"xpos"			"2"
 		}
 	}
 	"OvertimeBG"
@@ -101,11 +101,11 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
-		"font"				"SMB2_8"
+		"font"				"FUTURA_BOLD_12"
 
 		if_match
 		{
-			"xpos"			"30"
+			"xpos"			"2"
 		}
 	}
 	"SuddenDeathBG"
@@ -131,7 +131,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
-		"font"				"NOKIA_8"
+		"font"				"FUTURA_BOLD_12"
 
 		if_match
 		{
@@ -161,7 +161,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
-		"font"				"SMB2_8"
+		"font"				"FUTURA_BOLD_12"
 
 		if_match
 		{

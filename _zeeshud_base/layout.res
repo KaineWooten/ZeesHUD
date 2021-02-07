@@ -874,10 +874,10 @@
 		"visible" 			"1"
 		"enabled" 			"1"
 		"xpos"				"c-200"
-		"ypos"				"c-75"
+		"ypos"				"c-80"
 		"zpos"				"1"
 		"wide"				"400"
-		"tall"				"150"
+		"tall"				"160"
 		"PaintBackgroundType"	"0"
 	}
 

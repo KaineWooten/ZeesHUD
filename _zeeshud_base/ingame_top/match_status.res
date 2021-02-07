@@ -246,29 +246,29 @@
 		"visible"			"0"
 		"enabled"			"1"
 		"delta_item_x"			"22"
-		"delta_item_start_y"	"50"
-		"delta_item_end_y"		"70"
+		"delta_item_start_y"	"10"
+		"delta_item_end_y"		"20"
 		"PositiveColor"			"ZeesGreen"
 		"NegativeColor"			"ZeesRed"
 		"delta_lifetime"		"1.5"
-		"delta_item_font"		"SMB2_8"
+		"delta_item_font"		"FUTURA_BOLD_12"
 
 		if_match
 		{
 			"delta_item_x"			"35"
-			"delta_item_start_y"	"12"
-			"delta_item_end_y"		"50"
-			"PositiveColor"			"ColorGreen"
-			"NegativeColor"			"ColorRed"
+			"delta_item_start_y"	"10"
+			"delta_item_end_y"		"20"
+			"PositiveColor"			"ZeesGreen"
+			"NegativeColor"			"ZeesRed"
 			"delta_lifetime"		"1.5"
-			"delta_item_font"		"SMB2_8"
+			"font"			"FUTURA_BOLD_14"
 		}
 
 		"TimePanelValue"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"SMB2_8"
+			"font"			"FUTURA_BOLD_14"
 			"fgcolor"		"ZeesWhite"
 			"xpos"			"25"
 			"ypos"			"1"
@@ -283,9 +283,9 @@
 			if_match
 			{
 				"xpos"			"cs-0.5"
-				"ypos"			"14"
+				"ypos"			"13"
 				"tall"			"10"
-				"font"			"SMB2_8"
+				"font"			"FUTURA_BOLD_14"
 				"proportionaltoparent"	"1"
 			}
 		}
@@ -322,8 +322,8 @@
 			"tall"			"25"
 			"zpos"			"1"
 
-			"color_portrait_bg_red"		"ZeesRed"
-			"color_portrait_bg_blue"	"ZeesBlue"
+			"color_portrait_bg_red"		"HUDRedTeamSolid"
+			"color_portrait_bg_blue"	"HUDBlueTeamSolid"
 			"color_portrait_bg_red_dead"	"ZeesDarkRed"
 			"color_portrait_bg_blue_dead"	"ZeesDarkBlue"
 			"color_bar_health_high"	"84 191 58 255"
@@ -762,7 +762,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"FGColor"		"ZeesRed"
+			"FGColor"		"HUDRedTeamSolid"
 		}
 		"RedTeamImage"
 		{
