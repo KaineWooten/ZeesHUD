@@ -22,7 +22,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PlayerStatusHealthImage"
-		"xpos"			"-120"
+		"xpos"			"100" 
+			//	HEY ZEE, THIS IS ZEE 
+			//	REMEMBER NOT TO MOVE THIS ELEMENT'S XPOS
+			//	OR IT'LL BREAK THE FUCKING ICONS AGAIN
 		"ypos"			"0"
 		"zpos"			"0"
 		"wide"			"0"
@@ -231,8 +234,8 @@
 		"image"			"replay/thumbnails/zh_effect_marked"
 		"fgcolor"		"255 255 255 255"
 		"pin_to_sibling"		"PlayerStatusAnchor"
-		"pin_corner_to_sibling"	"0"
-		"pin_to_sibling_corner"	"0"
+		"pin_corner_to_sibling"	"1"
+		"pin_to_sibling_corner"	"1"
 	}
 
 	"PlayerStatusMarkedForDeathSilentImage"
@@ -250,8 +253,8 @@
 		"image"			"replay/thumbnails/zh_effect_marked"
 		"fgcolor"		"255 255 255 255"
 		"pin_to_sibling"		"PlayerStatusAnchor"
-		"pin_corner_to_sibling"	"0"
-		"pin_to_sibling_corner"	"0"
+		"pin_corner_to_sibling"	"1"
+		"pin_to_sibling_corner"	"1"
 	}
 
 	"PlayerStatus_MedicUberBulletResistImage"
