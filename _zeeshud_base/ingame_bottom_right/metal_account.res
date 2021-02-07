@@ -21,26 +21,26 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"0"
-		"wide"			"84"
-		"tall"			"42"
+		"wide"			"60"
+		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/metal_bg"
 		"scaleImage"	"1"
-		"teambg_2"		"replay/thumbnails/metal_bg"
-		"teambg_3"		"replay/thumbnails/metal_bg"
+		"teambg_2"		"replay/thumbnails/box_engie_red_opaque"
+		"teambg_3"		"replay/thumbnails/box_engie_blue_opaque"
 		
-		"src_corner_height"		"28"				// pixels inside the image
-		"src_corner_width"		"28"
-		"draw_corner_width"		"12"					// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"12"
+		"src_corner_height"		"23"				// pixels inside the image
+		"src_corner_width"		"85"
+		"draw_corner_width"		"15"					// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"5"
 	}
 
 	"MetalIcon"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"MetalIcon"
-		"xpos"			"3"
+		"xpos"			"8"
 		"ypos"			"12"
 		"zpos"			"1"
 		"wide"			"10"
@@ -49,7 +49,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"
 		"icon"			"ico_metal"
-		"iconColor"		"ZeesBlack"
+		"iconColor"		"ZeesWhite"
 	}
 
 	"MetalIconShadow"
@@ -76,8 +76,8 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"AccountValue"
-		"xpos"				"15"
-		"ypos"				"9"
+		"xpos"				"4"
+		"ypos"				"7"
 		"zpos"				"2"
 		"wide"				"50"
 		"tall"				"20"
@@ -87,11 +87,11 @@
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"labelText"			"%metal%"
-		"textAlignment"		"west"
+		"textAlignment"		"east"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"fgcolor"			"ZeesBlack"
-		"font"				"NOKIA_24"
+		"fgcolor"			"ZeesWhite"
+		"font"				"FUTURA_BOLD_24"
 	}
 
 	"AccountValueShadow"
@@ -112,7 +112,7 @@
 		"textAlignment"		"west"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"font"				"NOKIA_24"
+		"font"				"FUTURA_BOLD_32"
 		"fgcolor"			"0 0 0 255"
 
 		"pin_to_sibling"		"AccountValue"

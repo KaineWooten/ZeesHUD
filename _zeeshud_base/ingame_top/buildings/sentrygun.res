@@ -28,15 +28,20 @@
 		"xpos"			"2"
 		"ypos"			"0"
 		"zpos"			"-2"
-		"wide"			"140"
-		"tall"			"140"
+		"wide"			"120"
+		"tall"			"143"
 		"visible"		"1"
 		"visible_minmode"		"0"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/build_bg_big"
-		"scaleImage"	"0"
-		"teambg_2"		"replay/thumbnails/build_bg_big"
-		"teambg_3"		"replay/thumbnails/build_bg_big"
+		"image"			"replay/thumbnails/box_engie_neutral_trans"
+		"scaleImage"	"1"
+		"teambg_2"		"replay/thumbnails/box_engie_red_trans"
+		"teambg_3"		"replay/thumbnails/box_engie_blue_trans"
+		
+		"src_corner_height"		"85"
+		"src_corner_width"		"85"
+		"draw_corner_width"		"20"
+		"draw_corner_height" 	"20"
 	}
 
 	"Icon_Sentry_1"
@@ -51,7 +56,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"
 		"icon"			"obj_status_sentrygun_1"
-				"iconColor"		"ZeesBlack"
+		"iconColor"		"ZeesWhite"
 		"iconColor_minmode"	"ZeesWhite"
 	}
 
@@ -67,7 +72,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"
 		"icon"			"obj_status_sentrygun_2"
-				"iconColor"		"ZeesBlack"
+		"iconColor"		"ZeesWhite"
 		"iconColor_minmode"	"ZeesWhite"
 	}
 
@@ -83,7 +88,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"
 		"icon"			"obj_status_sentrygun_3"
-				"iconColor"		"ZeesBlack"
+		"iconColor"		"ZeesWhite"
 		"iconColor_minmode"	"ZeesWhite"
 	}
 
@@ -101,7 +106,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NotBuiltLabel"
-			"font"			"NOKIA_8"
+			"font"			"FUTURA_BOLD_10"
 			"xpos"			"60"
 			"ypos"			"0"
 			"wide"			"200"
@@ -114,7 +119,7 @@
 			"textAlignment"	"Left"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"fgcolor"		"ZeesBlack"
+			"fgcolor"		"ZeesWhite"
 			"fgcolor_minmode"		"ZeesWhite"
 		}
 	}
@@ -142,8 +147,8 @@
 			"enabled"		"1"
 			"scaleImage"	"1"
 			"icon"			"obj_status_upgrade_1"
-					"iconColor"		"ZeesBlack"
-		"iconColor_minmode"	"ZeesWhite"
+			"iconColor"		"ZeesWhite"
+			"iconColor_minmode"	"ZeesWhite"
 		}
 
 		"Icon_Upgrade_2"
@@ -159,8 +164,8 @@
 			"enabled"		"1"
 			"scaleImage"	"1"
 			"icon"			"obj_status_upgrade_2"
-					"iconColor"		"ZeesBlack"
-		"iconColor_minmode"	"ZeesWhite"
+			"iconColor"		"ZeesWhite"
+			"iconColor_minmode"	"ZeesWhite"
 		}
 
 		"Icon_Upgrade_3"
@@ -176,7 +181,7 @@
 			"enabled"		"1"
 			"scaleImage"	"1"
 			"icon"			"obj_status_upgrade_3"
-					"iconColor"		"ZeesBlack"
+					"iconColor"		"ZeesWhite"
 		"iconColor_minmode"	"ZeesWhite"
 		}
 
@@ -191,8 +196,8 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"icon"			"obj_status_alert_background_tall"
-					"iconColor"		"ZeesBlack"
-		"iconColor_minmode"	"ZeesWhite"
+			"iconColor"		"ZeesWhite"
+			"iconColor_minmode"	"ZeesWhite"
 		}
 
 		"WrenchIcon"
@@ -208,7 +213,7 @@
 			"enabled"		"1"
 			"scaleImage"	"1"
 			"icon"			"obj_status_icon_wrench"
-					"iconColor"		"ZeesBlack"
+					"iconColor"		"ZeesWhite"
 		"iconColor_minmode"	"ZeesWhite"
 		}
 
@@ -225,7 +230,7 @@
 			"enabled"		"1"
 			"scaleImage"	"1"
 			"icon"			"obj_status_icon_sapper"
-					"iconColor"		"ZeesBlack"
+					"iconColor"		"ZeesWhite"
 		"iconColor_minmode"	"ZeesWhite"
 		}
 
@@ -245,7 +250,7 @@
 			"textAlignment"	"Left"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"fgcolor"		"ZeesBlack"
+			"fgcolor"		"ZeesWhite"
 			"fgcolor_minmode"		"ZeesWhite"
 		}
 
@@ -263,7 +268,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"BuildingLabel"
-				"font"			"NOKIA_8"
+				"font"			"FUTURA_BOLD_10"
 				"xpos"			"0"
 				"ypos"			"5"
 				"wide"			"200"
@@ -276,7 +281,7 @@
 				"textAlignment"	"Left"
 				"dulltext"		"0"
 				"brighttext"	"0"
-				"fgcolor"		"ZeesBlack"
+				"fgcolor"		"ZeesWhite"
 				"fgcolor_minmode"		"ZeesWhite"
 			}
 
@@ -322,7 +327,7 @@
 				"enabled"		"1"
 				"scaleImage"	"1"
 				"image"			"../hud/hud_obj_status_kill_64"
-				"drawcolor"		"ZeesBlack"
+				"drawcolor"		"ZeesWhite"
 				"drawcolor_minmode"		"ZeesWhite"
 			}
 
@@ -330,7 +335,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"KillsLabel"
-				"font"			"NOKIA_8"
+				"font"			"FUTURA_BOLD_10"
 				"xpos"			"12"
 				"ypos"			"2"
 				"wide"			"38"
@@ -343,7 +348,7 @@
 				"textAlignment"	"center"
 				"dulltext"		"0"
 				"brighttext"	"0"
-				"fgcolor"		"ZeesBlack"
+				"fgcolor"		"ZeesWhite"
 				"fgcolor_minmode"		"ZeesWhite"
 			}
 
@@ -360,7 +365,7 @@
 				"enabled"		"1"
 				"scaleImage"	"1"
 				"image"			"../hud/hud_obj_status_ammo_64"
-				"drawcolor"		"ZeesBlack"
+				"drawcolor"		"ZeesWhite"
 				"drawcolor_minmode"		"ZeesWhite"
 			}
 
@@ -395,7 +400,7 @@
 				"enabled"		"1"
 				"scaleImage"	"1"
 				"image"			"../hud/hud_obj_status_rockets_64"
-				"drawcolor"		"ZeesBlack"
+				"drawcolor"		"ZeesWhite"
 				"drawcolor_minmode"		"ZeesWhite"
 			}
 
@@ -430,7 +435,7 @@
 				"enabled"		"1"
 				"scaleImage"	"1"
 				"icon"			"ico_metal"
-				"iconColor"		"ZeesBlack"
+				"iconColor"		"ZeesWhite"
 				"iconColor_minmode"	"ZeesWhite"
 			}
 
