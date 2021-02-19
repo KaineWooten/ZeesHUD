@@ -1,3 +1,4 @@
+#base "..\..\#customizations\addons\_enabled\health-ammo-style_ut\player_class.res"
 #base "..\..\#customizations\addons\_enabled\health_jrpg_horizbar\hudplayerclass_jrpg.res"
 #base "..\..\#customizations\addons\_enabled\health_jrpg_nobar\hudplayerclass_jrpg.res"
 #base "..\..\#customizations\addons\_enabled\health_jrpg\hudplayerclass_jrpg.res"

@@ -26,6 +26,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/chargebar_notitle"
+		"teambg_1"		"replay/thumbnails/chargebar_notitle"
+		"teambg_2"		"replay/thumbnails/chargebar_notitle"
+		"teambg_3"		"replay/thumbnails/chargebar_notitle"
 		"scaleImage"	"1"
 	}
 

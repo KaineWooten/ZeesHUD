@@ -8,6 +8,12 @@
 		"ypos_minmode"			"r107"
 
 	}
+	"ItemEffectMeterBarMask"
+	{
+		"visible"		"0"
+		"enabled"		"0"
+
+	}
 	
 	"ItemEffectMeterBG"
 	{

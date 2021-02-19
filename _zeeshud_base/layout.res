@@ -67,10 +67,10 @@
 		"fieldName"			"HudMedicCharge"
 		"visible"			"1"
 		"enabled"			"1"
-		"xpos"				"0"
-		"ypos"				"0"
-		"wide"				"f0"
-		"tall"				"480"
+		"xpos"				"c-115"
+		"ypos"				"c120"
+		"wide"				"232"
+		"tall"				"64"
 	}
 
 	HudDemomanCharge
@@ -1245,7 +1245,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"bgcolor_override"	"0 0 0 0"
-		"PaintBackgroundType" "0" // rounded corners
+		"PaintBackgroundType" "0"
 	}
 
 	CTFFlagCalloutPanel
