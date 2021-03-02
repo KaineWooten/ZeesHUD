@@ -215,8 +215,8 @@
 		"ControlName"	"CPvPRankPanel"
 		"fieldName"		"RankModelPanel"
 		"xpos"			"80"
-		"ypos"			"r432"
-		"zpos"			"0"
+		"ypos"			"r425"
+		"zpos"			"1"
 		"wide"			"170"
 		"tall"			"800"
 		"visible"		"0"
@@ -287,7 +287,7 @@
 		"fieldName"		"RankTooltipPanel"
 		"xpos"			"9999"
 		"ypos"			"9999"
-		"zpos"			"-1"
+		"zpos"			"1"
 		"wide"			"0"
 		"tall"			"0"
 		"visible"		"1"
@@ -303,8 +303,8 @@
 		"ControlName"	"CPvPRankPanel"
 		"fieldName"		"RankPanel"
 		"xpos"			"-25"
-		"ypos"			"r60"
-		"zpos"			"0"
+		"ypos"			"r55"
+		"zpos"			"1"
 		"wide"			"140"
 		"tall"			"50"
 		"visible"		"1"
@@ -320,7 +320,7 @@
 		"ControlName"	"Label"
 		"fieldName"		"NoGCMessage"
 		"xpos"			"0"
-		"ypos"			"r50"
+		"ypos"			"r55"
 		"zpos"			"99"
 		"wide"			"260"
 		"tall"			"100"
@@ -469,7 +469,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 
 			"defaultFgColor_override"	"255 255 255 255"
-			"armedFgColor_override"		"255 0 90 255"
+			"armedFgColor_override"		"0 0 0 255"
 		}
 	}
 
@@ -495,7 +495,7 @@
 		"depressedBgColor_override" "Transparent"
 		
 		"image_drawcolor"	"255 255 255 255"
-		"image_armedcolor"	"155 155 155 255"
+		"image_armedcolor"	"0 0 0 255"
 
 		"SubImage"
 		{
@@ -564,7 +564,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 
 			"defaultFgColor_override"	"255 255 255 255"
-			"armedFgColor_override"		"155 155 155 255"
+			"armedFgColor_override"		"0 0 0 255"
 		}
 	}
 
@@ -574,7 +574,7 @@
 		"fieldName"		"MOTD_ShowButtonPanel"
 		"xpos"			"r25"
 		"ypos"			"r115"
-		"zpos"			"0"
+		"zpos"			"1"
 		"wide"			"20"
 		"tall"			"20"
 		"autoResize"	"0"
@@ -609,7 +609,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 
 			"defaultFgColor_override"	"255 255 255 255"
-			"armedFgColor_override"		"155 155 155 255"
+			"armedFgColor_override"		"0 0 0 255"
 		}
 	}
 
@@ -1102,7 +1102,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"HudName"
 		"xpos"			"r138"
-		"ypos"			"r15"
+		"ypos"			"r73"
 		"zpos"			"1"
 		"wide"			"135"
 		"tall"			"10"
@@ -1111,7 +1111,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"ZeesHUD ALPHA III"
+		"labelText"		"ZeesHUD ALPHA IV"
 		"font"			"FUTURA_BOLD_16"
 		"textAlignment"	"east"
 		"textinsetx"	"0"
@@ -1786,6 +1786,7 @@
 		"fieldName"		"CharacterSetupButton"
 		"xpos"		"0"
 		"ypos"		"0"
+		"zpos"		"2"
 		"wide"		"120"
 		"tall"		"44"
 		"visible"		"1"
@@ -1836,6 +1837,7 @@
 		"fieldName"		"GeneralStoreButton"
 		"xpos"		"21"
 		"ypos"		"-42"
+		"zpos"		"2"
 		"wide"		"120"
 		"tall"		"44"
 		"visible"		"1"
@@ -1893,6 +1895,7 @@
 		"fieldName"		"SettingButton"
 		"xpos"		"6"
 		"ypos"		"-83"
+		"zpos"		"2"
 		"wide"		"120"
 		"tall"		"44"
 		"visible"		"1"
@@ -1941,6 +1944,7 @@
 		"fieldName"		"TF2SettingsButton"
 		"xpos"		"-112"
 		"ypos"		"-100"
+		
 		"zpos"		"3"
 		"wide"		"22"
 		"tall"		"22"
@@ -2001,7 +2005,7 @@
 		"textinsetx"	"10"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"command"		"OpenTF2Options"
+		"command"		"engine OpenSteamWorkshopDialog"
 		"border_default"		"ZeesMenuButton"
 		"border_armed"			"ZeesMenuButtonSelect"
 
@@ -2083,64 +2087,27 @@
 		"drawcolor"		"ZeesMain"
 	}
 	
-	
-	//rank
-	"BGPanel3"
+	"RankBG"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BGPanel3"
-		"xpos"			"-30"
-		"ypos"			"r170"
-		"zpos"			"-52"
-		"wide"			"360"
-		"tall"			"180"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/menu/rank_tab"
+		"ControlName"		"CTFImagePanel"
+		"fieldName"			"RankBG"
+		"xpos"				"-20"
+		"ypos"				"r60"
+		"zpos"				"-3"
+		"wide"				"140"
+		"tall"				"140"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"			"replay/thumbnails/box_3_n"
 		"scaleImage"	"1"
+		
+		"src_corner_height"		"23"
+		"src_corner_width"		"23"
+		"draw_corner_width"		"10"
+		"draw_corner_height" 	"10"
 	}
+
 	
-	//banner
-	"BGBanner"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BGBanner"
-		"xpos"			"r440"
-		"ypos"			"r73"
-		"zpos"			"-60"
-		"wide"			"440"
-		"tall"			"55"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/menu/banner"
-		"scaleImage"	"1"
-	}
-	"BGBannerExtended"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BGBannerExtended"
-		"xpos"			"r880"
-		"ypos"			"r73"
-		"zpos"			"-60"
-		"wide"			"440"
-		"tall"			"55"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/menu/banner"
-		"scaleImage"	"1"
-	}
-	
-	"BGBannerColor"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldname"		"BGBannerColor"
-		"xpos"			"0"
-		"ypos"			"r73"
-		"zpos"			"-61"
-		"wide"			"f0"
-		"tall"			"55"
-		"bgcolor_override"	"ZeesMain"
-	}
 	
 	"SupportLabelTop"
 	{
@@ -2177,186 +2144,6 @@
 		"fgcolor_override"	"ZeesWhite"
 	}
 	
-	"SupportAnchor"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldname"		"SupportAnchor"
-		//"xpos"			"r142"
-		//"ypos"			"r145"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"1"
-	
-	}
-	
-	"SupportBox"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BGBox1"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-59"
-		"wide"			"170"
-		"tall"			"150"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/box_sq_1"
-		"scaleImage"	"1"
-		"pin_to_sibling" "SupportAnchor"
-		"pin_corner_to_sibling" "PIN_TOPLEFT"
-		"pin_to_sibling_corner" "PIN_TOPLEFT"
-	}
-	
-	"SupportTitle"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"SupportTitle"
-		"font"			"FUTURA_BOLD_24"
-		"labelText"		"Supporters"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-45"
-		"wide"			"140"
-		"tall"			"30"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"textAlignment"	"center"
-		"fgcolor_override"	"ZeesWhite"
-		
-		"pin_to_sibling" "SupportAnchor"
-		"pin_corner_to_sibling" "PIN_TOPLEFT"
-		"pin_to_sibling_corner" "PIN_TOPLEFT"
-	}
-	"SupportTitleShadow"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"SupportTitleShadow"
-		"font"			"FUTURA_BOLD_24"
-		"labelText"		"Supporters"
-		"xpos"			"2"
-		"ypos"			"2"
-		"zpos"			"-46"
-		"wide"			"140"
-		"tall"			"30"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"textAlignment"	"center"
-		"fgcolor_override"	"ZeesBlack"
-		
-		"pin_to_sibling" "SupportTitle"
-		"pin_corner_to_sibling" "PIN_TOPLEFT"
-		"pin_to_sibling_corner" "PIN_TOPLEFT"
-	}
-	
-	"SupportRank1"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"SupportRank1"
-		"font"			"SupportBig"
-		"labelText"		""
-		"xpos"			"-6"
-		"ypos"			"-10"
-		"zpos"			"-44"
-		"wide"			"135"
-		"tall"			"60"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"textAlignment"	"center"
-		"fgcolor_override"	"ZeesRed"
-		"wrap"			"1"
-		"pin_to_sibling" "SupportAnchor"
-		"pin_corner_to_sibling" "PIN_TOPLEFT"
-		"pin_to_sibling_corner" "PIN_TOPLEFT"
-	}
-	
-	
-	"SupportRank2"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"SupportRank2"
-		"font"			"SupportMedium"
-		"labelText"		" "
-		"xpos"			"-5"
-		"ypos"			"-40"
-		"wide"			"135"
-		"tall"			"60"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"textAlignment"	"middle"
-		"fgcolor_override"	"ZeesWhite"
-		"wrap"			"1"
-		"pin_to_sibling" "SupportAnchor"
-		"pin_corner_to_sibling" "PIN_TOPLEFT"
-		"pin_to_sibling_corner" "PIN_TOPLEFT"
-	}
-	
-	"SupportRank3"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"SupportRank3"
-		"font"			"SupportSmall"
-		"labelText"		""
-		"xpos"			"-4"
-		"ypos"			"-70"
-		"wide"			"135"
-		"tall"			"60"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"textAlignment"	"middle"
-		"fgcolor_override"	"ZeesWhite"
-		"wrap"			"1"
-		"pin_to_sibling" "SupportAnchor"
-		"pin_corner_to_sibling" "PIN_TOPLEFT"
-		"pin_to_sibling_corner" "PIN_TOPLEFT"
-	}
-	
-	"SupportRank3Name"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"SupportRank2Name"
-		"font"			"FUTURA_BOLD_16"
-		"labelText"		"none"
-		"xpos"			"r105"
-		"ypos"			"r165"
-		"wide"			"70"
-		"tall"			"30"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"textAlignment"	"West"
-		"fgcolor_override"	"ZeesWhite"
-	}
-	
-	"SupportLink"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"SupportRank2Name"
-		"font"			"FUTURA_BOLD_16"
-		"labelText"		"paypal.me/zeesastrous"
-		"xpos"			"r157"
-		"ypos"			"r140"
-		"wide"			"152"
-		"tall"			"30"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"textAlignment"	"east"
-		"fgcolor_override"	"ZeesWhite"
-	}
 
 	"icon_generator"
 	{
@@ -2385,6 +2172,116 @@
 			"angles_y"		"130"
 			"angles_z"		"0"
 		}
+	}
+	
+	//
+	//	SUPPORTERS
+	//
+	
+	"SupportersLogo"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"SupportersLogo"
+		"xpos"			"r460"
+		"ypos"			"r61"
+		"zpos"			"2"
+		"wide"			"64"
+		"tall"			"16"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/supporters"
+		"scaleImage"	"1"
+		"drawcolor"		"ZeesMain"
+	}
+	
+	"SupporterArea"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"			"SupporterArea"
+		"xpos"				"0"
+		"ypos"				"r60"
+		"zpos"				"0"
+		"wide"				"f0"
+		"tall"				"140"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"			"replay/thumbnails/box_3_n"
+		"scaleImage"	"1"
+		
+		"src_corner_height"		"23"
+		"src_corner_width"		"23"
+		"draw_corner_width"		"0"
+		"draw_corner_height" 	"10"
+	}
+	
+	"SupportNumber1"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"SupportNumber1"
+		"font"			"FUTURA_BOLD_14"
+		"labelText"		"1. OwOitsurmom (25.00)"
+		"xpos"			"r450"
+		"ypos"			"r55"
+		"wide"			"150"
+		"tall"			"30"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"west"
+		"fgcolor_override"	"255 214 0 255"
+	}
+	"SupportNumber2"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"SupportNumber2"
+		"font"			"FUTURA_BOLD_14"
+		"labelText"		"2. BillyBoBBerson  (20.69)"
+		"xpos"			"r450"
+		"ypos"			"r40"
+		"wide"			"150"
+		"tall"			"30"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"west"
+		"fgcolor_override"	"122 143 153 255"
+	}
+	"SupportNumber3"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"SupportNumber3"
+		"font"			"FUTURA_BOLD_14"
+		"labelText"		"3. Garret J. (18.96)"
+		"xpos"			"r450"
+		"ypos"			"r25"
+		"wide"			"150"
+		"tall"			"30"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"west"
+		"fgcolor_override"	"133 70 7 255"
+	}
+	"Supporters"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"Supporters"
+		"font"			"FUTURA_BOLD_10"
+		"labelText"		"mramra1999 - Tailsmonster - CaffeineDaFolf - Noxi - Pattoxo - Simon G. - Jesse H. - Mercenary"
+		"xpos"			"r300"
+		"ypos"			"r55"
+		"wide"			"280"
+		"tall"			"55"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"west"
+		"centerwrap"	"1"
+		"fgcolor_override"	"ZeesWhite"
 	}
 	
 	

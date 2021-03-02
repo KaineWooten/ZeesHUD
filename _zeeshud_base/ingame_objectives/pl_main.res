@@ -149,21 +149,21 @@
 
 		"if_multiple_trains"
 		{
-			"xpos"			"c-66"
-			"zpos"			"10"
-			"wide"			"10"
-			"tall"			"10"
+			"xpos"			"c-108"
+			"zpos"			"4"
+			"wide"			"14"
+			"tall"			"14"
 			"image"			"replay/thumbnails/payload/cart_track"
 		}
 
 		"if_multiple_trains_top"
 		{
-			"ypos"			"114"
+			"ypos"			"112"
 		}
 
 		"if_multiple_trains_bottom"
 		{
-			"ypos"			"114"
+			"ypos"			"113"
 		}
 
 		"if_multiple_trains_red"
@@ -197,11 +197,19 @@
 
 		"if_multiple_trains"
 		{
-			"xpos"			"60"
-			"ypos"			"113"
+			"xpos"				"30"
 			"zpos"			"5"
-			"wide"			"10"
-			"tall"			"10"
+			"wide"			"14"
+			"tall"			"14"
+		}
+		"if_multiple_trains_top"
+		{
+			"ypos"			"112"
+		}
+
+		"if_multiple_trains_bottom"
+		{
+			"ypos"			"113"
 		}
 	}
 
@@ -267,7 +275,7 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"EscortItemImage"
-			"xpos"			"26"
+			"xpos"			"25"
 			"ypos"			"77"
 			"zpos"			"1"
 			"wide"			"30"
@@ -367,10 +375,10 @@
 			"ControlName"	"ImagePanel"
 			"fieldName"		"Speed_Backwards"
 			"xpos"			"23"
-			"ypos"			"75"
+			"ypos"			"76"
 			"zpos"			"2"
-			"wide"			"36"
-			"tall"			"36"
+			"wide"			"35"
+			"tall"			"34"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -382,17 +390,17 @@
 
 			"if_multiple_trains"
 			{
-				"xpos"			"11"
+				"xpos"			"9"
 			}
 
 			"if_multiple_trains_top"
 			{
-				"ypos"		"43"
+				"ypos"		"42"
 			}
 
 			"if_multiple_trains_bottom"
 			{
-				"ypos"		"77"
+				"ypos"		"80"
 			}
 		}
 
@@ -469,10 +477,10 @@
 			"ControlName"	"ImagePanel"
 			"fieldName"		"Blocked"
 			"xpos"			"23"
-			"ypos"			"75"
+			"ypos"			"76"
 			"zpos"			"2"
-			"wide"			"36"
-			"tall"			"36"
+			"wide"			"35"
+			"tall"			"34"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"0"
@@ -484,17 +492,17 @@
 
 			"if_multiple_trains"
 			{
-				"xpos"		"22"
+				"xpos"		"16"
 			}
 
 			"if_multiple_trains_top"
 			{
-				"ypos"		"46"
+				"ypos"		"45"
 			}
 
 			"if_multiple_trains_bottom"
 			{
-				"ypos"		"83"
+				"ypos"		"82"
 			}
 		}
 

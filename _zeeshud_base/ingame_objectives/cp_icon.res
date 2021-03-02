@@ -51,8 +51,8 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"CapNumPlayers"
-		"font"			"NOKIA_8"
-		"xpos"			"15"
+		"font"			"FUTURA_BOLD_10"
+		"xpos"			"14"
 		"ypos"			"1"
 		"zpos"			"4"
 		"wide"			"16"

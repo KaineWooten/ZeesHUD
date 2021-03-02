@@ -106,6 +106,8 @@
 		"image"				"replay/thumbnails/items/items_menu_bg_2"
 		"visible"			"1"
 		"enabled"			"1"
+		
+		"scaleImage"		"1"
 	
 	}
 

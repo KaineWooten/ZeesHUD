@@ -11,7 +11,7 @@
 		// "visible" "1" = Enabled  "visible" "0" = Disabled
 		//=========================================================================
 		
-		"visible"	"0"																																																																			"controlName" "CExLabel" "fieldName" "CustomCrosshair" "wide" "f0" "tall" "f0" "enabled" "1" "zpos" "0" "textAlignment" "center" "fgcolor"	"Crosshair"
+		"visible"	"1"																																																																			"controlName" "CExLabel" "fieldName" "CustomCrosshair" "wide" "f0" "tall" "f0" "enabled" "1" "zpos" "0" "textAlignment" "center" "fgcolor"	"Crosshair"
 		
 		//=========================================================================
 		// CROSSHAIR TYPE
@@ -21,7 +21,7 @@
 		// Checkout the different options in the TF2Crosshairs.png
 		//=========================================================================
 		
-		"labelText"	"?"
+		"labelText"	"5"
 		
 		//=========================================================================
 		// CROSSHAIR SIZE & PROPERTIES
@@ -30,7 +30,7 @@
 		// The Outline can be toggled between ON and OFF
 		//=========================================================================
 		
-		"font"		"Size:18 | Outline:OFF"
+		"font"		"Size:18 | Outline:ON"
 		
 		//=========================================================================
 		// CROSSHAIR POSITION
@@ -40,8 +40,39 @@
 		// Adjust the values in order to perfectly center the crosshair
 		//=========================================================================
 		
-		"xpos"		"cs-0.4999"
-		"ypos"		"cs-0.4990"
+		"xpos"		"cs-0.5"
+		"ypos"		"cs-0.4995"
 	}
+	
+	//DEBUG
+	  "Line1"
+    {
+        "ControlName"            "EditablePanel"
+        "fieldName"                "Line1"
+        "visible"                "0"
+        "enabled"                "0"
+        "xpos"                    "cs-0.5"
+        "ypos"                    "cs-0.5"
+        "wide"                    "1"
+        "tall"                    "f0"
+        "proportionaltoparent"    "1"
+        "paintbackground"        "1"
+        "bgcolor_override"        "255 0 0 255"
+    }
+	
+	  "Line2"
+    {
+        "ControlName"            "EditablePanel"
+        "fieldName"                "Line2"
+        "visible"                "0"
+        "enabled"                "0"
+        "xpos"                    "cs-0.5"
+        "ypos"                    "cs-0.5"
+        "wide"                    "f0"
+        "tall"                    "1"
+        "proportionaltoparent"    "1"
+        "paintbackground"        "1"
+        "bgcolor_override"        "255 0 0 255"
+    }
 	
 }

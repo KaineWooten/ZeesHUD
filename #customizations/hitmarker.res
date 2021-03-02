@@ -11,7 +11,7 @@
 		// "visible" "1" = Enabled  "visible" "0" = Disabled
 		//=========================================================================
 		
-		"visible"	"0"																																																																			"controlName" "CExLabel" "fieldName" "CustomHitmarker" "wide" "f0" "tall" "f0" "enabled" "1" "zpos" "0" "textAlignment" "center" "fgcolor"	"Hitmarker" "alpha"	  "0"
+		"visible"	"1"																																																																			"controlName" "CExLabel" "fieldName" "CustomHitmarker" "wide" "f0" "tall" "f0" "enabled" "1" "zpos" "0" "textAlignment" "center" "fgcolor"	"Hitmarker" "alpha"	  "0"
 		
 		//=========================================================================
 		// HITMARKER TYPE

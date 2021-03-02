@@ -320,8 +320,9 @@
 		"enabled"			"1"
 		"image"			"replay/thumbnails/box_engie_neutral_trans"
 		"scaleImage"	"1"
-		"teambg_2"		"replay/thumbnails/box_engie_red_trans"
-		"teambg_3"		"replay/thumbnails/box_engie_blue_trans"
+		"teambg_2"		"replay/thumbnails/box_engie_neutral_trans"
+		"teambg_3"		"replay/thumbnails/box_engie_neutral_trans"
+		"drawcolor"		"0 255 0 255"
 		
 		"src_corner_height"		"85"
 		"src_corner_width"		"85"

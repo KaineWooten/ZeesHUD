@@ -17,14 +17,14 @@ Scheme
 		// Crosshair Colors
 		//		Affects the custom HUD crosshair.
 		//---------------------------------------------
-		"Crosshair"					"255 255 255 255"
-		"CrosshairDamage"			"255 0 0 255"
+		"Crosshair"					"0 255 0 255"
+		"CrosshairDamage"			"0 255 0 255"
 		
 		//---------------------------------------------
 		// Hitmarker Colors
 		//		Affects the custom HUD hitmarker.
 		//---------------------------------------------
-		"Hitmarker"					"255 0 90 255"
+		"Hitmarker"					"255 0 0 255"
 		
 		//---------------------------------------------
 		// Damage Colors

@@ -2,7 +2,7 @@
 {
 	"HudTournamentSetupBG"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"CTFImagePanel"
 		"fieldName"		"HudTournamentSetupBG"
 		"xpos"			"30"
 		"ypos"			"0"
@@ -14,14 +14,19 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"PaintBackgroundType"	"2"
-		"border"		"PixelBorderNeutral"
+		"image"			"replay/thumbnails/box_3_n"
+		"alpha"				"255"
+		"src_corner_height"		"23"
+		"src_corner_width"		"23"
+		"draw_corner_width"		"5"
+		"draw_corner_height" 	"5"
 	}
 
 	"TournamentSetupLabel"
 	{
 		"ControlName"	"Label"
 		"fieldName"		"TournamentLabel"
-		"font"			"NOKIA_8"
+		"font"			"FUTURA_BOLD_10"
 		"xpos"			"30"
 		"ypos"			"0"
 		"zpos"			"1"
@@ -40,7 +45,7 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"TournamentTeamNameLabel"
-		"font"			"NOKIA_8"
+		"font"			"FUTURA_BOLD_10"
 		"xpos"			"35"
 		"ypos"			"20"
 		"zpos"			"1"
@@ -78,7 +83,7 @@
 		"bgcolor_override"	"Transparent"
 		"labelText"			"%teamname%"
 		"textAlignment"		"west"
-		"font"				"NOKIA_8"
+		"font"				"FUTURA_BOLD_10"
 	}
 
 	"HudTournamentNameBG"
@@ -107,7 +112,7 @@
 		"brighttext"	"0"
 		"command"		"teamnotready"
 		"default"		"1"
-		"font"			"SMB2_8"
+		"font"			"FUTURA_BOLD_10"
 		"fgcolor"		"ZeesRed"
 
 		"defaultBgColor_override"	"ZeesDarkGray"
@@ -138,7 +143,7 @@
 		"command"		"teamready"
 		"paintborder"	"0"
 		"default"		"1"
-		"font"			"SMB2_8"
+		"font"			"FUTURA_BOLD_10"
 		"fgcolor"		"ZeesGreen"
 
 		"defaultBgColor_override"	"ZeesDarkGray"

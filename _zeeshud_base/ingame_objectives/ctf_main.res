@@ -18,19 +18,19 @@
 		}
 	}
 
-	"BG"
-		{
-			"ControlName"	"CTFImagePanel"
-			"fieldName"		"BG"
-			"xpos"			"c-60"
-			"ypos"			"r54"
-			"zpos"			"0"
-			"wide"			"120"
-			"tall"			"34"
-			"visible"		"1"
-			"enabled"		"1"
-			"paintbackgroundtype"	"2"	
-			"image"				"replay/thumbnails/pixel_border_mix"
+	"BGBlu"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"BGBlu"
+		"xpos"			"c-60"
+		"ypos"			"r54"
+		"zpos"			"0"
+		"wide"			"60"
+		"tall"			"34"
+		"visible"		"1"
+		"enabled"		"1"
+		"paintbackgroundtype"	"2"	
+		"image"				"replay/thumbnails/box_3_b"
 		"scaleImage"		"1"
 		"alpha"				"255"
 		"src_corner_height"		"24"
@@ -38,21 +38,56 @@
 		"draw_corner_width"		"4"
 		"draw_corner_height" 	"4"
 
-			"if_hybrid"
-			{
-				"visible"	"0"
-			}
-
-			"if_mvm"
-			{
-				"visible"	"0"
-			}
-
-			"if_specialdelivery"
-			{
-				"visible"	"0"
-			}
+		"if_hybrid"
+		{
+			"visible"	"0"
 		}
+
+		"if_mvm"
+		{
+			"visible"	"0"
+		}
+
+		"if_specialdelivery"
+		{
+			"visible"	"0"
+		}
+	}
+	"BGRed"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"BGRed"
+		"xpos"			"c0"
+		"ypos"			"r54"
+		"zpos"			"0"
+		"wide"			"60"
+		"tall"			"34"
+		"visible"		"1"
+		"enabled"		"1"
+		"paintbackgroundtype"	"2"	
+		"image"				"replay/thumbnails/box_3_r"
+		"scaleImage"		"1"
+		"alpha"				"255"
+		"src_corner_height"		"24"
+		"src_corner_width"		"24"
+		"draw_corner_width"		"4"
+		"draw_corner_height" 	"4"
+
+		"if_hybrid"
+		{
+			"visible"	"0"
+		}
+
+		"if_mvm"
+		{
+			"visible"	"0"
+		}
+
+		"if_specialdelivery"
+		{
+			"visible"	"0"
+		}
+	}
 
 	"OutlineBG"
 	{
@@ -74,7 +109,7 @@
 		"enabled"		"1"
 		"textAlignment"	"east"
 		"labelText"		"%bluescore%"
-		"font"			"SMB2_28"
+		"font"			"FUTURA_BOLD_36"
 		"fgcolor"		"ZeesWhite"
 
 		"if_hybrid"
@@ -97,8 +132,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueScoreShadow"
-		"xpos"			"-2"
-		"ypos"			"-2"
+		"xpos"			"-1"
+		"ypos"			"-1"
 		"zpos"			"7"
 		"wide"			"50"
 		"tall"			"35"
@@ -106,8 +141,8 @@
 		"enabled"		"1"
 		"textAlignment"	"east"
 		"labelText"		"%bluescore%"
-		"font"			"SMB2_28"
-		"fgcolor"		"ZeesBlack"
+		"font"			"FUTURA_BOLD_36"
+		"fgcolor"		"ZeesBlue"
 
 		"pin_to_sibling"		"BlueScore"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
@@ -142,7 +177,7 @@
 		"enabled"		"1"
 		"textAlignment"	"west"
 		"labelText"		"%redscore%"
-		"font"			"SMB2_28"
+		"font"			"FUTURA_BOLD_36"
 		"fgcolor"		"ZeesWhite"
 
 		"if_hybrid"
@@ -165,8 +200,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedScoreShadow"
-		"xpos"			"-2"
-		"ypos"			"-2"
+		"xpos"			"-1"
+		"ypos"			"-1"
 		"zpos"			"7"
 		"wide"			"50"
 		"tall"			"35"
@@ -174,8 +209,8 @@
 		"enabled"		"1"
 		"textAlignment"	"west"
 		"labelText"		"%redscore%"
-		"font"			"SMB2_28"
-		"fgcolor"		"ZeesBlack"
+		"font"			"FUTURA_BOLD_36"
+		"fgcolor"		"ZeesRed"
 
 		"pin_to_sibling"		"RedScore"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
@@ -224,7 +259,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayingTo"
 		"xpos"			"c-70"
-		"ypos"			"r76"
+		"ypos"			"r30"
 		"zpos"			"4"
 		"wide"			"140"
 		"tall"			"30"
@@ -234,7 +269,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"SMB2_8"
+		"font"			"FUTURA_BOLD_14"
 		"fgcolor"		"ZeesWhite"
 
 		"if_hybrid"
@@ -270,8 +305,8 @@
 	{
 		"ControlName"	"CTFFlagStatus"
 		"fieldName"		"BlueFlag"
-		"xpos"			"c-155"
-		"ypos"			"r87"
+		"xpos"			"c-145"
+		"ypos"			"r84"
 		"zpos"			"2"
 		"wide"			"160"
 		"tall"			"90"
@@ -311,27 +346,15 @@
 		{
 			"visible"	"0"
 		}
-		"Arrow"
-		{
-			"wide"	"56"
-			"tall"	"56"
-		
-		}
-		"StatusIcon"
-		{
-			"xpos"	"55"
-			"ypos"	"21"
-			"wide"	"56"
-			"tall"	"56"
-		}
+
 	}
 
 	"RedFlag"
 	{
 		"ControlName"	"CTFFlagStatus"
 		"fieldName"		"RedFlag"
-		"xpos"			"c-15"
-		"ypos"			"r87"
+		"xpos"			"c-18"
+		"ypos"			"r84"
 		"zpos"			"5"
 		"wide"			"160"
 		"tall"			"90"
@@ -364,19 +387,7 @@
 			"visible"	"0"
 		}
 		
-		"Arrow"
-		{
-			"wide"	"56"
-			"tall"	"56"
 		
-		}
-		"StatusIcon"
-		{
-			"xpos"	"55"
-			"ypos"	"21"
-			"wide"	"56"
-			"tall"	"56"
-		}
 		
 	}
 

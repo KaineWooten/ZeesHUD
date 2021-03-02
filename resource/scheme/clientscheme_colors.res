@@ -6,11 +6,13 @@ Scheme
 		//ZEESHUD
 		//---------------------------------------------
 		
-		"ZeesRed"					"255 0 90 255"
+		//	"ZeesRed"					"255 0 90 255"
+		"ZeesRed"					"189 58 58 255"
 		"ZeesDarkRed"				"133 7 51 255"
 		"ZeesDarkerRed"				"71 9 31 255"
 		
-		"ZeesBlue"					"0 164 255 255"
+		//	"ZeesBlue"					"0 164 255 255"
+		"ZeesBlue"					"91 122 140 255"
 		"ZeesDarkBlue"				"7 86 133 255"
 		"ZeesDarkerBlue"			"9 48 71 255"
 		
