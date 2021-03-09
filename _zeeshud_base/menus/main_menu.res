@@ -2270,7 +2270,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"Supporters"
 		"font"			"FUTURA_BOLD_10"
-		"labelText"		"mramra1999 - Tailsmonster - CaffeineDaFolf - Noxi - Pattoxo - Simon G. - Jesse H. - Mercenary"
+		"labelText"		"SebaxBlitz - Beno - mramra1999 - Tailsmonster - CaffeineDaFolf - Noxi - Pattoxo - Simon G. - Jesse H. - Mercenary"
 		"xpos"			"r300"
 		"ypos"			"r55"
 		"wide"			"280"
