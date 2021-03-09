@@ -53,7 +53,15 @@
 		"fgcolor"			"ZeesBlack"
 		"font"				"FUTURA_BOLD_12"
 	}
-
+	"ItemEffectAnchor"
+	{
+		"ControlName"			"EditablePanel"
+		"fieldName"				"ItemEffectAnchor"
+		"xpos"					"92"
+		"ypos"					"40"
+		"wide"					"1"
+		"tall"					"1"
+	}
 	"ItemEffectMeter"
 	{
 		"ControlName"		"ContinuousProgressBar"
