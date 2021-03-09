@@ -44,35 +44,23 @@
 		"ypos"		"cs-0.4995"
 	}
 	
-	//DEBUG
+	//CROSSHAIR NOT CENTERED? TURN THESE ON TO SEE WHAT THE CENTER OF YOUR SCREEN IS
 	  "Line1"
     {
-        "ControlName"            "EditablePanel"
-        "fieldName"                "Line1"
-        "visible"                "0"
+        "ControlName" "EditablePanel" "fieldName" "Line1" "xpos" "cs-0.5" "ypos"                    "cs-0.5" "wide" "1" "tall" "f0" "proportionaltoparent" "1" "paintbackground" "1" "bgcolor_override" "255 0 0 255"
+		
+        "visible"                "0" //set these to 1
         "enabled"                "0"
-        "xpos"                    "cs-0.5"
-        "ypos"                    "cs-0.5"
-        "wide"                    "1"
-        "tall"                    "f0"
-        "proportionaltoparent"    "1"
-        "paintbackground"        "1"
-        "bgcolor_override"        "255 0 0 255"
+        
     }
 	
 	  "Line2"
     {
-        "ControlName"            "EditablePanel"
-        "fieldName"                "Line2"
-        "visible"                "0"
+        "ControlName" "EditablePanel" "fieldName" "Line2" "xpos" "cs-0.5" "ypos" "cs-0.5" "wide" "f0" "tall" "1" "proportionaltoparent" "1" "paintbackground" "1" "bgcolor_override" "255 0 0 255"
+        
+		
+		"visible"                "0" //set these to 1
         "enabled"                "0"
-        "xpos"                    "cs-0.5"
-        "ypos"                    "cs-0.5"
-        "wide"                    "f0"
-        "tall"                    "1"
-        "proportionaltoparent"    "1"
-        "paintbackground"        "1"
-        "bgcolor_override"        "255 0 0 255"
     }
 	
 }
