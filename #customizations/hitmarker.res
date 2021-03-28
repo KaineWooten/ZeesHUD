@@ -11,7 +11,7 @@
 		// "visible" "1" = Enabled  "visible" "0" = Disabled
 		//=========================================================================
 		
-		"visible"	"1"																																																																			"controlName" "CExLabel" "fieldName" "CustomHitmarker" "wide" "f0" "tall" "f0" "enabled" "1" "zpos" "0" "textAlignment" "center" "fgcolor"	"Hitmarker" "alpha"	  "0"
+		"visible"	"1"																																																																			"controlName" "CExLabel" "fieldName" "CustomHitmarker" "wide" "f0" "tall" "f0" "enabled" "1" "zpos" "-69" "textAlignment" "center" "fgcolor"	"Hitmarker" "alpha"	  "0"
 		
 		//=========================================================================
 		// HITMARKER TYPE
@@ -30,7 +30,7 @@
 		// The Outline can be toggled between ON and OFF
 		//=========================================================================
 		
-		"font"		"Size:30 | Outline:OFF"
+		"font"		"Size:29 | Outline:OFF"
 		
 		//=========================================================================
 		// HITMARKER POSITION
