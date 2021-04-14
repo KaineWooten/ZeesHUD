@@ -22,7 +22,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"HudWeaponAmmoBG2"
-		"xpos"			"r250"
+		"xpos"			"r260"
 		"ypos"			"r80"
 		"zpos"			"-5"
 		"wide"			"100"
@@ -97,7 +97,7 @@
 		"xpos"			"r180"
 		"ypos"			"r130"
 		"zpos"			"7"
-		"wide"			"f0"
+		"wide"			"60"
 		"tall"			"100"
 		"visible"		"0"
 		"enabled"		"1"

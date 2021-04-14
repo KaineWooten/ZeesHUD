@@ -5,10 +5,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
-		"xpos"			"cs-0.35"
-		"xpos_minmode"	"cs-0.35"
+		"xpos"			"cs-0.36"
+		"xpos_minmode"	"cs-0.36"
 		"ypos"			"0"
-		"ypos_minmode"	"-20"
+		"ypos_minmode"	"40"
 		"wide"			"f0"
 		"tall"			"480"
 		"visible"		"1"
@@ -16,6 +16,18 @@
 		"HealthBonusPosAdj"			"0"
 		"HealthDeathWarning"		"0.49"
 		"HealthDeathWarningColor"	"255 255 255 255"
+	}
+	
+	"CrosshairIndicatorLow"
+	{
+		"xpos"			"c-175"
+		"ypos"			"c-50"
+	}
+	
+	"CrosshairIndicatorOvh"
+	{
+		"xpos"			"c-175"
+		"ypos"			"c-50"
 	}
 	
 	"PlayerStatusHealthImage"
@@ -43,7 +55,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusHealthImageBG3"
-		"xpos"			"150"
+		"xpos"			"160"
 		"ypos"			"r80"
 		"zpos"			"-4"
 		"wide"			"100"
