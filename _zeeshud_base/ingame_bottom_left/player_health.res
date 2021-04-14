@@ -18,6 +18,14 @@
 		"HealthDeathWarningColor"	"255 255 255 255"
 	}
 	
+	"CrosshairIndicatorLow"
+	{
+	}
+	
+	"CrosshairIndicatorOvh"
+	{
+	}
+	
 	"PlayerStatusHealthImage"
 	{
 		"ControlName"	"EditablePanel"
