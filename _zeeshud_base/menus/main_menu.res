@@ -1984,6 +1984,45 @@
 		
 	}
 	
+	"ItsASecretToEverybody"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"ItsASecretToEverybody"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"77777"
+		"wide"			"f0"
+		"tall"			"480"
+		"PaintBackgroundType"	"0"
+		"paintbackground"		"1"
+		"border"				"NoBorder"
+		"bgcolor_override"		"0 0 0 255"
+		"visible"				"1"
+		
+		"pin_to_sibling" "SupportersAnchor"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_TOPLEFT"
+	}
+	"ItsASecretToEverybody2"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"ItsASecretToEverybody2"
+		"labeltext"		"Nice try, asshole."
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"77778"
+		"textAlignment"	"center"
+		"wide"			"f0"
+		"tall"			"480"
+		"fgcolor_override"	"255 255 255 255"
+		"visible"				"1"
+		
+		"pin_to_sibling" "SupportersAnchor"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_TOPLEFT"
+	}
+	
+	
 	
 	"SteamWorkshopButton"
 	{
@@ -2174,115 +2213,7 @@
 		}
 	}
 	
-	//
-	//	SUPPORTERS
-	//
 	
-	"SupportersLogo"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"SupportersLogo"
-		"xpos"			"r460"
-		"ypos"			"r61"
-		"zpos"			"2"
-		"wide"			"64"
-		"tall"			"16"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/supporters"
-		"scaleImage"	"1"
-		"drawcolor"		"ZeesMain"
-	}
-	
-	"SupporterArea"
-	{
-		"ControlName"		"CTFImagePanel"
-		"fieldName"			"SupporterArea"
-		"xpos"				"0"
-		"ypos"				"r60"
-		"zpos"				"0"
-		"wide"				"f0"
-		"tall"				"140"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"			"replay/thumbnails/box_3_n"
-		"scaleImage"	"1"
-		
-		"src_corner_height"		"23"
-		"src_corner_width"		"23"
-		"draw_corner_width"		"0"
-		"draw_corner_height" 	"10"
-	}
-	
-	"SupportNumber1"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"SupportNumber1"
-		"font"			"FUTURA_BOLD_14"
-		"labelText"		"1. Blobby6799 (28.26)"
-		"xpos"			"r450"
-		"ypos"			"r55"
-		"wide"			"150"
-		"tall"			"30"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"textAlignment"	"west"
-		"fgcolor_override"	"255 214 0 255"
-	}
-	"SupportNumber2"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"SupportNumber2"
-		"font"			"FUTURA_BOLD_14"
-		"labelText"		"2. OwOitsurmom (25.00)"
-		"xpos"			"r450"
-		"ypos"			"r40"
-		"wide"			"150"
-		"tall"			"30"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"textAlignment"	"west"
-		"fgcolor_override"	"122 143 153 255"
-	}
-	"SupportNumber3"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"SupportNumber2"
-		"font"			"FUTURA_BOLD_14"
-		"labelText"		"2. Axo (25.00)"
-		"xpos"			"r450"
-		"ypos"			"r25"
-		"wide"			"150"
-		"tall"			"30"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"textAlignment"	"west"
-		"fgcolor_override"	"133 70 7 255"
-	}
-	"Supporters"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"Supporters"
-		"font"			"FUTURA_BOLD_10"
-		"labelText"		"Garret J. - BillyBoBBerson - SebaxBlitz - Beno - mramra1999 - Tailsmonster - CaffeineDaFolf - Noxi - Pattoxo - Simon G. - Jesse H. - Mercenary"
-		"xpos"			"r300"
-		"ypos"			"r55"
-		"wide"			"280"
-		"tall"			"55"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"textAlignment"	"west"
-		"centerwrap"	"1"
-		"fgcolor_override"	"ZeesWhite"
-	}
 	
 	
 	

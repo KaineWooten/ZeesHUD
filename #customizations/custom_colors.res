@@ -82,11 +82,7 @@ Scheme
 		"Uber Centered"				"255 255 255 255"
 		"Uber Centered Shadow"		"0 0 0 255"
 		
-		// Status Indicators ("status_indicators/")
-		"Low HP Indicator"			"255 0 90 255"
-		"Overheal Indicator"		"0 255 214 255"
-		"Low Ammo Indicator"		"255 0 90 255"
-		"Uber Ready Indicator"		"0 255 214 255"
+		
 	}
 	
 }
