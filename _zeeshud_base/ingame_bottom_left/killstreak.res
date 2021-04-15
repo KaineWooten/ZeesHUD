@@ -45,6 +45,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"image"        "replay/thumbnails/killstreak_bg"
+		"drawcolor"		"ZeesMain"
 	}
 	
 	"CountAnchor"
