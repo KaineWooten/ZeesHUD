@@ -47,21 +47,28 @@
 
 	}
 	
+	//the little bar that goes under the health
 	"PlayerStatusHealthImageBG2"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusHealthImageBG3"
+		
 		"xpos"			"150"
 		"ypos"			"r80"
 		"zpos"			"-4"
 		"wide"			"100"
 		"tall"			"25"
+		
+		"xpos_minmode"	"90"
+		"ypos_minmode"	"r40"
+		"wide_minmode"	"100"
+		"tall_minmode"	"20"
+		
+		
 		"visible"		"1"
-		"visible_minmode"		"0"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/health_underbar"
 		"scaleImage"		"1"
-		"drawcolor"		"Health BG"
 	}
 	
 	"PlayerStatusHealthImageBG"
@@ -73,16 +80,23 @@
 		"enabled"		"0"
 	}
 
-	//for some stupid reason i have to make the low hp thing here
+	//for some stupid reason i have to put the low hp thing here
 	"PlayerStatusHealthBonusImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
+		
 		"xpos"			"160"
 		"ypos"			"r175"
 		"zpos"			"0"
 		"wide"			"60"
 		"tall"			"60"
+		
+		"xpos_minmode"	"125"
+		"ypos_minmode"	"r120"
+		"wide_minmode"	"48"
+		"tall_minmode"	"48"
+		
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/lowhp"
@@ -95,11 +109,18 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthOverheal"
+		
 		"xpos"			"160"
 		"ypos"			"r180"
 		"zpos"			"0"
 		"wide"			"60"
 		"tall"			"60"
+		
+		"xpos_minmode"	"120"
+		"ypos_minmode"	"r120"
+		"wide_minmode"	"48"
+		"tall_minmode"	"48"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/zh_overheal"
@@ -113,16 +134,24 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
+		
 		"xpos"			"80"
 		"ypos"			"r140"
 		"zpos"			"5"
 		"wide"			"240"
 		"tall"			"100"
+		"font"			"CIKANDEI_56"
+		
+		"xpos_minmode"	"25"
+		"ypos_minmode"	"r100"
+		"wide_minmode"	"240"
+		"tall_minmode"	"100"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
-		"font"			"CIKANDEI_56"
+
 		"fgcolor"		"Health Text"
 	}
 
@@ -130,16 +159,18 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueShadow"
+		
 		"xpos"			"-3"
 		"ypos"			"-3"
 		"zpos"			"5"
 		"wide"			"240"
 		"tall"			"100"
+		"font"			"CIKANDEI_56"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
-		"font"			"CIKANDEI_56"
 		"fgcolor"		"Health Text Shadow"
 
 		"pin_to_sibling"		"PlayerStatusHealthValue"

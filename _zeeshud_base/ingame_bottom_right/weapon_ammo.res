@@ -4,13 +4,19 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"HudWeaponAmmoBG"
+		
 		"xpos"			"r170"
 		"ypos"			"r116"
 		"zpos"			"-4"
 		"wide"			"100"
 		"tall"			"100"
+		
+		"xpos_minmode"	"r100"
+		"ypos_minmode"	"r80"
+		"wide_minmode"	"80"
+		"tall_minmode"	"80"
+		
 		"visible"		"1"
-		"visible_minmode"	"0"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/am_bg_red"
 		"scaleImage"		"1"
@@ -22,13 +28,19 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"HudWeaponAmmoBG2"
+		
 		"xpos"			"r250"
 		"ypos"			"r80"
 		"zpos"			"-5"
 		"wide"			"100"
 		"tall"			"25"
+		
+		"xpos_minmode"			"r190"
+		"ypos_minmode"			"r40"
+		"wide_minmode"			"100"
+		"tall_minmode"			"20"
+		
 		"visible"		"1"
-		"visible_minmode"		"0"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/ammo_underbar"
 		"scaleImage"		"1"
@@ -57,11 +69,18 @@
 		"fieldName"		"AmmoInClip"
 		"font"			"CIKANDEI_56"
 		"fgcolor"		"Ammo Clip"
+		
 		"xpos"			"r265"
 		"ypos"			"r140"
 		"zpos"			"5"
 		"wide"			"60"
 		"tall"			"100"
+		
+		"xpos_minmode"			"r200"
+		"ypos_minmode"			"r100"
+		"wide_minmode"			"60"
+		"tall_minmode"			"100"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"east"
@@ -94,11 +113,19 @@
 		"fieldName"		"AmmoInReserve"
 		"font"			"CIKANDEI_24"
 		"fgcolor"		"Ammo Reserve"
+		
 		"xpos"			"r200"
 		"ypos"			"r130"
 		"zpos"			"7"
-		"wide"			"f0"
+		"wide"			"200"
 		"tall"			"100"
+		
+				
+		"xpos_minmode"	"r135"
+		"ypos_minmode"	"r90"
+		"wide_minmode"	"200"
+		"tall_minmode"	"100"
+		
 		"visible"		"0"
 		"enabled"		"1"
 		"textAlignment"	"west"
@@ -110,11 +137,14 @@
 		"fieldName"		"AmmoInReserveShadow"
 		"font"			"CIKANDEI_24"
 		"fgcolor"		"Ammo Reserve Shadow"
+		
 		"xpos"			"-2"
 		"ypos"			"-2"
 		"zpos"			"7"
 		"wide"			"f0"
 		"tall"			"100"
+
+		
 		"visible"		"0"
 		"enabled"		"1"
 		"textAlignment"	"west"
@@ -131,11 +161,19 @@
 		"fieldName"		"AmmoNoClip"
 		"font"			"CIKANDEI_56"
 		"fgcolor"		"Ammo Clip"
+		
 		"xpos"			"r255"
 		"ypos"			"r140"
 		"zpos"			"5"
 		"wide"			"100"
 		"tall"			"100"
+		
+		"xpos_minmode"	"r195"
+		"ypos_minmode"	"r100"
+		"wide_minmode"	"100"
+		"tall_minmode"	"100"
+		
+		
 		"visible"		"0"
 		"enabled"		"1"
 		"textAlignment"	"center"

@@ -172,6 +172,12 @@
 		"zpos"					"0"
 		"wide"					"100"
 		"tall"  				"70"
+		
+		"xpos_minmode"			"r160"
+		"ypos_minmode"			"r30"
+		"wide_minmode"			"100"
+		"tall_minmode"  		"56"
+		
 		"visible" 				"1"
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"

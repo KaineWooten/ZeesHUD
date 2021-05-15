@@ -55,7 +55,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInClip"
-		"font"			"CIKANDEI_56"
 		"fgcolor"		"Ammo Clip"
 		"xpos"			"r245"
 		"ypos"			"r140"
@@ -71,7 +70,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInClipShadow"
-		"font"			"CIKANDEI_56"
 		"fgcolor"		"Ammo Clip Shadow"
 		"xpos"			"-2"
 		"ypos"			"-2"
@@ -92,7 +90,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserve"
-		"font"			"CIKANDEI_24"
 		"fgcolor"		"Ammo Reserve"
 		"xpos"			"r180"
 		"ypos"			"r130"
@@ -108,7 +105,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserveShadow"
-		"font"			"CIKANDEI_24"
 		"fgcolor"		"Ammo Reserve Shadow"
 		"xpos"			"-2"
 		"ypos"			"-2"
@@ -129,7 +125,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoNoClip"
-		"font"			"CIKANDEI_56"
 		"fgcolor"		"Ammo Clip"
 		"xpos"			"r245"
 		"ypos"			"r140"
@@ -145,7 +140,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoNoClipShadow"
-		"font"			"CIKANDEI_56"
 		"fgcolor"		"Ammo Clip Shadow"
 		"xpos"			"-2"
 		"ypos"			"-2"

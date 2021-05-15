@@ -17,15 +17,18 @@
 	{
 		"ControlName"	"CTFClassImage"
 		"fieldName"		"PlayerStatusClassImage"
+		
 		"xpos"			"80"
-		"xpos_minmode"	"5"
 		"ypos"			"r125"
-		"ypos_minmode"	"r70"
 		"zpos"			"2"
 		"wide"			"90"
-		"wide_minmode"	"70"
 		"tall"			"90"
+		
+		"xpos_minmode"	"5"
+		"ypos_minmode"	"r70"
+		"wide_minmode"	"70"
 		"tall_minmode"	"70"
+
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/class_scoutred"
@@ -41,15 +44,18 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusSpyOutlineImage"
+		
 		"xpos"			"3"
 		"ypos"			"r67"
-		"xpos_minmode"	"-5"
-		"ypos_minmode"	"r44"
 		"zpos"			"7"
 		"wide"			"55"
 		"tall"			"55"
+		
+		"xpos_minmode"	"-5"
+		"ypos_minmode"	"r44"
 		"wide_minmode"	"27"
 		"tall_minmode"	"27"
+		
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/class_spy_outline"
@@ -78,14 +84,19 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"classmodelpanelBG"
+		
 		"xpos"			"70"
-		"xpos_minmode"	"9999"
 		"ypos"			"r116"
 		"wide"			"100"
 		"tall"			"100"
+		
+		"xpos_minmode"	"20"
+		"ypos_minmode"	"r80"
+		"wide_minmode"	"80"
+		"tall_minmode"	"80"
+		
 		"visible"		"0"
 		"enabled"		"1"
-		"enabled_minmode"	"0"
 		"image"			"replay/thumbnails/classframe_red"
 		"scaleImage"	"1"
 		"teambg_2"		"replay/thumbnails/classframe_red"
@@ -95,12 +106,18 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"ClassBGCover"
+		
 		"xpos"			"70"
-		"xpos_minmode"	"9999"
 		"ypos"			"r116"
 		"zpos"			"3"
 		"wide"			"100"
 		"tall"			"100"
+		
+		"xpos_minmode"	"20"
+		"ypos_minmode"	"r80"
+		"wide_minmode"	"80"
+		"tall_minmode"	"80"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"enabled_minmode"	"0"
@@ -114,15 +131,18 @@
 	{
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"classmodelpanel"
+		
 		"xpos"			"40"
-		"xpos_minmode"	"0"
 		"ypos"			"r185"
-		"ypos_minmode"	"r150"
 		"zpos"			"2"
 		"wide"			"150"
-		"wide_minmode"	"150"
 		"tall"			"150"
-		"tall_minmode"	"150"
+		
+		"xpos_minmode"	"8"
+		"ypos_minmode"	"r135"
+		"wide_minmode"	"100"
+		"tall_minmode"	"120"
+
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"

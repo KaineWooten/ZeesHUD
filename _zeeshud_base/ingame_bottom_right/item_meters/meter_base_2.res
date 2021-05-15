@@ -8,6 +8,11 @@
 		"zpos"			"3"
 		"wide"			"100"
 		"tall"			"100"
+		
+		"xpos_minmode"	"r100"
+		"ypos_minmode"	"r80"
+		"wide_minmode"	"80"
+		"tall_minmode"	"80"
 	}
 	
 	"ItemEffectMeterBar"
@@ -28,6 +33,9 @@
 		"xpos"				"10"
 		"ypos"				"66"
 		
+		"xpos_minmode"		"8"
+		"ypos_minmode"		"50"
+		
 		"pin_to_sibling"		"ItemEffectAnchor"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
@@ -41,5 +49,10 @@
 		"zpos"				"4"
 		"wide"				"48"
 		"tall"				"9"
+		
+		"xpos_minmode"				"-30"
+		"ypos_minmode"				"-60"
+		"wide_minmode"				"39"
+		"tall_minmode"				"7"
 	}
 }

@@ -5,11 +5,18 @@
 		"fieldName"			"HudItemEffectMeter"
 		"visible"			"1"
 		"enabled"			"1"
+		
 		"xpos"			"r170"
 		"ypos"			"r116"
 		"zpos"			"3"
 		"wide"			"100"
 		"tall"			"100"
+		
+		"xpos_minmode"	"r100"
+		"ypos_minmode"	"r80"
+		"wide_minmode"	"80"
+		"tall_minmode"	"80"
+		
 		"MeterFG"			"ZeesWhite"
 		"MeterBG"			"ZeesRed"
 	}
@@ -23,6 +30,11 @@
 		"zpos"			"3"
 		"wide"			"100"
 		"tall"			"100"
+		
+		
+		"wide_minmode"	"80"
+		"tall_minmode"	"80"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/mid_meter_red"
@@ -40,6 +52,10 @@
 		"zpos"			"5"
 		"wide"			"100"
 		"tall"			"100"
+		
+		"wide_minmode"	"80"
+		"tall_minmode"	"80"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/mid_meter_mask"
@@ -62,7 +78,11 @@
 		"fieldName"			"ItemEffectMeterLabel"
 		"xpos"				"-13"
 		"ypos"				"-43"
-		"zpos"				"6"
+		
+		"xpos_minmode"		"-11"
+		"ypos_minmode"		"-34"
+		
+		"zpos"				"7"
 		"wide"				"80"
 		"tall"				"16"
 		"autoResize"		"1"
@@ -75,6 +95,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"font"				"GAMERIA_8"
+		"font_minmode"				"FUTURA_BOLD_10"
 		
 		"pin_to_sibling"		"ItemEffectAnchor"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
@@ -86,11 +107,18 @@
 		"ControlName"		"ContinuousProgressBar"
 		"fieldName"			"ItemEffectMeter"
 		"font"				"Default"
+		
 		"xpos"				"-38"
 		"ypos"				"-48"
 		"zpos"				"4"
 		"wide"				"48"
 		"tall"				"12"
+		
+		"xpos_minmode"				"-30"
+		"ypos_minmode"				"-38"
+		"wide_minmode"				"39"
+		"tall_minmode"				"10"
+		
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
