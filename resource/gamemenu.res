@@ -19,7 +19,7 @@
 		"label"			""
 		"command"		"engine toggleconsole"
 		"subimage"		"glyph_options"
-		"tooltip"		"Console"
+		"tooltip"		"#GameUI_Console"
 	}
 	"ReportBugButton"
 	{

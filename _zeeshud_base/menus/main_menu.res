@@ -1241,7 +1241,7 @@
 		"label"			""
 		"command"		"engine toggleconsole"
 		"subimage"		"glyph_options"
-		"tooltip"		"Console"
+		"tooltip"		"#GameUI_Console"
 		
 		"pin_to_sibling" "IconAnchor"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
