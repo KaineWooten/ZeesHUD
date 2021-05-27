@@ -20,10 +20,34 @@
 	
 	"CrosshairIndicatorLow"
 	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"CrosshairIndicatorLow"
+		"xpos"			"c-45"
+		"ypos"			"c-10"
+		"wide"			"20"
+		"tall"			"20"
+		"visible"		"1"
+		"enabled"		"0"
+		"scaleImage"	"1"
+		"alpha"			"0"
+		"image"			"replay/thumbnails/hp_indicator_low"
+		"drawcolor"		"Indicator Low"
 	}
 	
 	"CrosshairIndicatorOvh"
 	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"CrosshairIndicatorOvh"
+		"xpos"			"c-45"
+		"ypos"			"c-10"
+		"wide"			"20"
+		"tall"			"20"
+		"enabled"		"0"
+		"visible"		"1"
+		"scaleImage"	"1"
+		"alpha"			"1"
+		"image"			"replay/thumbnails/hp_indicator_ovh"
+		"drawcolor"		"Indicator Ovh"
 	}
 	
 	"PlayerStatusHealthImage"
@@ -92,7 +116,7 @@
 		"wide"			"60"
 		"tall"			"60"
 		
-		"xpos_minmode"	"125"
+		"xpos_minmode"	"105"
 		"ypos_minmode"	"r120"
 		"wide_minmode"	"48"
 		"tall_minmode"	"48"
@@ -194,6 +218,10 @@
 		"fieldName"		"PlayerStatusAnchor"
 		"xpos"			"100"
 		"ypos"			"r140"
+		
+		"xpos_minmode"	"50"
+		"ypos_minmode"	"r100"
+		
 		"wide"			"16"
 		"tall"			"16"
 		"visible"		"1"

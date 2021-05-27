@@ -24,10 +24,10 @@
 		"wide"			"90"
 		"tall"			"90"
 		
-		"xpos_minmode"	"5"
-		"ypos_minmode"	"r70"
-		"wide_minmode"	"70"
-		"tall_minmode"	"70"
+		"xpos_minmode"	"30"
+		"ypos_minmode"	"r80"
+		"wide_minmode"	"65"
+		"tall_minmode"	"65"
 
 		"visible"		"1"
 		"enabled"		"1"
@@ -65,14 +65,19 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusClassImageBG"
+		
 		"xpos"			"70"
-		"xpos_minmode"	"9999"
 		"ypos"			"r116"
 		"wide"			"100"
 		"tall"			"100"
-		"visible"		"0"
+		
+		"xpos_minmode"	"20"
+		"ypos_minmode"	"r80"
+		"wide_minmode"	"80"
+		"tall_minmode"	"80"
+		
+		"visible"		"1"
 		"enabled"		"1"
-		"enabled_minmode"	"0"
 		"image"			"replay/thumbnails/classframe_red"
 		"scaleImage"	"1"
 		"teambg_2"		"replay/thumbnails/classframe_red"
