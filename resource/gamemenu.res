@@ -1,5 +1,22 @@
 "GameMenu"
 {
+
+	
+		"changexhair_ql8"
+		{
+			"label"		""
+			"command"						"engine zh_xhair-ql_8"
+			"tooltip"	"ql_8"
+		}
+		"changexhair_ql4"
+		{
+			"label"		""
+			"command"						"engine zh_xhair-ql_4"
+			"tooltip"	"ql_4"
+		}
+	
+	
+
 	"AchievementsButton"
 	{
 		"label"			""
