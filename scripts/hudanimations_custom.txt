@@ -44,12 +44,7 @@ event HudHealthBonusPulseMain
 }
 
 event HudHealthBonusPulseStop
-{
-	StopEvent HudHealthBonusPulseCycle1		0.0
-	StopEvent HudHealthBonusPulseCycle2		0.0
-	
-	StopEvent FlickerHealthIndicatorOvh		0.0
-	
+{	
 	RunEvent HudHealthReset 0.0
 	Animate	PlayerStatusHealthBonusImage	Alpha		"0"							Linear 0.0 0.0
 	Animate	PlayerStatusHealthOverheal		Alpha		"0"							Linear 0.0 0.0
@@ -59,6 +54,11 @@ event HudHealthBonusPulseStop
 	Animate	GuiPlayerHealthShadow			FgColor		"Health Text Shadow"		Linear 0.0 0.0
 	Animate CrosshairIndicatorLow			Alpha		"0"							Linear 0.0 0.0
 	Animate CrosshairIndicatorOvh			Alpha		"0"							Linear 0.0 0.0
+
+	StopEvent HudHealthBonusPulseCycle1		0.0
+	StopEvent HudHealthBonusPulseCycle2		0.0
+	
+	StopEvent FlickerHealthIndicatorOvh		0.0
 }
 //==================================================================================
 // Low Health Pulse
@@ -107,11 +107,6 @@ event HudHealthDyingPulseMain
 }
 event HudHealthDyingPulseStop
 {
-	StopEvent HudHealthDyingPulseCycle1 		0.0
-	StopEvent HudHealthDyingPulseCycle2 		0.0
-	
-	StopEvent FlickerHealthIndicatorLow		0.0
-	
 	RunEvent HudHealthReset 0.0
 	Animate	PlayerStatusHealthBonusImage	Alpha		"0"							Linear 0.0 0.0
 	Animate	PlayerStatusHealthOverheal		Alpha		"0"							Linear 0.0 0.0
@@ -122,6 +117,10 @@ event HudHealthDyingPulseStop
 	Animate CrosshairIndicatorLow			Alpha		"0"							Linear 0.0 0.0
 	Animate CrosshairIndicatorOvh			Alpha		"0"							Linear 0.0 0.0
 	
+	StopEvent HudHealthDyingPulseCycle1 		0.0
+	StopEvent HudHealthDyingPulseCycle2 		0.0
+	
+	StopEvent FlickerHealthIndicatorLow		0.0
 }
 event HudHealthReset
 {
@@ -131,8 +130,8 @@ event HudHealthReset
 	Animate	PlayerStatusHealthValueShadow	FgColor		"Health Text Shadow"		Linear 0.0 0.0
 	Animate	GuiPlayerHealth					FgColor		"Health Text"				Linear 0.0 0.0
 	Animate	GuiPlayerHealthShadow			FgColor		"Health Text Shadow"		Linear 0.0 0.0
-	Animate CrosshairIndicatorLow			Alpha		"0"							Linear 0.0 0.0
-	Animate CrosshairIndicatorOvh			Alpha		"0"							Linear 0.0 0.0
+	//Animate CrosshairIndicatorLow			Alpha		"0"							Linear 0.0 0.0
+	//Animate CrosshairIndicatorOvh			Alpha		"0"							Linear 0.0 0.0
 }
 //==================================================================================
 // Low Ammo Pulse
