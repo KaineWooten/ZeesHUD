@@ -1,4 +1,4 @@
-
+#base "..\..\#customizations\addons\_enabled\disable_images\player_health.res"
 
 #base "..\..\#customizations\addons\_enabled\health-ammo_font_futura\player_health.res"
 #base "..\..\#customizations\addons\_enabled\health-ammo-style_classic\player_health.res"
