@@ -1,3 +1,4 @@
+
 "Resource/HudLayout.res"
 {
 
@@ -217,6 +218,11 @@
 		"ypos"					"r38"
 		"wide"					"170"
 		"tall"					"30"
+		
+		"xpos_minmode"					"2"
+		"ypos_minmode"					"r29"
+		"wide_minmode"					"120"
+		"tall_minmode"					"25"
 	}
 
 	CMainTargetID
@@ -224,7 +230,7 @@
 		"fieldName" 			"CMainTargetID"
 		"visible" 				"0"
 		"enabled" 				"1"
-		"xpos"					"c-100"
+		"xpos"					"c-200"
 		"ypos"					"c40"
 		"wide"					"600"
 		"tall"					"30"
@@ -236,7 +242,7 @@
 		"fieldName" 			"CSpectatorTargetID"
 		"visible" 				"0"
 		"enabled" 				"1"
-		"xpos"					"c-100"
+		"xpos"					"c-200"
 		"ypos"					"c60"
 		"wide"					"600"
 		"tall"					"30"
