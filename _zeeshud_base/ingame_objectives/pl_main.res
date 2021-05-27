@@ -492,17 +492,17 @@
 
 			"if_multiple_trains"
 			{
-				"xpos"		"16"
+				"xpos"		"11"
 			}
 
 			"if_multiple_trains_top"
 			{
-				"ypos"		"45"
+				"ypos"		"41"
 			}
 
 			"if_multiple_trains_bottom"
 			{
-				"ypos"		"82"
+				"ypos"		"79"
 			}
 		}
 
