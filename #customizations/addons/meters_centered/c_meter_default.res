@@ -75,7 +75,11 @@
 		"ControlName"			"EditablePanel"
 		"fieldName"				"ItemEffectAnchor"
 		"xpos"					"92"
-		"ypos"					"40"
+		"ypos"					"40"		
+		
+		"xpos_minmode"					"92"
+		"ypos_minmode"					"40"
+		
 		"wide"					"1"
 		"tall"					"1"
 	}
@@ -89,6 +93,12 @@
 		"zpos"				"2"
 		"wide"				"116"
 		"tall"				"10"
+		
+		"xpos_minmode"				"46"
+		"ypos_minmode"				"20"
+		"wide_minmode"				"116"
+		"tall_minmode"				"10"
+		
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
@@ -109,6 +119,12 @@
 		"zpos"				"0"
 		"wide"				"116"
 		"tall"				"10"
+		
+		"xpos_minmode"				"46"
+		"ypos_minmode"				"20"
+		"wide_minmode"				"116"
+		"tall_minmode"				"10"
+		
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"

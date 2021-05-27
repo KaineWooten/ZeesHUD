@@ -32,6 +32,7 @@
 		"alpha"			"0"
 		"image"			"replay/thumbnails/hp_indicator_low"
 		"drawcolor"		"Indicator Low"
+		"additive" "1"
 	}
 	
 	"CrosshairIndicatorOvh"
@@ -45,9 +46,10 @@
 		"enabled"		"0"
 		"visible"		"1"
 		"scaleImage"	"1"
-		"alpha"			"1"
+		"alpha"			"0"
 		"image"			"replay/thumbnails/hp_indicator_ovh"
 		"drawcolor"		"Indicator Ovh"
+		"additive" "1"
 	}
 	
 	"PlayerStatusHealthImage"
