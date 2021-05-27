@@ -6,10 +6,13 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"xpos"				"c-104"
+		"xpos_minmode"				"c-104"
 		"ypos"				"r120"
 		"ypos_minmode"		"r120"
 		"wide"				"168"
+		"wide_minmode"				"168"
 		"tall"				"32"
+		"tall_minmode"				"32"
 		"MeterFG"			"ZeesWhite"
 		"MeterBG"			"ZeesRed"
 	}
@@ -25,6 +28,12 @@
 		"tall"			"32"
 		"visible"		"1"
 		"enabled"		"1"
+		
+		"xpos_minmode"			"40"
+		"ypos_minmode"			"0"
+		"wide_minmode"			"128"
+		"tall_minmode"			"32"
+		
 		"image"			"replay/thumbnails/chargebar_notitle"
 		"teambg_1"		"replay/thumbnails/chargebar_notitle"
 		"teambg_2"		"replay/thumbnails/chargebar_notitle"
@@ -36,11 +45,18 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"ItemEffectMeterLabel"
+		
 		"xpos"				"-38"
 		"ypos"				"17"
 		"zpos"				"6"
 		"wide"				"80"
 		"tall"				"16"
+		
+		"xpos_minmode"				"-38"
+		"ypos_minmode"				"17"
+		"wide_minmode"				"80"
+		"tall_minmode"				"16"
+		
 		"autoResize"		"1"
 		"pinCorner"			"2"
 		"visible"			"1"
@@ -52,6 +68,7 @@
 		"brighttext"		"0"
 		"fgcolor"			"ZeesBlack"
 		"font"				"FUTURA_BOLD_12"
+		"font_minmode"				"FUTURA_BOLD_12"
 	}
 	"ItemEffectAnchor"
 	{

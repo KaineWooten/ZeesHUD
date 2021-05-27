@@ -71,10 +71,14 @@
 		"ControlName"		"CExLabel"
 		"fieldName"			"AccountValue"
 		"xpos"				"0"
+		"xpos_minmode"				"0"
 		"ypos"				"0"
+		"ypos_minmode"				"0"
 		"zpos"				"2"
 		"wide"				"50"
+		"wide_minmode"				"50"
 		"tall"				"30"
+		"tall_minmode"				"30"
 		"autoResize"		"1"
 		"pinCorner"			"2"
 		"visible"			"1"
@@ -85,17 +89,22 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"fgcolor"			"Metal Centered"
+		
 	}
 
 	"AccountValueShadow"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"AccountValueShadow"
+		"xpos_minmode"				"-1"
 		"xpos"				"-1"
+		"ypos_minmode"				"-1"
 		"ypos"				"-1"
 		"zpos"				"2"
 		"wide"				"50"
+		"wide_minmode"				"50"
 		"tall"				"30"
+		"tall_minmode"				"30"
 		"autoResize"		"1"
 		"pinCorner"			"2"
 
