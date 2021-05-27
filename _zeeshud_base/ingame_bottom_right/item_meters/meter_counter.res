@@ -5,11 +5,19 @@
 		"fieldName"				"HudItemEffectMeter"
 		"visible"				"1"
 		"enabled"				"1"
+		
+		
 		"xpos"			"r170"
 		"ypos"			"r116"
 		"zpos"			"3"
 		"wide"			"100"
 		"tall"			"100"
+		
+		"xpos_minmode"	"r100"
+		"ypos_minmode"	"r80"
+		"wide_minmode"	"80"
+		"tall_minmode"	"80"
+		
 		"MeterFG"				"White"
 		"MeterBG"				"Gray"
 	}
@@ -23,6 +31,10 @@
 		"zpos"			"0"
 		"wide"			"100"
 		"tall"			"100"
+		
+		"wide_minmode"	"80"
+		"tall_minmode"	"80"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/counter_head_blu"
@@ -78,6 +90,10 @@
 		"fieldName"				"ItemEffectMeterCount"
 		"xpos"					"40"
 		"ypos"					"10"
+		
+		"xpos_minmode"			"20"
+		"ypos_minmode"			"5"
+		
 		"zpos"					"2"
 		"wide"					"40"
 		"tall"					"30"
@@ -90,6 +106,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"CIKANDEI_36"
+		"font_minmode"			"CIKANDEI_24"
 		"fgcolor"				"255 255 255 255"
 	}
 
@@ -111,6 +128,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"CIKANDEI_36"
+		"font_minmode"			"CIKANDEI_24"
 		"fgcolor"				"0 0 0 255"
 
 		"pin_to_sibling"		"ItemEffectMeterCount"
