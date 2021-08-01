@@ -444,4 +444,19 @@
 	}
 	
 	
+	//=====================================
+	//
+	//		  	MISC. CRAP
+	//
+	//=====================================
+	
+	"health_dead"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"sol_def_red"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/health_dead"
+	}
 }
