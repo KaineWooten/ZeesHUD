@@ -1113,7 +1113,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"ZeesHUD ALPHA IV.4"
+		"labelText"		"ZeesHUD ALPHA IV.5"
 		"font"			"FUTURA_BOLD_16"
 		"textAlignment"	"east"
 		"textinsetx"	"0"
