@@ -5,6 +5,16 @@
 
 "Resource/UI/MainMenuOverride.res"
 {
+
+	"ItsASecretToEverybody"
+	{
+		"visible"	"0"
+	}
+	"ItsASecretToEverybody2"
+	{
+		"visible"	"0"
+	}
+	
 	MainMenuOverride
 	{
 	
@@ -21,10 +31,11 @@
 		"tall"			"16"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/supporters"
+		"image"			"replay/thumbnails/transparent"
 		"scaleImage"	"1"
 		"drawcolor"		"ZeesMain"
 	}
+	
 	
 	"SupporterArea"
 	{
@@ -46,21 +57,14 @@
 		"draw_corner_height" 	"10"
 	}	
 	
-	"ItsASecretToEverybody"
-	{
-		"visible"	"0"
-	}
-	"ItsASecretToEverybody2"
-	{
-		"visible"	"0"
-	}
+	
 	
 	"SupportNumber1"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SupportNumber1"
 		"font"			"FUTURA_BOLD_14"
-		"labelText"		"1. WinRAR ($50.00)"
+		"labelText"		" "
 		"xpos"			"r450"
 		"ypos"			"r55"
 		"wide"			"150"
@@ -77,7 +81,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"SupportNumber2"
 		"font"			"FUTURA_BOLD_14"
-		"labelText"		"2. Amelia ❤ ($47.09)"
+		"labelText"		" "
 		"xpos"			"r450"
 		"ypos"			"r40"
 		"wide"			"150"
@@ -94,7 +98,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"SupportNumber2"
 		"font"			"FUTURA_BOLD_14"
-		"labelText"		"3. Black Baron ($34.14)"
+		"labelText"		" "
 		"xpos"			"r450"
 		"ypos"			"r25"
 		"wide"			"150"
@@ -120,7 +124,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"Supporters"
 		"font"			"FUTURA_BOLD_10"
-		"labelText"		"BillyBoBBerson - SebaxBlitz - Beno - mramra1999 - Tailsmonster - CaffeineDaFolf - Noxi - Pattoxo - Simon G. - Jesse H. - Mercenary - OwOitsurmom - Axo - Blobby6799"
+		"labelText"		" "
 		"xpos"			"r300"
 		"ypos"			"r55"
 		"wide"			"280"

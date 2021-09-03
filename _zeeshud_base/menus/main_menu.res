@@ -2009,7 +2009,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItsASecretToEverybody2"
-		"labeltext"		"Thank you for using ZeesHUD. Unfortunately, it seems you have tried to remove the part that acknowledges donations. HUD Makers hardly get donations, and from what I know, ZeesHUD was the first HUD to receive over $100 USD in donations. HUD makers usually barely get any acknowledged for their hard work. Please consider keeping the donation bar as it is for now, and I promise by the full final release I'll have a better place to list donators. Also, ALT + TAB to exit TF2."
+		"labeltext"		"If you're seeing this message post an issue on GitHub."
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"77778"
@@ -2154,7 +2154,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"SupportLabelTop"
 		"font"			"FUTURA_BOLD_10"
-		"labelText"		"SUPPORT ZEESHUD! paypal.me/zeesastrous"
+		"labelText"		"DO *NOT* SUPPORT ZEESHUD! HE THREATENS TO PUT MALWARE IN HIS HUD!"
 		"xpos"			"r490"
 		"ypos"			"r80"
 		"wide"			"360"
@@ -2164,7 +2164,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"east"
-		"fgcolor_override"	"ZeesWhite"
+		"fgcolor_override"	"ZeesMain"
 	}
 	
 
