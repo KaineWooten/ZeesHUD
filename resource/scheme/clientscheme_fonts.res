@@ -56,52 +56,206 @@ Scheme
 			}
 		}
 		
-		// RAGLAN PUNCH (addon)
-		"RAG_56"
+		// ZEESHUD NUMBERS
+		"ZH_56"
 		{
 			"1"
 			{
-				"name"			"RaglanPunchStd-UB"
+				"name"			"zeesHUDNumbers"
 				"tall" 		 	"56"
 				"additive"		"0"
 				"antialias"		"1"
 			}
 		}
-		"RAG_48"
+		
+		"ZH_51"
 		{
 			"1"
 			{
-				"name"			"RaglanPunchStd-UB"
-				"tall" 		 	"48"
+				"name"			"zeesHUDNumbers"
+				"tall" 		 	"51"
 				"additive"		"0"
 				"antialias"		"1"
 			}
 		}
-		"RAG_36"
+		"ZH_50"
 		{
 			"1"
 			{
-				"name"			"RaglanPunchStd-UB"
-				"tall" 		 	"36"
+				"name"			"zeesHUDNumbers"
+				"tall" 		 	"50"
 				"additive"		"0"
 				"antialias"		"1"
 			}
 		}
-		"RAG_32"
+		"ZH_48"
 		{
 			"1"
 			{
-				"name"			"RaglanPunchStd-UB"
+				"name"			"zeesHUDNumbers"
+				"tall" 		 	"44"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		"ZH_36"
+		{
+			"1"
+			{
+				"name"			"zeesHUDNumbers"
 				"tall" 		 	"32"
 				"additive"		"0"
 				"antialias"		"1"
 			}
 		}
-		"RAG_24"
+		"ZH_32"
 		{
 			"1"
 			{
-				"name"			"RaglanPunchStd-UB"
+				"name"			"zeesHUDNumbers"
+				"tall" 		 	"32"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		"ZH_30"
+		{
+			"1"
+			{
+				"name"			"zeesHUDNumbers"
+				"tall" 		 	"30"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		"ZH_29"
+		{
+			"1"
+			{
+				"name"			"zeesHUDNumbers"
+				"tall" 		 	"29"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		"ZH_28"
+		{
+			"1"
+			{
+				"name"			"zeesHUDNumbers"
+				"tall" 		 	"28"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		"ZH_25"
+		{
+			"1"
+			{
+				"name"			"zeesHUDNumbers"
+				"tall" 		 	"25"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		"ZH_24"
+		{
+			"1"
+			{
+				"name"			"zeesHUDNumbers"
+				"tall" 		 	"24"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		"ZH_22"
+		{
+			"1"
+			{
+				"name"			"zeesHUDNumbers"
+				"tall" 		 	"22"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		"ZH_21"
+		{
+			"1"
+			{
+				"name"			"zeesHUDNumbers"
+				"tall" 		 	"21"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		"ZH_20"
+		{
+			"1"
+			{
+				"name"			"zeesHUDNumbers"
+				"tall" 		 	"20"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		
+		//OUTLINE
+		
+		"ZHO_56"
+		{
+			"1"
+			{
+				"name"			"zeesHUDNumbersOutline"
+				"tall" 		 	"56"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		"ZHO_48"
+		{
+			"1"
+			{
+				"name"			"zeesHUDNumbersOutline"
+				"tall" 		 	"48"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		"ZHO_36"
+		{
+			"1"
+			{
+				"name"			"zeesHUDNumbersOutline"
+				"tall" 		 	"36"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		"ZHO_32"
+		{
+			"1"
+			{
+				"name"			"zeesHUDNumbersOutline"
+				"tall" 		 	"32"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		"ZHO_28"
+		{
+			"1"
+			{
+				"name"			"zeesHUDNumbersOutline"
+				"tall" 		 	"28"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		"ZHO_24"
+		{
+			"1"
+			{
+				"name"			"zeesHUDNumbersOutline"
 				"tall" 		 	"24"
 				"additive"		"0"
 				"antialias"		"1"
@@ -3138,18 +3292,13 @@ Scheme
 		}
 		"11"
 		{
-			"font"	"resource/fonts/raglanpunch.otf"
-			"name"	"RaglanPunchStd-UB"
+			"font"	"resource/fonts/zeesHUDNumbers.ttf"
+			"name"	"zeesHUDNumbers"
 		}
 		"12"
 		{
-			"font"	"resource/fonts/road_rage.otf"
-			"name"	"RoadRage"
-		}
-		"13"
-		{
-			"font"	"resource/fonts/rodinhimawaripro.otf"
-			"name"	"RodinHimawariPro-UB"
+			"font"	"resource/fonts/zeesHUDNumbersOutline.ttf"
+			"name"	"zeesHUDNumbersOutline"
 		}
 	}
 }

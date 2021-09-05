@@ -21,6 +21,7 @@ event HudHealthBonusPulse
 event FlickerHealthIndicatorOvh
 {
 	
+
 	Animate CrosshairIndicatorOvh			Alpha		"255"		Spline 0.0 0.2
 	Animate CrosshairIndicatorOvh			Alpha		"0"			Spline 0.2 0.2
 	Animate CrosshairIndicatorOvh			Alpha		"255"		Spline 0.4 0.2
@@ -83,6 +84,8 @@ event HudHealthDyingPulse
 
 event FlickerHealthIndicatorLow
 {	
+
+	Animate CrosshairIndicatorLow			FgColor		"Indicator Low"		Linear 0.0 0.0
 	Animate CrosshairIndicatorLow			Alpha		"255"		Spline 0.0 0.2
 	Animate CrosshairIndicatorLow			Alpha		"0"			Spline 0.2 0.2
 	Animate CrosshairIndicatorLow			Alpha		"255"		Spline 0.4 0.2
