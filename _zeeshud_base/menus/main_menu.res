@@ -2009,7 +2009,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItsASecretToEverybody2"
-		"labeltext"		"Thank you for using ZeesHUD. Unfortunately, it seems you have tried to remove the part that acknowledges donations. HUD Makers hardly get donations, and from what I know, ZeesHUD was the first HUD to receive over $100 USD in donations. HUD makers usually barely get any acknowledged for their hard work. Please consider keeping the donation bar as it is for now, and I promise by the full final release I'll have a better place to list donators. Also, ALT + TAB to exit TF2."
+		"labeltext"		"Caught you. Put that file back where it belongs."
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"77778"
