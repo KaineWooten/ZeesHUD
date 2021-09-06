@@ -79,15 +79,15 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusHealthImageBG3"
 		
-		"xpos"			"150"
-		"ypos"			"r80"
+		"xpos"			"140"
+		"ypos"			"r100"
 		"zpos"			"-4"
-		"wide"			"100"
-		"tall"			"25"
+		"wide"			"150"
+		"tall"			"35"
 		
-		"xpos_minmode"	"90"
+		"xpos_minmode"	"80"
 		"ypos_minmode"	"r40"
-		"wide_minmode"	"100"
+		"wide_minmode"	"135"
 		"tall_minmode"	"20"
 		
 		
@@ -161,15 +161,15 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
 		
-		"xpos"			"80"
+		"xpos"			"105"
 		"ypos"			"r140"
 		"zpos"			"5"
 		"wide"			"240"
 		"tall"			"100"
-		"font"			"CIKANDEI_56"
+		"font"			"ZH_51"
 		
-		"xpos_minmode"	"25"
-		"ypos_minmode"	"r100"
+		"xpos_minmode"	"40"
+		"ypos_minmode"	"r105"
 		"wide_minmode"	"240"
 		"tall_minmode"	"100"
 		
@@ -186,12 +186,12 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueShadow"
 		
-		"xpos"			"-3"
-		"ypos"			"-3"
-		"zpos"			"5"
+		"xpos"			"-1"
+		"ypos"			"-1"
+		"zpos"			"6"
 		"wide"			"240"
 		"tall"			"100"
-		"font"			"CIKANDEI_56"
+		"font"			"ZHO_56"
 		
 		"visible"		"1"
 		"enabled"		"1"
