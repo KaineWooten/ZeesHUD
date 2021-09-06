@@ -2154,7 +2154,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"SupportLabelTop"
 		"font"			"FUTURA_BOLD_10"
-		"labelText"		"DO *NOT* SUPPORT ZEESHUD! HE THREATENS TO PUT MALWARE IN HIS HUD!"
+		"labelText"		" "
 		"xpos"			"r490"
 		"ypos"			"r80"
 		"wide"			"360"
