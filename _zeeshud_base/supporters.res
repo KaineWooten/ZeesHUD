@@ -31,7 +31,7 @@
 		"tall"			"16"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/transparent"
+		"image"			"replay/thumbnails/blank"
 		"scaleImage"	"1"
 		"drawcolor"		"ZeesMain"
 	}
