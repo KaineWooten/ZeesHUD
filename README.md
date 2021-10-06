@@ -8,7 +8,5 @@ ZeesHUD is a work-in-progress stylish and ambitious HUD project for Team Fortres
 
 Donor box has been removed from the main menu and the full screen pop up is (hopefully) disabled.
 
-# Why did you do this?
-
-[Ehm, its complicated...](https://www.reddit.com/r/tf2/comments/mniqly/so_i_installed_zeeshud_and_is_it_possible_to_get/)
-I would suggest reading that with an archived version.
+# Zeesastrous has rq'd from the internet
+Alongside that, they deleted the Zeeshud repo. This one is the most up-to-date one. This one's always here to fork.
