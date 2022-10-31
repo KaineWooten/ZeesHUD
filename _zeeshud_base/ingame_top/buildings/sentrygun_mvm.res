@@ -7,12 +7,17 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"160"
-		"tall"			"22"
+		"tall"			"23"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
+	}
+	"Background"
+	{
+		"visible"		"0"
+		"enabled"		"0"
 	}
 
 	sentry_BG
@@ -22,15 +27,20 @@
 		"xpos"			"2"
 		"ypos"			"0"
 		"zpos"			"-2"
-		"wide"			"140"
-		"tall"			"140"
+		"wide"			"120"
+		"tall"			"23"
 		"visible"		"1"
 		"visible_minmode"		"0"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/build_bg_big"
 		"scaleImage"	"0"
-		"teambg_2"		"replay/thumbnails/build_bg_big"
-		"teambg_3"		"replay/thumbnails/build_bg_big"
+		"teambg_2"		"replay/thumbnails/box_3_r_t"
+		"teambg_3"		"replay/thumbnails/box_3_r_t"
+		
+		"src_corner_height"		"40"
+		"src_corner_width"		"40"
+		"draw_corner_width"		"5"
+		"draw_corner_height" 	"5"
 	}
 
 	"Icon_Sentry_1"
@@ -239,7 +249,7 @@
 				"enabled"		"0"
 				"scaleImage"	"1"
 				"image"			"../hud/hud_obj_status_kill_64"
-				"drawcolor"		"ProgressOffWhite"
+				"drawcolor"		"ZeesWhite"
 			}
 
 			"KillsLabel"
@@ -274,7 +284,7 @@
 				"enabled"		"1"
 				"scaleImage"	"1"
 				"image"			"../hud/hud_obj_status_ammo_64"
-				"drawcolor"		"ProgressOffWhite"
+				"drawcolor"		"ZeesWhite"
 			}
 
 			"Shells"

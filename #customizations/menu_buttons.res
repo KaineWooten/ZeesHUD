@@ -9,7 +9,7 @@
 		"visible"		"0"											// set this to 1 to enable
 	
 		"labelText"		"Custom Button"								// name of the button
-		"command"		""											// the command it executes
+		"command"		"engine do_something"						// the command it executes
 																	// MAKE SURE TO PUT "engine" BEFORE THE COMMAND OR IT WON'T WORK
 		
 		"wide"			"100"										// if the box is too big or too small for the text, feel free to tweak this value
@@ -60,7 +60,9 @@
 		"font"			"FUTURA_BOLD_16"
 		
 		
-	}"CustomButton5"
+	}
+	
+	"CustomButton5"
 	{		
 	
 		"visible"		"0"

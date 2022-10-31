@@ -26,12 +26,12 @@
 			"xpos"					"cs-.7"
 			"ypos"					"5"
 			"delta_item_x"			"10"
-			"delta_item_start_y"	"12"
-			"delta_item_end_y"		"50"
+			"delta_item_start_y"	"10"
+			"delta_item_end_y"		"20"
 			"PositiveColor"			"ZeesGreen"
 			"NegativeColor"			"ZeesRed"
 			"delta_lifetime"		"1.5"
-			"delta_item_font"		"SMB2_8"
+			"delta_item_font"		"FUTURA_BOLD_12"
 		}
 
 		"TimePanelValue"
@@ -53,11 +53,11 @@
 			if_match
 			{
 				"proportionaltoparent"	"1"
-				"xpos"			"10"
-				"ypos"			"10"
+				"xpos"			"12"
+				"ypos"			"8"
 				"tall"			"10"
 				"wide"			"35"
-				"font"			"SMB2_8"
+				"font"			"FUTURA_BOLD_12"
 			}
 		}
 	}
@@ -80,19 +80,19 @@
 			"xpos"					"cs-0.77"
 			"ypos"					"5"
 			"delta_item_x"			"50"
-			"delta_item_start_y"	"12"
-			"delta_item_end_y"		"50"
+			"delta_item_start_y"	"10"
+			"delta_item_end_y"		"20"
 			"PositiveColor"			"ZeesGreen"
 			"NegativeColor"			"ZeesRed"
 			"delta_lifetime"		"1.5"
-			"delta_item_font"		"SMB2_8"
+			"delta_item_font"		"FUTURA_BOLD_12"
 		}
 
 		"TimePanelValue"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"TimePanelValue"
-			"font"				"SMB2_8"
+			"font"				"FUTURA_BOLD_12"
 			"fgcolor"			"ZeesWhite"
 			"xpos"				"26"
 			"ypos"				"0"
@@ -107,11 +107,11 @@
 			if_match
 			{
 				"proportionaltoparent"	"1"
-				"xpos"			"rs1-14"
-				"ypos"			"10"
+				"xpos"			"rs1-16"
+				"ypos"			"8"
 				"wide"			"35"
 				"tall"			"10"
-				"font"			"SMB2_8"
+				"font"			"FUTURA_BOLD_12"
 			}
 		}
 	}

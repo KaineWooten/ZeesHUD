@@ -3,40 +3,8 @@ Scheme
 	Fonts
 	{
 		// CUSTOM
-		//steelfish (supporters)
 		
-		"SupportBig"
-		{
-			"1"
-			{
-				"name"			"SteelfishRg-Regular"
-				"tall" 		 	"16"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		"SupportMedium"
-		{
-			"1"
-			{
-				"name"			"SteelfishRg-Regular"
-				"tall" 		 	"12"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		"SupportSmall"
-		{
-			"1"
-			{
-				"name"			"SteelfishRg-Regular"
-				"tall" 		 	"10"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		
-			// CIKANDEI
+		// CIKANDEI
 		"CIKANDEI_56"
 		{
 			"1"
@@ -53,16 +21,6 @@ Scheme
 			{
 				"name"			"CIKANDEI"
 				"tall" 		 	"48"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		"CIKANDEI_40"
-		{
-			"1"
-			{
-				"name"			"CIKANDEI"
-				"tall" 		 	"40"
 				"additive"		"0"
 				"antialias"		"1"
 			}
@@ -97,12 +55,250 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		"CIKANDEI_16"
+		
+		// ZEESHUD NUMBERS
+		"ZH_56"
 		{
 			"1"
 			{
-				"name"			"CIKANDEI"
-				"tall" 		 	"16"
+				"name"			"zeesHUDNumbers"
+				"tall" 		 	"56"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		
+		"ZH_51"
+		{
+			"1"
+			{
+				"name"			"zeesHUDNumbers"
+				"tall" 		 	"51"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		"ZH_50"
+		{
+			"1"
+			{
+				"name"			"zeesHUDNumbers"
+				"tall" 		 	"50"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		"ZH_48"
+		{
+			"1"
+			{
+				"name"			"zeesHUDNumbers"
+				"tall" 		 	"44"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		"ZH_36"
+		{
+			"1"
+			{
+				"name"			"zeesHUDNumbers"
+				"tall" 		 	"32"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		"ZH_32"
+		{
+			"1"
+			{
+				"name"			"zeesHUDNumbers"
+				"tall" 		 	"32"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		"ZH_30"
+		{
+			"1"
+			{
+				"name"			"zeesHUDNumbers"
+				"tall" 		 	"30"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		"ZH_29"
+		{
+			"1"
+			{
+				"name"			"zeesHUDNumbers"
+				"tall" 		 	"29"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		"ZH_28"
+		{
+			"1"
+			{
+				"name"			"zeesHUDNumbers"
+				"tall" 		 	"28"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		"ZH_25"
+		{
+			"1"
+			{
+				"name"			"zeesHUDNumbers"
+				"tall" 		 	"25"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		"ZH_24"
+		{
+			"1"
+			{
+				"name"			"zeesHUDNumbers"
+				"tall" 		 	"24"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		"ZH_22"
+		{
+			"1"
+			{
+				"name"			"zeesHUDNumbers"
+				"tall" 		 	"22"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		"ZH_21"
+		{
+			"1"
+			{
+				"name"			"zeesHUDNumbers"
+				"tall" 		 	"21"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		"ZH_20"
+		{
+			"1"
+			{
+				"name"			"zeesHUDNumbers"
+				"tall" 		 	"20"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		
+		//OUTLINE
+		
+		"ZHO_56"
+		{
+			"1"
+			{
+				"name"			"zeesHUDNumbersOutline"
+				"tall" 		 	"56"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		"ZHO_48"
+		{
+			"1"
+			{
+				"name"			"zeesHUDNumbersOutline"
+				"tall" 		 	"48"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		"ZHO_36"
+		{
+			"1"
+			{
+				"name"			"zeesHUDNumbersOutline"
+				"tall" 		 	"36"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		"ZHO_32"
+		{
+			"1"
+			{
+				"name"			"zeesHUDNumbersOutline"
+				"tall" 		 	"32"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		"ZHO_28"
+		{
+			"1"
+			{
+				"name"			"zeesHUDNumbersOutline"
+				"tall" 		 	"28"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		"ZHO_24"
+		{
+			"1"
+			{
+				"name"			"zeesHUDNumbersOutline"
+				"tall" 		 	"24"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		
+		// ROAD RAGE (addon)
+		"ROADRAGE_56"
+		{
+			"1"
+			{
+				"name"			"RoadRage"
+				"tall" 		 	"56"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		"ROADRAGE_48"
+		{
+			"1"
+			{
+				"name"			"RoadRage"
+				"tall" 		 	"48"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		"ROADRAGE_36"
+		{
+			"1"
+			{
+				"name"			"RoadRage"
+				"tall" 		 	"36"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		"ROADRAGE_32"
+		{
+			"1"
+			{
+				"name"			"RoadRage"
+				"tall" 		 	"32"
 				"additive"		"0"
 				"antialias"		"1"
 			}
@@ -210,120 +406,6 @@ Scheme
 			}
 		}
 		
-		//NOKIA
-		
-		"NOKIA_32"
-		{
-			"1"
-			{
-				"name"			"Nokia Cellphone FC Small"
-				"tall" 		 	"32"
-				"additive"		"0"
-				"antialias"		"0"
-			}
-		}
-		"NOKIA_24"
-		{
-			"1"
-			{
-				"name"			"Nokia Cellphone FC Small"
-				"tall" 		 	"24"
-				"additive"		"0"
-				"antialias"		"0"
-			}
-		}
-		"NOKIA_16"
-		{
-			"1"
-			{
-				"name"			"Nokia Cellphone FC Small"
-				"tall" 		 	"16"
-				"additive"		"0"
-				"antialias"		"0"
-			}
-		}
-		"NOKIA_12"
-		{
-			"1"
-			{
-				"name"			"Nokia Cellphone FC Small"
-				"tall" 		 	"12"
-				"additive"		"0"
-				"antialias"		"0"
-			}
-		}
-		"NOKIA_8"
-		{
-			"1"
-			{
-				"name"			"Nokia Cellphone FC Small"
-				"tall" 		 	"8"
-				"additive"		"0"
-				"antialias"		"0"
-			}
-		}
-		
-		//smb2
-		"smb2_28"
-		{
-			"1"
-			{
-				"name"			"Contra Regular"
-				"tall" 		 	"28"
-				"additive"		"0"
-				"antialias"		"0"
-			}
-		}
-		"smb2_16"
-		{
-			"1"
-			{
-				"name"			"Contra Regular"
-				"tall" 		 	"16"
-				"additive"		"0"
-				"antialias"		"0"
-			}
-		}
-		"smb2_14"
-		{
-			"1"
-			{
-				"name"			"Contra Regular"
-				"tall" 		 	"14"
-				"additive"		"0"
-				"antialias"		"0"
-			}
-		}
-		"smb2_12"
-		{
-			"1"
-			{
-				"name"			"Contra Regular"
-				"tall" 		 	"12"
-				"additive"		"0"
-				"antialias"		"0"
-			}
-		}
-		"smb2_10"
-		{
-			"1"
-			{
-				"name"			"Contra Regular"
-				"tall" 		 	"10"
-				"additive"		"0"
-				"antialias"		"0"
-			}
-		}
-		"smb2_8"
-		{
-			"1"
-			{
-				"name"			"Contra Regular"
-				"tall" 		 	"8"
-				"additive"		"0"
-				"antialias"		"0"
-			}
-		}
 		
 		// FUTURA_BOLD
 		"FUTURA_BOLD_56"
@@ -3149,59 +3231,6 @@ Scheme
 		}
 		"10"
 		{
-			"font"	"resource/fonts/Nokia Cellphone FC Small.ttf"
-			"name"	"Nokia Cellphone FC Small"
-			"turkish"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-			"swedish"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-			"spanish"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-			"romanian"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-			"polish"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-			"norwegian"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-			"danish"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-			"hungarian"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-			"german"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-			"french"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-			"finnish"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-			"czech"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-		}
-		"11"
-		{
 			"font"	"resource/fonts/Futura PT Bold.otf"
 			"name"	"Futura PT Bold"
 			"turkish"
@@ -3261,127 +3290,15 @@ Scheme
 				"range" "0x0000 0xFFFF"
 			}
 		}
+		"11"
+		{
+			"font"	"resource/fonts/zeesHUDNumbers.ttf"
+			"name"	"zeesHUDNumbers"
+		}
 		"12"
 		{
-			"font"	"resource/fonts/Contra.ttf"
-			"name"	"Contra Regular"
-			"turkish"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"swedish"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"spanish"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"romanian"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"polish"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"norwegian"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"danish"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"hungarian"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"german"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"french"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"finnish"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"czech"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"bulgarian"
-			{
-				"range" "0x0000 0x007E"
-			}
-			"russian"
-			{
-				"range" "0x0000 0x007E"
-			}
-		}
-		"13"
-		{
-			"font"	"resource/fonts/SteelfishRg-Regular.ttf"
-			"name"	"SteelfishRg-Regular"
-			"turkish"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-			"swedish"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-			"spanish"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-			"romanian"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-			"polish"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-			"norwegian"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-			"danish"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-			"hungarian"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-			"german"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-			"french"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-			"finnish"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-			"czech"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-			"bulgarian"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-			"russian"
-			{
-				"range" "0x0000 0xFFFF"
-			}
+			"font"	"resource/fonts/zeesHUDNumbersOutline.ttf"
+			"name"	"zeesHUDNumbersOutline"
 		}
 	}
 }

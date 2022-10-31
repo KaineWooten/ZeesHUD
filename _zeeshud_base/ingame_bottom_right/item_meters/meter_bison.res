@@ -1,9 +1,6 @@
-#base "meter_big.res"
+#base "meter_default.res"
 
 "Resource/UI/HudItemEffectMeter_Raygun.res"
 {
-	"HudItemEffectMeter"
-	{
-		"ypos"				"r94"
-	}
+
 }

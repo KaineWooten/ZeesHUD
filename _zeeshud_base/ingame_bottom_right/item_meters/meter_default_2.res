@@ -1,11 +1,3 @@
-#base "meter_default.res"
-
-"Resource/UI/HudItemEffectMeter_Scout.res"
-{
-	"HudItemEffectMeter"
-	{
-		"ypos"					"r96"
-		"ypos_minmode"			"r116"
-
-	}
-}
+#base "../../../#customizations/addons/_enabled/health-ammo-style_ut/meter_default_2.res"
+#base "../../../#customizations/addons/_enabled/meters_centered/c_meter_default_2.res"
+#base "meter_base_2.res"

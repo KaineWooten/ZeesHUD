@@ -1,55 +1,140 @@
 // Bonus Health Pulse
+
+event HudHealthBonusPulseCycle1
+{
+	RunEvent HudHealthBonusPulseMain 	0.0
+	RunEvent HudHealthBonusPulseCycle2 	0.25
+}
+
+event HudHealthBonusPulseCycle2
+{
+	RunEvent HudHealthBonusPulseMain 	0.0
+	RunEvent HudHealthBonusPulseCycle1 	0.25
+}
+
 event HudHealthBonusPulse
 {
-	Animate	PlayerStatusHealthOverheal		Alpha		"255"				Linear 0.0 0.
+	RunEvent HudHealthBonusPulseCycle1 0.0
+	RunEvent FlickerHealthIndicatorOvh 0.0
+}
+
+event FlickerHealthIndicatorOvh
+{
+	
+
+	Animate CrosshairIndicatorOvh			Alpha		"255"		Spline 0.0 0.2
+	Animate CrosshairIndicatorOvh			Alpha		"0"			Spline 0.2 0.2
+	Animate CrosshairIndicatorOvh			Alpha		"255"		Spline 0.4 0.2
+	Animate CrosshairIndicatorOvh			Alpha		"0"			Spline 0.6 0.2
+	Animate CrosshairIndicatorOvh			Alpha		"255"		Spline 0.8 0.2
+	Animate CrosshairIndicatorOvh			Alpha		"0"			Spline 1.5 0.2
+}
+
+event HudHealthBonusPulseMain
+{
+	Animate	PlayerStatusHealthOverheal		Alpha		"255"				Linear 0.0 0.0
 	Animate	PlayerStatusHealthBonusImage	Alpha		"0"				Linear 0.0 0.0
 
 	Animate	PlayerStatusHealthValue			FgColor		"Health Text Buff"		Accel 0.0 0.0
 	Animate	PlayerStatusHealthValueShadow	FgColor		"Health Text Buff Shadow"		Accel 0.0 0.0
 	Animate	GuiPlayerHealth					FgColor		"Health Text Buff"		Accel 0.0 0.0
 	Animate	GuiPlayerHealthShadow			FgColor		"Health Text Buff Shadow"		Accel 0.0 0.0
-
-	// RunEvent HudHealthBonusPulseLoop		0.4
+	
+	
+	RunEvent HudHealthReset 0.2498
 }
 
 event HudHealthBonusPulseStop
-{
-	StopEvent HudHealthBonusPulse			0.0
-	StopEvent HudHealthBonusPulseLoop		0.0
+{	
+	RunEvent HudHealthReset 0.0
+	Animate	PlayerStatusHealthBonusImage	Alpha		"0"							Linear 0.0 0.0
+	Animate	PlayerStatusHealthOverheal		Alpha		"0"							Linear 0.0 0.0
+	Animate PlayerStatusHealthValue			FgColor		"Health Text"				Linear 0.0 0.0
+	Animate	PlayerStatusHealthValueShadow	FgColor		"Health Text Shadow"		Linear 0.0 0.0
+	Animate	GuiPlayerHealth					FgColor		"Health Text"				Linear 0.0 0.0
+	Animate	GuiPlayerHealthShadow			FgColor		"Health Text Shadow"		Linear 0.0 0.0
+	Animate CrosshairIndicatorLow			Alpha		"0"							Linear 0.0 0.0
+	Animate CrosshairIndicatorOvh			Alpha		"0"							Linear 0.0 0.0
 
-	Animate	PlayerStatusHealthOverheal		Alpha		"0"				Linear 0.0 0.0
-	Animate	PlayerStatusHealthValue			FgColor		"Health Text"		Accel 0.0 0.0
-	Animate	PlayerStatusHealthValueShadow	FgColor		"Health Text Shadow"		Accel 0.0 0.0
-	Animate	GuiPlayerHealth					FgColor		"Health Text"		Accel 0.0 0.0
-	Animate	GuiPlayerHealthShadow			FgColor		"Health Text Shadow"		Accel 0.0 0.0
+	StopEvent HudHealthBonusPulseCycle1		0.0
+	StopEvent HudHealthBonusPulseCycle2		0.0
+	
+	StopEvent FlickerHealthIndicatorOvh		0.0
 }
 //==================================================================================
 // Low Health Pulse
+
+event HudHealthDyingPulseCycle1
+{
+	RunEvent HudHealthDyingPulseMain 	0.0
+	RunEvent HudHealthDyingPulseCycle2 	0.25
+}
+
+event HudHealthDyingPulseCycle2
+{
+	RunEvent HudHealthDyingPulseMain 	0.0
+	RunEvent HudHealthDyingPulseCycle1 	0.25
+}
+
 event HudHealthDyingPulse
+{	
+	RunEvent FlickerHealthIndicatorLow 0.01
+	RunEvent HudHealthDyingPulseCycle1 0.01	
+}
+
+event FlickerHealthIndicatorLow
+{	
+
+	Animate CrosshairIndicatorLow			FgColor		"Indicator Low"		Linear 0.0 0.0
+	Animate CrosshairIndicatorLow			Alpha		"255"		Spline 0.0 0.2
+	Animate CrosshairIndicatorLow			Alpha		"0"			Spline 0.2 0.2
+	Animate CrosshairIndicatorLow			Alpha		"255"		Spline 0.4 0.2
+	Animate CrosshairIndicatorLow			Alpha		"0"			Spline 0.6 0.2
+	Animate CrosshairIndicatorLow			Alpha		"255"		Spline 0.8 0.2
+	Animate CrosshairIndicatorLow			Alpha		"0"			Spline 1.5 0.2
+}
+
+event HudHealthDyingPulseMain
 {
 	Animate	PlayerStatusHealthBonusImage	Alpha		"0"			Linear 0.0 0.0
 	
 	Animate	PlayerStatusHealthBonusImage	Alpha		"255"		Linear 0.125 0.0
-	Animate	PlayerStatusHealthOverheal		Alpha		"0"				Linear 0.0 0.0
+	Animate	PlayerStatusHealthOverheal		Alpha		"0"			Linear 0.0 0.0
 
 	Animate	PlayerStatusHealthValue			FgColor		"Health Text Low"		Accel 0.0 0.0
 	Animate	PlayerStatusHealthValueShadow	FgColor		"Health Text Low Shadow"		Accel 0.0 0.0
 	Animate	GuiPlayerHealth					FgColor		"Health Text Low"		Accel 0.0 0.0
-	Animate	GuiPlayerHealthShadow					FgColor		"Health Text Low Shadow"		Accel 0.0 0.0
-
-	RunEvent HudHealthDyingPulseLoop		0.5
+	Animate	GuiPlayerHealthShadow			FgColor		"Health Text Low Shadow"		Accel 0.0 0.0
+	
+	RunEvent HudHealthReset 0.2499
 }
-
 event HudHealthDyingPulseStop
 {
-	StopEvent HudHealthDyingPulse 			0.0
-	StopEvent HudHealthDyingPulseLoop 		0.0
-
-	Animate	PlayerStatusHealthOverheal		Alpha		"0"				Linear 0.0 0.0
-	Animate PlayerStatusHealthValue			FgColor		"Health Text"		Accel 0.0 0.0
-	Animate	PlayerStatusHealthValueShadow	FgColor		"Health Text Shadow"		Accel 0.0 0.0
-	Animate	GuiPlayerHealth					FgColor		"Health Text"		Accel 0.0 0.0
-	Animate	GuiPlayerHealthShadow			FgColor		"Health Text Shadow"		Accel 0.0 0.0
+	RunEvent HudHealthReset 0.0
+	Animate	PlayerStatusHealthBonusImage	Alpha		"0"							Linear 0.0 0.0
+	Animate	PlayerStatusHealthOverheal		Alpha		"0"							Linear 0.0 0.0
+	Animate PlayerStatusHealthValue			FgColor		"Health Text"				Linear 0.0 0.0
+	Animate	PlayerStatusHealthValueShadow	FgColor		"Health Text Shadow"		Linear 0.0 0.0
+	Animate	GuiPlayerHealth					FgColor		"Health Text"				Linear 0.0 0.0
+	Animate	GuiPlayerHealthShadow			FgColor		"Health Text Shadow"		Linear 0.0 0.0
+	Animate CrosshairIndicatorLow			Alpha		"0"							Linear 0.0 0.0
+	Animate CrosshairIndicatorOvh			Alpha		"0"							Linear 0.0 0.0
+	
+	StopEvent HudHealthDyingPulseCycle1 		0.0
+	StopEvent HudHealthDyingPulseCycle2 		0.0
+	
+	StopEvent FlickerHealthIndicatorLow		0.0
+}
+event HudHealthReset
+{
+	Animate	PlayerStatusHealthBonusImage	Alpha		"0"							Linear 0.0 0.0
+	Animate	PlayerStatusHealthOverheal		Alpha		"0"							Linear 0.0 0.0
+	Animate PlayerStatusHealthValue			FgColor		"Health Text"				Linear 0.0 0.0
+	Animate	PlayerStatusHealthValueShadow	FgColor		"Health Text Shadow"		Linear 0.0 0.0
+	Animate	GuiPlayerHealth					FgColor		"Health Text"				Linear 0.0 0.0
+	Animate	GuiPlayerHealthShadow			FgColor		"Health Text Shadow"		Linear 0.0 0.0
+	//Animate CrosshairIndicatorLow			Alpha		"0"							Linear 0.0 0.0
+	//Animate CrosshairIndicatorOvh			Alpha		"0"							Linear 0.0 0.0
 }
 //==================================================================================
 // Low Ammo Pulse
@@ -153,7 +238,9 @@ event DamagedPlayer
 event HitMarker
 {
 	Animate	CustomCrosshair					FgColor		"CrosshairDamage"	Linear 0.0	0.0
+	Animate	CustomHitmarker					Alpha		"255"				Linear 0.0	0.0
 	Animate	CustomCrosshair					FgColor		"Crosshair"			Linear 0.15	0.0
+	Animate	CustomHitmarker					Alpha		"0"					Accel  0.15	0.0
 }
 //==================================================================================
 // Spy Disguise
@@ -174,6 +261,7 @@ event HudSnapShotReminderIn
 {
     RunEvent DefaultAnimHudSnapShotReminderIn	0.0
     
+	RunEvent HudHealthReset 0.0
     RunEvent HudHealthBonusPulseStop 		0.0
     RunEvent HudHealthDyingPulseStop 		0.0
     RunEvent HudLowAmmoPulseStop 			0.0

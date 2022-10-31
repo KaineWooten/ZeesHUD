@@ -5,12 +5,19 @@
 		"fieldName"				"HudItemEffectMeter"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"r230"
-		"xpos_minmode"			"c130"
-		"ypos"					"r155"
-		"ypos_minmode"			"c60"
-		"wide"					"60"
-		"tall"					"60"
+		
+		
+		"xpos"			"r170"
+		"ypos"			"r116"
+		"zpos"			"3"
+		"wide"			"100"
+		"tall"			"100"
+		
+		"xpos_minmode"	"r100"
+		"ypos_minmode"	"r80"
+		"wide_minmode"	"80"
+		"tall_minmode"	"80"
+		
 		"MeterFG"				"White"
 		"MeterBG"				"Gray"
 	}
@@ -22,12 +29,19 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"0"
-		"wide"			"60"
-		"tall"			"60"
+		"wide"			"100"
+		"tall"			"100"
+		
+		"wide_minmode"	"80"
+		"tall_minmode"	"80"
+		
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/counter_heads"
+		"image"			"replay/thumbnails/counter_head_blu"
 		"scaleImage"	"1"
+		"teambg_1"		"replay/thumbnails/counter_head_blu"
+		"teambg_2"		"replay/thumbnails/counter_head_red"
+		"teambg_3"		"replay/thumbnails/counter_head_blu"
 	}
 
 	"ItemEffectMeterLabel"
@@ -74,8 +88,12 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"14"
-		"ypos"					"16"
+		"xpos"					"40"
+		"ypos"					"10"
+		
+		"xpos_minmode"			"20"
+		"ypos_minmode"			"5"
+		
 		"zpos"					"2"
 		"wide"					"40"
 		"tall"					"30"
@@ -88,6 +106,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"CIKANDEI_36"
+		"font_minmode"			"CIKANDEI_24"
 		"fgcolor"				"255 255 255 255"
 	}
 
@@ -109,6 +128,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"CIKANDEI_36"
+		"font_minmode"			"CIKANDEI_24"
 		"fgcolor"				"0 0 0 255"
 
 		"pin_to_sibling"		"ItemEffectMeterCount"

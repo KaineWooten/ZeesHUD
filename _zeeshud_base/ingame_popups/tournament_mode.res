@@ -111,11 +111,11 @@
 				"tall"				"40"
 				"visible"			"1"
 				"enabled"			"1"
-				"image"				"replay/thumbnails/pixel_border_n"
+				"image"				"replay/thumbnails/box_3_n_t"
 				"scaleImage"		"1"
-				"teambg_1"			"replay/thumbnails/pixel_border_n"
-				"teambg_2"			"replay/thumbnails/pixel_border_r"
-				"teambg_3"			"replay/thumbnails/pixel_border_b"
+				"teambg_1"			"replay/thumbnails/box_3_n_t"
+				"teambg_2"			"replay/thumbnails/box_3_r_t"
+				"teambg_3"			"replay/thumbnails/box_3_b_t"
 				"alpha"				"255"
 				"src_corner_height"		"23"
 				"src_corner_width"		"23"
@@ -127,7 +127,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"playername"
-				"font"			"NOKIA_8"
+				"font"			"FUTURA_BOLD_8"
 				"xpos"			"1"
 				"ypos"			"27"
 				"zpos"			"5"
@@ -383,7 +383,7 @@
 		"tall"			"16"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/pixel_border_b"
+		"image"			"replay/thumbnails/box_3_b_t"
 
 		"src_corner_height"		"24"
 		"src_corner_width"		"24"
@@ -410,7 +410,7 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"TournamentBLUELabel"
-		"font"			"SMB2_8"
+		"font"			"FUTURA_BOLD_10"
 		"xpos"			"-5"
 		"ypos"			"0"
 		"zpos"			"1"
@@ -448,7 +448,7 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"TournamentBLUEStateLabel"
-		"font"			"NOKIA_8"
+		"font"			"FUTURA_BOLD_10"
 		"xpos"			"-5"
 		"ypos"			"0"
 		"zpos"			"1"
@@ -495,7 +495,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/pixel_border_r"
+		"image"			"replay/thumbnails/box_3_r_t"
 
 		"src_corner_height"		"24"
 		"src_corner_width"		"24"
@@ -520,7 +520,7 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"TournamentREDLabel"
-		"font"			"SMB2_8"
+		"font"			"FUTURA_BOLD_10"
 		"xpos"			"-5"
 		"ypos"			"0"
 		"zpos"			"1"
@@ -558,7 +558,7 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"TournamentREDStateLabel"
-		"font"			"NOKIA_8"
+		"font"			"FUTURA_BOLD_10"
 		"xpos"			"-5"
 		"ypos"			"0"
 		"zpos"			"1"
@@ -596,7 +596,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TournamentConditionLabel"
-		"font"			"NOKIA_8"
+		"font"			"FUTURA_BOLD_10"
 		"fgcolor"		"TanLight"
 		"xpos"			"c-125"
 		"ypos"			"16"
@@ -633,7 +633,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TournamentInstructionsLabel"
-		"font"			"NOKIA_8"
+		"font"			"FUTURA_BOLD_10"
 		"xpos"			"c-125"
 		"ypos"			"30"
 		"wide"			"250"

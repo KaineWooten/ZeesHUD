@@ -1,3 +1,4 @@
+
 "Resource/HudLayout.res"
 {
 
@@ -17,12 +18,10 @@
 		"fieldName"			"HudWeaponAmmo"
 		"visible"			"1"
 		"enabled"			"1"
-		"xpos"				"r350"
-		"xpos_minmode"		"c0"
-		"ypos"				"r250"
-		"ypos_minmode"		"r275"
-		"wide"				"350"
-		"tall"				"250"
+		"xpos"				"0"
+		"ypos"				"0"
+		"wide"				"f0"
+		"tall"				"480"
 	}
 
 	HudObjectiveStatus
@@ -80,10 +79,10 @@
 		"fieldName"			"HudDemomanCharge"
 		"visible"			"1"
 		"enabled"			"1"
-		"xpos"				"c-100"
-		"ypos"				"c120"
-		"wide"				"192"
-		"tall"				"64"
+		"xpos"				"0"
+		"ypos"				"0"
+		"wide"				"f0"
+		"tall"				"480"
 		"MeterFG"			"White"
 		"MeterBG"			"Gray"
 	}
@@ -169,13 +168,17 @@
 	CHudAccountPanel
 	{
 		"fieldName"				"CHudAccountPanel"
-		"xpos"					"r220"
-		"xpos_minmode"			"c130"
-		"ypos"					"r60"
-		"ypos_minmode"			"c154"
+		"xpos"					"r212"
+		"ypos"					"r67"
 		"zpos"					"0"
 		"wide"					"100"
 		"tall"  				"70"
+		
+		"xpos_minmode"			"r135"
+		"ypos_minmode"			"r30"
+		"wide_minmode"			"100"
+		"tall_minmode"  		"56"
+		
 		"visible" 				"1"
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"
@@ -211,10 +214,15 @@
 		"fieldName" 			"DisguiseStatus"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"10"
-		"ypos"					"r40"
+		"xpos"					"60"
+		"ypos"					"r38"
 		"wide"					"170"
 		"tall"					"30"
+		
+		"xpos_minmode"					"2"
+		"ypos_minmode"					"r29"
+		"wide_minmode"					"120"
+		"tall_minmode"					"25"
 	}
 
 	CMainTargetID
@@ -222,7 +230,7 @@
 		"fieldName" 			"CMainTargetID"
 		"visible" 				"0"
 		"enabled" 				"1"
-		"xpos"					"c-100"
+		"xpos"					"c-200"
 		"ypos"					"c40"
 		"wide"					"600"
 		"tall"					"30"
@@ -234,7 +242,7 @@
 		"fieldName" 			"CSpectatorTargetID"
 		"visible" 				"0"
 		"enabled" 				"1"
-		"xpos"					"c-100"
+		"xpos"					"c-200"
 		"ypos"					"c60"
 		"wide"					"600"
 		"tall"					"30"
@@ -868,7 +876,7 @@
 		"xpos"				"10"
 		"ypos"				"r40"
 		"wide"	 			"400"
-		"tall"	 			"150"
+		"tall"	 			"120"
 		"PaintBackgroundType"	"2"
 	}
 
@@ -878,10 +886,10 @@
 		"visible" 			"1"
 		"enabled" 			"1"
 		"xpos"				"c-200"
-		"ypos"				"c-75"
+		"ypos"				"c-80"
 		"zpos"				"1"
 		"wide"				"400"
-		"tall"				"150"
+		"tall"				"160"
 		"PaintBackgroundType"	"0"
 	}
 
@@ -891,10 +899,10 @@
 		"visible" 			"1"
 		"enabled" 			"1"
 		"xpos"				"c-200"
-		"ypos"				"c-75"
+		"ypos"				"c-80"
 		"zpos"				"1"
 		"wide"				"400"
-		"tall"				"150"
+		"tall"				"160"
 		"PaintBackgroundType"	"0"
 	}
 
@@ -929,11 +937,11 @@
 		"fieldName"			"HudDemomanPipes"
 		"visible"			"1"
 		"enabled"			"1"
-		"xpos"				"c-75"
-		"ypos"				"c10"
+		"xpos"				"0"
+		"ypos"				"0"
 		"zpos"				"3"
-		"wide"				"500"
-		"tall"				"500"
+		"wide"				"f0"
+		"tall"				"480"
 	}
 
 	HudTeamGoal
@@ -1249,7 +1257,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"bgcolor_override"	"0 0 0 0"
-		"PaintBackgroundType" "0" // rounded corners
+		"PaintBackgroundType" "0"
 	}
 
 	CTFFlagCalloutPanel

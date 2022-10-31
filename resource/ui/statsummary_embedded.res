@@ -1,4 +1,4 @@
-"Resource/UI/statsummary.res"
+"Resource/UI/statsummary_embedded.res"
 {
 	"TFStatsSummary"
 	{
@@ -9,7 +9,7 @@
 		"wide"			"f0"
 		"tall"			"480"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"bgcolor_override"	"DarkGrey"
 	}
 
@@ -17,81 +17,41 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MainBackground"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"f0"
-		"tall"			"480"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			""
-		"scaleImage"	"1"
+		"xpos"			"9999"
 	}
 
 	"OnYourWayLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"OnYourWayLabel"
-		"font"			"FUTURA_BOLD_24"
-		"labelText"		"#LoadingMap"
-		"textAlignment"	"west"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"50"
-		"wide"			"0"
-		"tall"			"0"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"xpos"			"9999"
 	}
 
 	"MapLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"MapLabel"
-		"font"			"HudFontMediumBigBold"
-		"labelText"		"%maplabel%"
-		"textAlignment"	"center"
-		"xpos"			"5"
-		"ypos"			"92"
-		"zpos"			"50"
-		"wide"			"350"
-		"tall"			"35"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
+		"xpos"			"9999"
 	}
 
 	"MapType"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"MapType"
-		"font"			"HudFontMediumBigBold"
-		"labelText"		"%maptype%"
-		"textAlignment"	"center"
-		"xpos"			"5"
-		"ypos"			"117"
-		"zpos"			"50"
-		"wide"			"350"
-		"tall"			"35"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
+		"xpos"			"9999"
 	}
 
 	"StatData"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"StatData"
-		"xpos"			"9999"
-		"ypos"			"9999"
+		"xpos"			"0"
+		"ypos"			"-130"
 		"zpos"			"1"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"wide"			"f0"
+		"tall"			"480"
+		"visible"		"1"
+		"enabled"		"1"
 
 		"NonInteractiveHeaders"
 		{
@@ -126,7 +86,7 @@
 			{
 				"ControlName"		"Label"
 				"fieldName"			"BarChartLabelB"
-				"font"				"Cerbetica12"
+				"font"				"FUTURA_BOLD_12"
 				"labelText"			"#StatSummary_StatTitle_TotalPlaytime"
 				"textAlignment"		"west"
 				"xpos"				"c-127"
@@ -143,7 +103,7 @@
 			{
 				"ControlName"		"Label"
 				"fieldName"			"OverallRecordLabel"
-				"font"				"Cerbetica12"
+				"font"				"FUTURA_BOLD_12"
 				"labelText"			"#StatSummary_Label_AsAnyClass"
 				"textAlignment"		"west"
 				"xpos"				"c+130"
@@ -243,7 +203,8 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"bgcolor_override"	"15 15 15 255"
+			"bgcolor_override"	"TransparentBlack"
+			"PaintBackgroundType"	"2"
 		}
 		"AveragesLabel"
 		{
@@ -333,7 +294,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel1A"
-			"font"			"Cerbetica12"
+			"font"			"FUTURA_BOLD_12"
 			"labelText"		"%classbarlabel1A%"
 			"textAlignment"	"west"
 			"xpos"			"c-282"
@@ -350,7 +311,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel1B"
-			"font"			"Cerbetica12"
+			"font"			"FUTURA_BOLD_12"
 			"labelText"		"%classbarlabel1B%"
 			"textAlignment"	"west"
 			"xpos"			"c-127"
@@ -367,7 +328,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassLabel1"
-			"font"			"Cerbetica12"
+			"font"			"FUTURA_BOLD_12"
 			"labelText"		"%class1%"
 			"textAlignment"	"west"
 			"xpos"			"c+34"
@@ -452,7 +413,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel2A"
-			"font"			"Cerbetica12"
+			"font"			"FUTURA_BOLD_12"
 			"labelText"		"%classbarlabel2A%"
 			"textAlignment"	"west"
 			"xpos"			"c-282"
@@ -469,7 +430,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel2B"
-			"font"			"Cerbetica12"
+			"font"			"FUTURA_BOLD_12"
 			"labelText"		"%classbarlabel2B%"
 			"textAlignment"	"west"
 			"xpos"			"c-127"
@@ -486,7 +447,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassLabel2"
-			"font"			"Cerbetica12"
+			"font"			"FUTURA_BOLD_12"
 			"labelText"		"%class2%"
 			"textAlignment"	"west"
 			"xpos"			"c+34"
@@ -571,7 +532,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel3A"
-			"font"			"Cerbetica12"
+			"font"			"FUTURA_BOLD_12"
 			"labelText"		"%classbarlabel3A%"
 			"textAlignment"	"west"
 			"xpos"			"c-282"
@@ -588,7 +549,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel3B"
-			"font"			"Cerbetica12"
+			"font"			"FUTURA_BOLD_12"
 			"labelText"		"%classbarlabel3B%"
 			"textAlignment"	"west"
 			"xpos"			"c-127"
@@ -605,7 +566,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassLabel3"
-			"font"			"Cerbetica12"
+			"font"			"FUTURA_BOLD_12"
 			"labelText"		"%class3%"
 			"textAlignment"	"west"
 			"xpos"			"c+34"
@@ -690,7 +651,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel4A"
-			"font"			"Cerbetica12"
+			"font"			"FUTURA_BOLD_12"
 			"labelText"		"%classbarlabel4A%"
 			"textAlignment"	"west"
 			"xpos"			"c-282"
@@ -707,7 +668,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel4B"
-			"font"			"Cerbetica12"
+			"font"			"FUTURA_BOLD_12"
 			"labelText"		"%classbarlabel4B%"
 			"textAlignment"	"west"
 			"xpos"			"c-127"
@@ -724,7 +685,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassLabel4"
-			"font"			"Cerbetica12"
+			"font"			"FUTURA_BOLD_12"
 			"labelText"		"%class4%"
 			"textAlignment"	"west"
 			"xpos"			"c+34"
@@ -809,7 +770,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel5A"
-			"font"			"Cerbetica12"
+			"font"			"FUTURA_BOLD_12"
 			"labelText"		"%classbarlabel5A%"
 			"textAlignment"	"west"
 			"xpos"			"c-282"
@@ -826,7 +787,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel5B"
-			"font"			"Cerbetica12"
+			"font"			"FUTURA_BOLD_12"
 			"labelText"		"%classbarlabel5B%"
 			"textAlignment"	"west"
 			"xpos"			"c-127"
@@ -843,7 +804,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassLabel5"
-			"font"			"Cerbetica12"
+			"font"			"FUTURA_BOLD_12"
 			"labelText"		"%class5%"
 			"textAlignment"	"west"
 			"xpos"			"c+34"
@@ -928,7 +889,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel6A"
-			"font"			"Cerbetica12"
+			"font"			"FUTURA_BOLD_12"
 			"labelText"		"%classbarlabel6A%"
 			"textAlignment"	"west"
 			"xpos"			"c-282"
@@ -945,7 +906,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel6B"
-			"font"			"Cerbetica12"
+			"font"			"FUTURA_BOLD_12"
 			"labelText"		"%classbarlabel6B%"
 			"textAlignment"	"west"
 			"xpos"			"c-127"
@@ -962,7 +923,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassLabel6"
-			"font"			"Cerbetica12"
+			"font"			"FUTURA_BOLD_12"
 			"labelText"		"%class6%"
 			"textAlignment"	"west"
 			"xpos"			"c+34"
@@ -1047,7 +1008,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel7A"
-			"font"			"Cerbetica12"
+			"font"			"FUTURA_BOLD_12"
 			"labelText"		"%classbarlabel7A%"
 			"textAlignment"	"west"
 			"xpos"			"c-282"
@@ -1064,7 +1025,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel7B"
-			"font"			"Cerbetica12"
+			"font"			"FUTURA_BOLD_12"
 			"labelText"		"%classbarlabel7B%"
 			"textAlignment"	"west"
 			"xpos"			"c-127"
@@ -1081,7 +1042,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassLabel7"
-			"font"			"Cerbetica12"
+			"font"			"FUTURA_BOLD_12"
 			"labelText"		"%class7%"
 			"textAlignment"	"west"
 			"xpos"			"c+34"
@@ -1166,7 +1127,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel8A"
-			"font"			"Cerbetica12"
+			"font"			"FUTURA_BOLD_12"
 			"labelText"		"%classbarlabel8A%"
 			"textAlignment"	"west"
 			"xpos"			"c-282"
@@ -1183,7 +1144,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel8B"
-			"font"			"Cerbetica12"
+			"font"			"FUTURA_BOLD_12"
 			"labelText"		"%classbarlabel8B%"
 			"textAlignment"	"west"
 			"xpos"			"c-127"
@@ -1200,7 +1161,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassLabel8"
-			"font"			"Cerbetica12"
+			"font"			"FUTURA_BOLD_12"
 			"labelText"		"%class8%"
 			"textAlignment"	"west"
 			"xpos"			"c+34"
@@ -1285,7 +1246,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel9A"
-			"font"			"Cerbetica12"
+			"font"			"FUTURA_BOLD_12"
 			"labelText"		"%classbarlabel9A%"
 			"textAlignment"	"west"
 			"xpos"			"c-282"
@@ -1302,7 +1263,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassBarLabel9B"
-			"font"			"Cerbetica12"
+			"font"			"FUTURA_BOLD_12"
 			"labelText"		"%classbarlabel9B%"
 			"textAlignment"	"west"
 			"xpos"			"c-127"
@@ -1319,7 +1280,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ClassLabel9"
-			"font"			"Cerbetica12"
+			"font"			"FUTURA_BOLD_12"
 			"labelText"		"%class9%"
 			"textAlignment"	"west"
 			"xpos"			"c+34"

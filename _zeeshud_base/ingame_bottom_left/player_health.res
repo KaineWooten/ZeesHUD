@@ -6,11 +6,11 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
 		"xpos"			"0"
-		"xpos_minmode"	"c-400"
-		"ypos"			"r250"
-		"ypos_minmode"	"r275"
-		"wide"			"350"
-		"tall"			"250"
+		"xpos_minmode"	"0"
+		"ypos"			"0"
+		"ypos_minmode"	"0"
+		"wide"			"f0"
+		"tall"			"480"
 		"visible"		"1"
 		"enabled"		"1"
 		"HealthBonusPosAdj"			"0"
@@ -18,67 +18,83 @@
 		"HealthDeathWarningColor"	"255 255 255 255"
 	}
 	
+	"CrosshairIndicatorLow"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"CrosshairIndicatorLow"
+		"xpos"			"c-45"
+		"ypos"			"c-10"
+		"wide"			"20"
+		"tall"			"20"
+		"visible"		"1"
+		"enabled"		"0"
+		"scaleImage"	"1"
+		"alpha"			"0"
+		"image"			"replay/thumbnails/hp_indicator_low"
+		"drawcolor"		"Indicator Low"
+		"additive" "1"
+	}
+	
+	"CrosshairIndicatorOvh"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"CrosshairIndicatorOvh"
+		"xpos"			"c-45"
+		"ypos"			"c-10"
+		"wide"			"20"
+		"tall"			"20"
+		"enabled"		"0"
+		"visible"		"1"
+		"scaleImage"	"1"
+		"alpha"			"0"
+		"image"			"replay/thumbnails/hp_indicator_ovh"
+		"drawcolor"		"Indicator Ovh"
+		"additive" "1"
+	}
+	
 	"PlayerStatusHealthImage"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PlayerStatusHealthImage"
-		"xpos"			"110"
-		"ypos"			"151"
-		"zpos"			"-5"
-		"wide"			"82"
-		"tall"			"52"
+		"xpos"			"100" 
+			//	HEY ZEE, THIS IS ZEE 
+			//	REMEMBER NOT TO MOVE THIS ELEMENT'S XPOS
+			//	OR IT'LL BREAK THE FUCKING ICONS AGAIN
+		"ypos"			"0"
+		"zpos"			"0"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"1"
-		"visible_minmode"		"0"
 		"enabled"		"1"
 		"scaleImage"	"0"
 		"alpha"			"255"
 		"image"			"../hud/health_color"
 		"drawcolor"		"Health Bar"
-		
-		"pin_to_sibling"		"PlayerStatusHealthImageBG2"
-		"pin_corner_to_sibling"	"PIN_TOPLEFT"
-		"pin_to_sibling_corner"	"PIN_TOPLEFT"
+
 	}
 	
+	//the little bar that goes under the health
 	"PlayerStatusHealthImageBG2"
 	{
 		"ControlName"	"CTFImagePanel"
-		"fieldName"		"PlayerStatusHealthImageBG2"
-		"xpos"			"1"
-		"ypos"			"-1"
-		"zpos"			"-6"
-		"wide"			"249"
-		"tall"			"124"
-		"visible"		"1"
-		"visible_minmode"		"0"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/hp_bg_under"
-		"scaleImage"		"1"
-		"drawcolor"		"Health Bar Hurt"
-		
-		"pin_to_sibling"		"PlayerStatusHealthImageBG3"
-		"pin_corner_to_sibling"	"PIN_TOPLEFT"
-		"pin_to_sibling_corner"	"PIN_TOPLEFT"
-	}
-	
-	"PlayerStatusHealthImageBG3"
-	{
-		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusHealthImageBG3"
-		"xpos"			"0"
-		"ypos"			"125"
+		
+		"xpos"			"140"
+		"ypos"			"r100"
 		"zpos"			"-4"
-		"wide"			"250"
-		"tall"			"125"
+		"wide"			"150"
+		"tall"			"35"
+		
+		"xpos_minmode"	"80"
+		"ypos_minmode"	"r40"
+		"wide_minmode"	"135"
+		"tall_minmode"	"20"
+		
+		
 		"visible"		"1"
-		"visible_minmode"		"0"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/hp_bg_red"
+		"image"			"replay/thumbnails/health_underbar"
 		"scaleImage"		"1"
-		"teambg_1"		"replay/thumbnails/hp_bg_red"
-		"teambg_2"		"replay/thumbnails/hp_bg_red"
-		"teambg_3"		"replay/thumbnails/hp_bg_red"
-		"drawcolor"		"Health BG"
 	}
 	
 	"PlayerStatusHealthImageBG"
@@ -90,16 +106,23 @@
 		"enabled"		"0"
 	}
 
-	//for some stupid reason i have to make the low hp thing here
+	//for some stupid reason i have to put the low hp thing here
 	"PlayerStatusHealthBonusImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
+		
 		"xpos"			"160"
-		"ypos"			"85"
+		"ypos"			"r175"
 		"zpos"			"0"
 		"wide"			"60"
 		"tall"			"60"
+		
+		"xpos_minmode"	"105"
+		"ypos_minmode"	"r120"
+		"wide_minmode"	"48"
+		"tall_minmode"	"48"
+		
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/lowhp"
@@ -112,11 +135,18 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthOverheal"
+		
 		"xpos"			"160"
-		"ypos"			"90"
+		"ypos"			"r180"
 		"zpos"			"0"
 		"wide"			"60"
 		"tall"			"60"
+		
+		"xpos_minmode"	"120"
+		"ypos_minmode"	"r120"
+		"wide_minmode"	"48"
+		"tall_minmode"	"48"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/zh_overheal"
@@ -130,16 +160,24 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"50"
-		"ypos"			"115"
+		
+		"xpos"			"105"
+		"ypos"			"r140"
 		"zpos"			"5"
-		"wide"			"300"
+		"wide"			"240"
 		"tall"			"100"
+		"font"			"ZH_51"
+		
+		"xpos_minmode"	"40"
+		"ypos_minmode"	"r105"
+		"wide_minmode"	"240"
+		"tall_minmode"	"100"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
-		"font"			"CIKANDEI_56"
+
 		"fgcolor"		"Health Text"
 	}
 
@@ -147,16 +185,18 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueShadow"
-		"xpos"			"-3"
-		"ypos"			"-3"
-		"zpos"			"5"
-		"wide"			"300"
+		
+		"xpos"			"-1"
+		"ypos"			"-1"
+		"zpos"			"6"
+		"wide"			"240"
 		"tall"			"100"
+		"font"			"ZHO_56"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
-		"font"			"CIKANDEI_56"
 		"fgcolor"		"Health Text Shadow"
 
 		"pin_to_sibling"		"PlayerStatusHealthValue"
@@ -179,7 +219,11 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PlayerStatusAnchor"
 		"xpos"			"100"
-		"ypos"			"115"
+		"ypos"			"r140"
+		
+		"xpos_minmode"	"50"
+		"ypos_minmode"	"r100"
+		
 		"wide"			"16"
 		"tall"			"16"
 		"visible"		"1"
@@ -727,7 +771,7 @@
 		"zpos"			"7"
 		"wide"			"26"
 		"tall"			"26"
-		"visible"		"1"y
+		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
 		"image"			"../Effects/powerup_supernova_hud"

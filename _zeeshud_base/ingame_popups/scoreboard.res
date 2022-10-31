@@ -143,7 +143,7 @@
 		"ypos"			"172"
 		"zpos"			"-1"
 		"wide"			"540"
-		"tall"			"500"
+		"tall"			"100"
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
@@ -293,7 +293,7 @@
 		"font"			"FUTURA_BOLD_10"
 		"labelText"		"%server%"
 		"textAlignment"	"center"
-		"xpos"			"5"
+		"xpos"			"0"
 		"ypos"			"10"
 		"zpos"			"999"
 		"wide"			"f0"
@@ -305,7 +305,9 @@
 		
 		if_mvm
 		{
-			"ypos"		"52"
+			"xpos"		"c-190"
+			"textAlignment"	"west"
+			"ypos"		"80"
 		}
 	}
 	"ServerTimeValue"
@@ -327,7 +329,7 @@
 		
 		if_mvm
 		{
-			"ypos"		"62"
+			"visible"	"0"
 		}
 	}
 
@@ -457,17 +459,21 @@
 		"tabPosition"	"0"
 		"PaintBackgroundType"	"2"
 		"border"		"ZeesBorderWhiteOpaque"
+		if_mvm
+		{
+			"ypos"		"r60"
+		}
 	}
 
 	"ClassImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ClassImage"
-		"xpos"			"r240"
-		"ypos"			"255"
+		"xpos"			"r230"
+		"ypos"			"302"
 		"zpos"			"19"
-		"wide"			"66"
-		"tall"			"66"
+		"wide"			"70"
+		"tall"			"70"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/class_scoutred"
@@ -501,7 +507,7 @@
 		if_mvm
 		{
 			"visible"		"0"
-			"ypos"			"264"
+			"ypos"			"9999"
 		}
 				
 		"model"
@@ -536,6 +542,10 @@
 		"tall"			"45"
 		"scaleImage"	"1"
 		"image"			"replay/thumbnails/scoreboard_bump"
+		if_mvm
+		{
+			"ypos"		"r35"
+		}
 	}
 	"ScoreboardX"
 	{
@@ -548,7 +558,12 @@
 		"tall"			"60"
 		"scaleImage"	"1"
 		"image"			"replay/thumbnails/scoreboard_x"
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}
+
 	
 	"PlayerNameLabel"
 	{
@@ -592,7 +607,10 @@
 		"fgcolor"		"ZeesWhite"
 		if_mvm
 		{
-			"ypos"		"74"
+			"xpos"		"c-190"
+			"textAlignment"	"west"
+			"font"			"FUTURA_BOLD_24"
+			"ypos"		"68"
 		}
 	}
 	"HorizontalLine"
@@ -706,6 +724,8 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+			
+			
 
 			"AvatarBGPanel"
 			{
@@ -863,13 +883,14 @@
 		"wide"			"540"
 		"tall"			"268"
 		"autoResize"	"0"
-			"pinCorner"		"0"
+		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 
 		if_mvm
 		{
 			"visible"	"1"
+			"ypos"		"420"
 		}
 		
 		"KDAImage"
@@ -1041,7 +1062,7 @@
 		"Assists2"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"Assists"
+			"fieldName"		"Assists2"
 			"font"			"HudFontGiantBold"
 			"labelText"		"%assists%"
 			"textAlignment"	"center"
@@ -1270,7 +1291,7 @@
 		"Domination2"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"Domination"
+			"fieldName"		"Domination2"
 			"font"			"FUTURA_BOLD_10"
 			"labelText"		"%dominations%"
 			"textAlignment"	"west"
@@ -1738,7 +1759,7 @@
 		"fieldName"			"MvMScoreboard"
 		"xpos"				"0"
 		"ypos"				"0"
-		"zpos"				"10"
+		"zpos"				"9"
 		"wide"				"f0"
 		"tall"				"480"
 		"visible"			"0"

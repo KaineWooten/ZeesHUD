@@ -388,8 +388,8 @@
 	{
 		"ControlName"	"CTFBadgePanel"
 		"fieldName"		"Player1Badge"
-		"xpos"			"2"
-		"ypos"			"120"
+		"xpos"			"10"
+		"ypos"			"-3"
 		"zpos"			"3"
 		"wide"			"20"
 		"tall"			"20"
@@ -397,6 +397,10 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
+		
+		"pin_to_sibling" "Player1Anchor"
+		"pin_corner_to_sibling" "0"
+		"pin_to_sibling_corner" "0"
 	}
 	"Player1Avatar"
 	{
@@ -511,8 +515,8 @@
 	{
 		"ControlName"	"CTFBadgePanel"
 		"fieldName"		"Player2Badge"
-		"xpos"			"2"
-		"ypos"			"136"
+		"xpos"			"10"
+		"ypos"			"-3"
 		"zpos"			"3"
 		"wide"			"20"
 		"tall"			"20"
@@ -520,6 +524,10 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
+		
+		"pin_to_sibling" "Player2Anchor"
+		"pin_corner_to_sibling" "0"
+		"pin_to_sibling_corner" "0"
 	}
 	"Player2Avatar"
 	{
@@ -636,8 +644,8 @@
 	{
 		"ControlName"	"CTFBadgePanel"
 		"fieldName"		"Player3Badge"
-		"xpos"			"2"
-		"ypos"			"152"
+		"xpos"			"10"
+		"ypos"			"-3"
 		"zpos"			"3"
 		"wide"			"20"
 		"tall"			"20"
@@ -645,6 +653,10 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
+		
+		"pin_to_sibling" "Player3Anchor"
+		"pin_corner_to_sibling" "0"
+		"pin_to_sibling_corner" "0"
 	}
 	"Player3Avatar"
 	{
@@ -801,8 +813,8 @@
 	{
 		"ControlName"	"CTFBadgePanel"
 		"fieldName"		"KillStreakPlayer1Badge"
-		"xpos"			"2"
-		"ypos"			"186"
+		"xpos"			"10"
+		"ypos"			"-3"
 		"zpos"			"3"
 		"wide"			"20"
 		"tall"			"20"
@@ -810,6 +822,10 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
+		
+		"pin_to_sibling" "PlayerKSAnchor"
+		"pin_corner_to_sibling" "0"
+		"pin_to_sibling_corner" "0"
 	}
 	"KillStreakPlayer1Avatar"
 	{

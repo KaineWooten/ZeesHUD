@@ -184,11 +184,11 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"TFLogoImage"
-		"xpos"			"-15"
-		"ypos"			"35"
+		"xpos"			"0"
+		"ypos"			"25"
 		"zpos"			"0"
-		"wide"			"350"
-		"tall"			"175"
+		"wide"			"180"
+		"tall"			"90"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/menu/logo"
@@ -214,9 +214,9 @@
 	{
 		"ControlName"	"CPvPRankPanel"
 		"fieldName"		"RankModelPanel"
-		"xpos"			"120"
-		"ypos"			"r442"
-		"zpos"			"0"
+		"xpos"			"80"
+		"ypos"			"r425"
+		"zpos"			"1"
 		"wide"			"170"
 		"tall"			"800"
 		"visible"		"0"
@@ -230,8 +230,8 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CycleRankTypeButton"
-		"xpos"			"240"
-		"ypos"			"r32"
+		"xpos"			"200"
+		"ypos"			"r22"
 		"zpos"			"1"
 		"wide"			"15"
 		"tall"			"15"
@@ -285,11 +285,11 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"RankTooltipPanel"
-		"xpos"			"c-285"
-		"ypos"			"r16"
-		"zpos"			"-1"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"zpos"			"1"
 		"wide"			"0"
-		"tall"			"8"
+		"tall"			"0"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"1"
@@ -302,10 +302,10 @@
 	{
 		"ControlName"	"CPvPRankPanel"
 		"fieldName"		"RankPanel"
-		"xpos"			"0"
-		"ypos"			"r72"
-		"zpos"			"0"
-		"wide"			"170"
+		"xpos"			"-25"
+		"ypos"			"r55"
+		"zpos"			"1"
+		"wide"			"140"
 		"tall"			"50"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
@@ -319,8 +319,8 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"NoGCMessage"
-		"xpos"			"10"
-		"ypos"			"r64"
+		"xpos"			"0"
+		"ypos"			"r55"
 		"zpos"			"99"
 		"wide"			"260"
 		"tall"			"100"
@@ -342,8 +342,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"NoGCImage"
-		"xpos"			"230"
-		"ypos"			"r64"
+		"xpos"			"220"
+		"ypos"			"r50"
 		"zpos"			"99"
 		"wide"			"30"
 		"tall"			"30"
@@ -469,7 +469,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 
 			"defaultFgColor_override"	"255 255 255 255"
-			"armedFgColor_override"		"255 0 90 255"
+			"armedFgColor_override"		"0 0 0 255"
 		}
 	}
 
@@ -478,7 +478,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"WatchStreamButton"
 		"xpos"			"r75"
-		"ypos"			"r115"
+		"ypos"			"r95"
 		"zpos"			"8"
 		"wide"			"20"
 		"tall"			"20"
@@ -495,7 +495,7 @@
 		"depressedBgColor_override" "Transparent"
 		
 		"image_drawcolor"	"255 255 255 255"
-		"image_armedcolor"	"155 155 155 255"
+		"image_armedcolor"	"0 0 0 255"
 
 		"SubImage"
 		{
@@ -528,7 +528,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"QuestLogButton"
 		"xpos"			"r50"
-		"ypos"			"r115"
+		"ypos"			"r95"
 		"zpos"			"1"
 		"wide"			"20"
 		"tall"			"20"
@@ -564,7 +564,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 
 			"defaultFgColor_override"	"255 255 255 255"
-			"armedFgColor_override"		"155 155 155 255"
+			"armedFgColor_override"		"0 0 0 255"
 		}
 	}
 
@@ -573,8 +573,8 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MOTD_ShowButtonPanel"
 		"xpos"			"r25"
-		"ypos"			"r115"
-		"zpos"			"0"
+		"ypos"			"r95"
+		"zpos"			"1"
 		"wide"			"20"
 		"tall"			"20"
 		"autoResize"	"0"
@@ -609,7 +609,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 
 			"defaultFgColor_override"	"255 255 255 255"
-			"armedFgColor_override"		"155 155 155 255"
+			"armedFgColor_override"		"0 0 0 255"
 		}
 	}
 
@@ -618,7 +618,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MOTD_Panel"
 		"xpos"			"r330"
-		"ypos"			"65"
+		"ypos"			"35"
 		"zpos"			"100"
 		"wide"			"300"
 		"tall"			"350"
@@ -976,11 +976,13 @@
 		}
 	}
 
+	
+
 	"Notifications_Panel"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Notifications_Panel"
-		"xpos"			"c60"
+		"xpos"			"200"
 		"ypos"			"c-88"
 		"zpos"			"1"
 		"wide"			"210"
@@ -1095,143 +1097,23 @@
 		"visible"		"0"
 	}
 
-	"FriendsContainer"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldname"		"FriendsContainer"
-		"xpos"			"40"
-		"ypos"			"230"
-		"zpos"			"20"
-		"wide"			"240"
-		"tall"			"150"
-		"visible"		"1"
-		"bgcolor_override"	"ZeesNull"
-
-		"TitleLabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"TitleLabel"
-			"font"			"FUTURA_BOLD_20"
-			"labelText"		"#TF_Competitive_Friends"
-			"textAlignment"	"center"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"260"
-			"tall"			"20"
-			"visible"		"0"
-			"enabled"		"0"
-			"fgcolor_override"	"ZeesWhite"
-		}
-
-		"InnerShadow"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldname"		"InnerShadow"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"501"
-			"wide"			"f20"
-			"tall"			"150"
-			"visible"		"0"
-			"PaintBackgroundType"	"0"
-			"proportionaltoparent"	"1"
-			"mouseinputenabled"	"0"
-
-			"paintborder"	"0"
-			"border"		"InnerShadowBorder"
-		}
-
-		"SteamFriendsList"
-		{
-			"ControlName"	"CSteamFriendsListPanel"
-			"fieldname"		"SteamFriendsList"
-			"xpos"			"0"
-			"ypos"			"10"
-			"zpos"			"500"
-			"wide"			"240"
-			"tall"			"140"
-			"visible"		"1"
-			"proportionaltoparent"	"1"
-
-			"columns_count"	"2"
-			"inset_x"		"5"
-			"inset_y"		"0"
-			"row_gap"		"5"
-			"column_gap"	"5"
-			"restrict_width"	"0"
-
-			"friendpanel_kv"
-			{
-				"wide"			"110"
-				"tall"			"20"
-				"border"		"ZeesBorderFriends"
-			}
-
-			"ScrollBar"
-			{
-				"ControlName"	"ScrollBar"
-				"FieldName"		"ScrollBar"
-				"xpos"			"rs1-1"
-				"ypos"			"0"
-				"tall"			"f0"
-				"wide"			"3"
-				"zpos"			"1000"
-				"nobuttons"		"1"
-				"proportionaltoparent"	"1"
-
-				"Slider"
-				{
-					"fgcolor_override"	"ZeesWhite"
-				}
-
-				"UpButton"
-				{
-					"ControlName"	"Button"
-					"FieldName"		"UpButton"
-					"visible"		"0"
-				}
-
-				"DownButton"
-				{
-					"ControlName"	"Button"
-					"FieldName"		"DownButton"
-					"visible"		"0"
-				}
-			}
-		}
-
-		"BelowDarken"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldname"		"BelowDarken"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"499"
-			"wide"			"f20"
-			"tall"			"150"
-			"visible"		"1"
-			"PaintBackgroundType"	"0"
-			"proportionaltoparent"	"1"
-			"mouseinputenabled"	"0"
-			"bgcolor_override"	"0 0 0 100"
-		}
-	}
+	
 
 	"HudName"
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"HudName"
-		"xpos"			"r114"
-		"ypos"			"r15"
+		"xpos"			"r138"
+		"ypos"			"r72"
 		"zpos"			"1"
-		"wide"			"56"
+		"wide"			"135"
 		"tall"			"10"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"ZeesHUD"
+		"labelText"		"ZeesHUD ALPHA IV.5"
 		"font"			"FUTURA_BOLD_16"
 		"textAlignment"	"east"
 		"textinsetx"	"0"
@@ -1266,31 +1148,13 @@
 		}
 	}
 	
-	"VersionLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"VersionLabel"
-		"font"			"FUTURA_BOLD_16"
-		"labelText"		"ALPHA II"
-		"xpos"			"r135"
-		"ypos"			"r15"
-		"wide"			"130"
-		"tall"			"10"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"textAlignment"	"east"
-		"fgcolor_override"	"ZeesWhite"
-	}
-	
 		
 	"IconAnchor"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"IconAnchor"
-		"xpos"			"305"
-		"ypos"			"165"
+		"xpos"			"10"
+		"ypos"			"c-116"
 		"wide"			"0"
 		"tall"			"0"
 		"visible"		"1"
@@ -1379,7 +1243,7 @@
 		"label"			""
 		"command"		"engine toggleconsole"
 		"subimage"		"glyph_options"
-		"tooltip"		"Console"
+		"tooltip"		"#GameUI_Console"
 		
 		"pin_to_sibling" "IconAnchor"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
@@ -1909,8 +1773,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ButtonAnchor"
-		"xpos"			"370"
-		"ypos"			"c-138"
+		"xpos"			"60"
+		"ypos"			"c-130"
 		"wide"			"0"
 		"tall"			"0"
 		"visible"		"1"
@@ -1922,8 +1786,9 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CharacterSetupButton"
-		"xpos"		"5"
+		"xpos"		"0"
 		"ypos"		"0"
+		"zpos"		"2"
 		"wide"		"120"
 		"tall"		"44"
 		"visible"		"1"
@@ -1973,7 +1838,8 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"GeneralStoreButton"
 		"xpos"		"21"
-		"ypos"		"-44"
+		"ypos"		"-42"
+		"zpos"		"2"
 		"wide"		"120"
 		"tall"		"44"
 		"visible"		"1"
@@ -2030,7 +1896,8 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"SettingButton"
 		"xpos"		"6"
-		"ypos"		"-88"
+		"ypos"		"-83"
+		"zpos"		"2"
 		"wide"		"120"
 		"tall"		"44"
 		"visible"		"1"
@@ -2078,7 +1945,8 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"TF2SettingsButton"
 		"xpos"		"-112"
-		"ypos"		"-102"
+		"ypos"		"-100"
+		
 		"zpos"		"3"
 		"wide"		"22"
 		"tall"		"22"
@@ -2118,13 +1986,52 @@
 		
 	}
 	
+	"ItsASecretToEverybody"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"ItsASecretToEverybody"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"77777"
+		"wide"			"f0"
+		"tall"			"480"
+		"PaintBackgroundType"	"0"
+		"paintbackground"		"1"
+		"border"				"NoBorder"
+		"bgcolor_override"		"0 0 0 255"
+		"visible"				"1"
+		
+		"pin_to_sibling" "SupportersAnchor"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_TOPLEFT"
+	}
+	"ItsASecretToEverybody2"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"ItsASecretToEverybody2"
+		"labeltext"		"If you're seeing this message, post an issue on GitHub. Press ~ and type quit to exit TF2. You should uninstall the HUD."
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"77778"
+		"textAlignment"	"center"
+		"wide"			"f0"
+		"tall"			"480"
+		"fgcolor_override"	"255 0 90 255"
+		"visible"				"1"
+		
+		"pin_to_sibling" "SupportersAnchor"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_TOPLEFT"
+	}
+	
+	
 	
 	"SteamWorkshopButton"
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"SteamWorkshopButton"
-		"xpos"		"-1"
-		"ypos"		"-130"
+		"xpos"		"-10"
+		"ypos"		"-124"
 		"zpos"		"2"
 		"wide"		"83"
 		"tall"		"20"
@@ -2139,7 +2046,7 @@
 		"textinsetx"	"10"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		
+		"command"		"engine OpenSteamWorkshopDialog"
 		"border_default"		"ZeesMenuButton"
 		"border_armed"			"ZeesMenuButtonSelect"
 
@@ -2157,7 +2064,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"ToggleMinmodeButton"
 		"xpos"		"15"
-		"ypos"		"-151"
+		"ypos"		"-145"
 		"zpos"		"2"
 		"wide"		"130"
 		"tall"		"20"
@@ -2193,7 +2100,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"BGPanel1"
-		"xpos"			"-50"
+		"xpos"			"-260"
 		"ypos"			"0"
 		"zpos"			"-55"
 		"wide"			"480"
@@ -2209,7 +2116,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"BGPanel1Edge"
-		"xpos"			"430"
+		"xpos"			"220"
 		"ypos"			"0"
 		"zpos"			"-55"
 		"wide"			"15"
@@ -2221,284 +2128,45 @@
 		"drawcolor"		"ZeesMain"
 	}
 	
-	//friends
-	"BGPanel2"
+	"RankBG"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BGPanel2"
-		"xpos"			"10"
-		"ypos"			"r326"
-		"zpos"			"-54"
-		"wide"			"300"
-		"tall"			"300"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/menu/friends_tab"
+		"ControlName"		"CTFImagePanel"
+		"fieldName"			"RankBG"
+		"xpos"				"-20"
+		"ypos"				"r60"
+		"zpos"				"-3"
+		"wide"				"140"
+		"tall"				"140"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"			"replay/thumbnails/box_3_n"
 		"scaleImage"	"1"
-	}
-	//rank
-	"BGPanel3"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BGPanel3"
-		"xpos"			"0"
-		"ypos"			"r180"
-		"zpos"			"-52"
-		"wide"			"360"
-		"tall"			"180"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/menu/rank_tab"
-		"scaleImage"	"1"
-	}
-	
-	//banner
-	"BGBanner"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BGBanner"
-		"xpos"			"r440"
-		"ypos"			"r73"
-		"zpos"			"-60"
-		"wide"			"440"
-		"tall"			"55"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/menu/banner"
-		"scaleImage"	"1"
-	}
-	
-	"BGBannerColor"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldname"		"BGBannerColor"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-61"
-		"wide"			"440"
-		"tall"			"55"
-		"bgcolor_override"	"ZeesMain"
 		
-		"pin_to_sibling" "BGBanner"
-		"pin_corner_to_sibling" "PIN_TOPLEFT"
-		"pin_to_sibling_corner" "PIN_TOPLEFT"
+		"src_corner_height"		"23"
+		"src_corner_width"		"23"
+		"draw_corner_width"		"10"
+		"draw_corner_height" 	"10"
 	}
+
 	
-	"SupportLabelTop"
+	"SupportLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SupportLabelTop"
 		"font"			"FUTURA_BOLD_10"
-		"labelText"		"ZeesHUD is a Work-in-progress, some elements may differ from the final result."
-		"xpos"			"r360"
-		"ypos"			"r104"
-		"wide"			"360"
-		"tall"			"30"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"textAlignment"	"east"
-		"fgcolor_override"	"ZeesWhite"
-	}
-	"SupportLabelBottom"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"SupportLabelTop"
-		"font"			"FUTURA_BOLD_10"
-		"labelText"		"This HUD is available for free. Consider supporting the project! paypal.me/zeesastrous"
-		"xpos"			"r360"
-		"ypos"			"r96"
-		"wide"			"360"
-		"tall"			"30"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"textAlignment"	"east"
-		"fgcolor_override"	"ZeesWhite"
-	}
-	
-	"SupportAnchor"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldname"		"SupportAnchor"
-		//"xpos"			"r142"
-		//"ypos"			"r145"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"1"
-	
-	}
-	
-	"SupportBox"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BGBox1"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-59"
-		"wide"			"170"
-		"tall"			"150"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/box_sq_1"
-		"scaleImage"	"1"
-		"pin_to_sibling" "SupportAnchor"
-		"pin_corner_to_sibling" "PIN_TOPLEFT"
-		"pin_to_sibling_corner" "PIN_TOPLEFT"
-	}
-	
-	"SupportTitle"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"SupportTitle"
-		"font"			"FUTURA_BOLD_24"
-		"labelText"		"Supporters"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-45"
-		"wide"			"140"
-		"tall"			"30"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"textAlignment"	"center"
-		"fgcolor_override"	"ZeesWhite"
-		
-		"pin_to_sibling" "SupportAnchor"
-		"pin_corner_to_sibling" "PIN_TOPLEFT"
-		"pin_to_sibling_corner" "PIN_TOPLEFT"
-	}
-	"SupportTitleShadow"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"SupportTitleShadow"
-		"font"			"FUTURA_BOLD_24"
-		"labelText"		"Supporters"
-		"xpos"			"2"
-		"ypos"			"2"
-		"zpos"			"-46"
-		"wide"			"140"
-		"tall"			"30"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"textAlignment"	"center"
-		"fgcolor_override"	"ZeesBlack"
-		
-		"pin_to_sibling" "SupportTitle"
-		"pin_corner_to_sibling" "PIN_TOPLEFT"
-		"pin_to_sibling_corner" "PIN_TOPLEFT"
-	}
-	
-	"SupportRank1"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"SupportRank1"
-		"font"			"SupportBig"
-		"labelText"		""
-		"xpos"			"-6"
-		"ypos"			"-10"
-		"zpos"			"-44"
-		"wide"			"135"
-		"tall"			"60"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"textAlignment"	"center"
-		"fgcolor_override"	"ZeesRed"
-		"wrap"			"1"
-		"pin_to_sibling" "SupportAnchor"
-		"pin_corner_to_sibling" "PIN_TOPLEFT"
-		"pin_to_sibling_corner" "PIN_TOPLEFT"
-	}
-	
-	
-	"SupportRank2"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"SupportRank2"
-		"font"			"SupportMedium"
 		"labelText"		" "
-		"xpos"			"-5"
-		"ypos"			"-40"
-		"wide"			"135"
-		"tall"			"60"
+		"xpos"			"r490"
+		"ypos"			"r80"
+		"wide"			"360"
+		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"middle"
-		"fgcolor_override"	"ZeesWhite"
-		"wrap"			"1"
-		"pin_to_sibling" "SupportAnchor"
-		"pin_corner_to_sibling" "PIN_TOPLEFT"
-		"pin_to_sibling_corner" "PIN_TOPLEFT"
-	}
-	
-	"SupportRank3"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"SupportRank3"
-		"font"			"SupportSmall"
-		"labelText"		""
-		"xpos"			"-4"
-		"ypos"			"-70"
-		"wide"			"135"
-		"tall"			"60"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"textAlignment"	"middle"
-		"fgcolor_override"	"ZeesWhite"
-		"wrap"			"1"
-		"pin_to_sibling" "SupportAnchor"
-		"pin_corner_to_sibling" "PIN_TOPLEFT"
-		"pin_to_sibling_corner" "PIN_TOPLEFT"
-	}
-	
-	"SupportRank3Name"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"SupportRank2Name"
-		"font"			"FUTURA_BOLD_16"
-		"labelText"		"none"
-		"xpos"			"r105"
-		"ypos"			"r165"
-		"wide"			"70"
-		"tall"			"30"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"textAlignment"	"West"
-		"fgcolor_override"	"ZeesWhite"
-	}
-	
-	"SupportLink"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"SupportRank2Name"
-		"font"			"FUTURA_BOLD_16"
-		"labelText"		"paypal.me/zeesastrous"
-		"xpos"			"r157"
-		"ypos"			"r140"
-		"wide"			"152"
-		"tall"			"30"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
 		"textAlignment"	"east"
-		"fgcolor_override"	"ZeesWhite"
+		"fgcolor_override"	"ZeesMain"
 	}
+	
 
 	"icon_generator"
 	{
@@ -2532,6 +2200,8 @@
 	
 	
 	
+	
+	
 	//==============================================================================
 	//			CUSTOM BUTTONS (SET THEM IN "customizations/menu_buttons.res")
 	//==============================================================================
@@ -2540,7 +2210,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CustomButton1"
-		"ypos"		"-170"
+		"ypos"		"-165"
 		"zpos"		"2"
 
 		"tall"		"20"
@@ -2571,7 +2241,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CustomButton2"
-		"ypos"		"-190"
+		"ypos"		"-185"
 		"zpos"		"2"
 
 		"tall"		"20"
@@ -2604,7 +2274,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CustomButton3"
-		"ypos"		"-210"
+		"ypos"		"-205"
 		"zpos"		"2"
 
 		"tall"		"20"
@@ -2637,7 +2307,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CustomButton4"
-		"ypos"		"-230"
+		"ypos"		"-225"
 		"zpos"		"2"
 
 		"tall"		"20"
@@ -2668,7 +2338,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CustomButton5"
-		"ypos"		"-250"
+		"ypos"		"-245"
 		"zpos"		"2"
 
 		"tall"		"20"
@@ -2698,7 +2368,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CustomButton6"
-		"ypos"		"-270"
+		"ypos"		"-265"
 		"zpos"		"2"
 
 		"tall"		"20"

@@ -118,52 +118,52 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"			"HomeCPIcon"
-		"xpos"				"c-114"
-		"ypos"				"122"
+		"xpos"				"c-115"
+		"ypos"				"123"
 		"zpos"				"2"
-		"wide"			"28"
-		"tall"			"28"
+		"wide"				"26"
+		"tall"				"26"
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"labelText"			""
-		"image"				"replay/thumbnails/payload/cart_home_blue"
+		"image"				"replay/thumbnails/payload/cart_point_blue"
 		"scaleImage"		"1"
 
 		"if_team_red"
 		{
-			"image"			"replay/thumbnails/payload/cart_home_red"
+			"image"			"replay/thumbnails/payload/cart_point_red"
 		}
 
 		"if_single_with_hills_blue"
 		{
-			"image"			"replay/thumbnails/payload/cart_home_blue"
+			"image"			"replay/thumbnails/payload/cart_point_blue"
 		}
 
 		"if_single_with_hills_red"
 		{
-			"image"			"replay/thumbnails/payload/cart_home_red"
+			"image"			"replay/thumbnails/payload/cart_point_red"
 		}
 
 		"if_multiple_trains"
 		{
-			"xpos"			"c-66"
-			"zpos"			"10"
-			"wide"			"10"
-			"tall"			"10"
+			"xpos"			"c-106"
+			"zpos"			"4"
+			"wide"			"14"
+			"tall"			"14"
 			"image"			"replay/thumbnails/payload/cart_track"
 		}
 
 		"if_multiple_trains_top"
 		{
-			"ypos"			"114"
+			"ypos"			"112"
 		}
 
 		"if_multiple_trains_bottom"
 		{
-			"ypos"			"114"
+			"ypos"			"113"
 		}
 
 		"if_multiple_trains_red"
@@ -184,8 +184,8 @@
 		"xpos"				"30"
 		"ypos"				"121"
 		"zpos"				"2"
-		"wide"				"28"
-		"tall"				"28"
+		"wide"				"26"
+		"tall"				"26"
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"0"
@@ -197,11 +197,19 @@
 
 		"if_multiple_trains"
 		{
-			"xpos"			"61"
-			"ypos"			"114"
+			"xpos"				"32"
 			"zpos"			"5"
-			"wide"			"10"
-			"tall"			"10"
+			"wide"			"14"
+			"tall"			"14"
+		}
+		"if_multiple_trains_top"
+		{
+			"ypos"			"112"
+		}
+
+		"if_multiple_trains_bottom"
+		{
+			"ypos"			"113"
 		}
 	}
 
@@ -210,7 +218,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"			"EscortItemPanel"
 		"xpos"				"0"
-		"ypos"				"30"
+		"ypos"				"28"
 		"zpos"				"3"
 		"wide"				"80"
 		"tall"				"115"
@@ -229,9 +237,9 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RecedeTime"
-			"font"			"NOKIA_8"
-			"xpos"			"34"
-			"ypos"			"69"
+			"font"			"FUTURA_BOLD_12"
+			"xpos"			"32"
+			"ypos"			"66"
 			"zpos"			"5"
 			"wide"			"15"
 			"tall"			"8"
@@ -246,7 +254,7 @@
 
 			"if_multiple_trains"
 			{
-				"font"		"NOKIA_8"
+				"font"		"FUTURA_BOLD_12"
 				"xpos"		"17"
 				"wide"		"18"
 				"tall"		"10"
@@ -267,11 +275,11 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"EscortItemImage"
-			"xpos"			"27"
+			"xpos"			"25"
 			"ypos"			"77"
 			"zpos"			"1"
-			"wide"			"28"
-			"tall"			"28"
+			"wide"			"30"
+			"tall"			"30"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -293,7 +301,7 @@
 
 			"if_multiple_trains"
 			{
-				"xpos"		"11"
+				"xpos"		"13"
 				"ypos"		"43"
 				"wide"		"30"
 				"tall"		"30"
@@ -304,11 +312,11 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"EscortItemImageBottom"
-			"xpos"			"20"
+			"xpos"			"26"
 			"ypos"			"117"
 			"zpos"			"1"
-			"wide"			"28"
-			"tall"			"28"
+			"wide"			"30"
+			"tall"			"30"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"0"
@@ -330,7 +338,7 @@
 
 			"if_multiple_trains"
 			{
-				"xpos"		"11"
+				"xpos"		"13"
 				"ypos"		"71"
 				"wide"		"30"
 				"tall"		"30"
@@ -366,11 +374,11 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"Speed_Backwards"
-			"xpos"			"27"
+			"xpos"			"23"
 			"ypos"			"76"
 			"zpos"			"2"
-			"wide"			"28"
-			"tall"			"28"
+			"wide"			"35"
+			"tall"			"34"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -382,17 +390,17 @@
 
 			"if_multiple_trains"
 			{
-				"xpos"			"11"
+				"xpos"			"12"
 			}
 
 			"if_multiple_trains_top"
 			{
-				"ypos"		"43"
+				"ypos"		"42"
 			}
 
 			"if_multiple_trains_bottom"
 			{
-				"ypos"		"77"
+				"ypos"		"80"
 			}
 		}
 
@@ -430,9 +438,9 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CapNumPlayers"
-			"font"			"NOKIA_8"
-			"xpos"			"34"
-			"ypos"			"69"
+			"font"			"FUTURA_BOLD_12"
+			"xpos"			"33"
+			"ypos"			"66"
 			"zpos"			"5"
 			"wide"			"15"
 			"tall"			"8"
@@ -447,7 +455,7 @@
 
 			"if_multiple_trains"
 			{
-				"xpos"		"16"
+				"xpos"		"20"
 				"wide"		"18"
 				"tall"		"10"
 				"textinsetx"	"-10"
@@ -455,12 +463,12 @@
 
 			"if_multiple_trains_top"
 			{
-				"ypos"		"45"
+				"ypos"		"44"
 			}
 
 			"if_multiple_trains_bottom"
 			{
-				"ypos"		"82"
+				"ypos"		"81"
 			}
 		}
 
@@ -468,11 +476,11 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"Blocked"
-			"xpos"			"27"
+			"xpos"			"23"
 			"ypos"			"76"
 			"zpos"			"2"
-			"wide"			"28"
-			"tall"			"28"
+			"wide"			"35"
+			"tall"			"34"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"0"
@@ -484,17 +492,17 @@
 
 			"if_multiple_trains"
 			{
-				"xpos"		"22"
+				"xpos"		"11"
 			}
 
 			"if_multiple_trains_top"
 			{
-				"ypos"		"46"
+				"ypos"		"41"
 			}
 
 			"if_multiple_trains_bottom"
 			{
-				"ypos"		"83"
+				"ypos"		"79"
 			}
 		}
 
